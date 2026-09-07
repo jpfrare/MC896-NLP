@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Projeto 1 - Extração de Grafo de Conhecimento</title>
+  <!-- Opcional: Adicione CDN do Reveal.js para animações ricas -->
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f9; color: #333; }
+    .slide { height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 0 10%; border-bottom: 2px solid #ddd; }
+    h1, h2 { color: #2c3e50; }
+    .highlight { background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; font-family: monospace; overflow-x: auto; }
+    .diagram-placeholder { border: 2px dashed #3498db; padding: 50px; text-align: center; background: #e8f4f8; margin: 20px 0; }
+  </style>
+</head>
+<body>
+
+  <!-- SLIDE 1: Capa -->
+  <section class="slide">
+    <h1>Extração de Grafos de Casos Clínicos (MultiCaRe)</h1>
+    <h2>Projeto 1 - Processamento de Linguagem Natural 2026</h2>
+    <p><strong>Equipe:</strong> [Nome 1], [Nome 2], [Nome 3], [Nome 4], [Nome 5]</p>
+    <p><strong>Repositório:</strong> github.com/equipe/nlp-project1</p>
+  </section>
+
+  <!-- SLIDE 2: Metodologia e Pipeline -->
+  <section class="slide">
+    <h2>Metodologia de Extração</h2>
+    <ul>
+      <li><strong>Desafio:</strong> Converter texto livre médico em nós e arestas estruturadas sem uso de LLMs.</li>
+      <li><strong>Abordagem:</strong> Pipeline híbrido baseado em regras e ontologias.</li>
+    </ul>
+    <div class="diagram-placeholder">
+      [Inserir Diagrama de Blocos: CSV -> Limpeza -> SpaCy/Regex -> MeSH Linking -> Tabelas Nó/Aresta]
+    </div>
+  </section>
+
+  <!-- SLIDE 3: Modelo Lógico -->
+  <section class="slide">
+    <h2>Modelo Lógico do Grafo</h2>
+    <ul>
+      <li><strong>Nós principais:</strong> Paciente, Sintoma, Diagnóstico, Exame, Resultado.</li>
+      <li><strong>Relações chave:</strong> <code>HAS_SYMPTOM</code>, <code>UNDERWENT_EXAM</code>, <code>TREATED_WITH</code>.</li>
+    </ul>
+    <div class="diagram-placeholder">
+      [Inserir Imagem PNG do Modelo Lógico criado no Google Slides]
+    </div>
+  </section>
+
+  <!-- SLIDE 4: Estratégias de PLN (Destaque de Código) -->
+  <section class="slide">
+    <h2>Estratégia Clássica: Regras e Ontologias</h2>
+    <p>Exemplo de extração de valores laboratoriais utilizando Regex otimizado:</p>
+    <div class="highlight">
+<pre><code>import re
+# Captura "Hemoglobina 12.5 g/dL"
+padrao = r"(?P&lt;exame&gt;[A-Za-z]+)\s+(?P&lt;valor&gt;\d+\.?\d*)\s+(?P&lt;unidade&gt;[a-zA-Z/%]+)"
+matches = re.finditer(padrao, case_text)
+# Mapeamento posterior com dicionários médicos...</code></pre>
+    </div>
+  </section>
+
+  <!-- SLIDE 5: Visualização do Grafo (O Diferencial) -->
+  <section class="slide">
+    <h2>Apresentação do Grafo (Resultados)</h2>
+    <p>Navegação visual pelas entidades extraídas (renderizado via PyVis).</p>
+    <div class="diagram-placeholder">
+      [Inserir iFrame ou Imagem do Grafo Interativo Gerado]
+    </div>
+    <ul>
+      <li>Capacidade de identificar clusters de sintomas em casos cruzados.</li>
+      <li>Conexão de pacientes diferentes aos mesmos termos MeSH.</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 6: Análises e Conclusão -->
+  <section class="slide">
+    <h2>Potencial de Análise e Conclusões</h2>
+    <ul>
+      <li><strong>Audácia:</strong> Tentativa de cruzar sintomas para inferir comorbidades não explícitas.</li>
+      <li>O uso de ferramentas tradicionais exige alto esforço de padronização (unificação de termos), mas garante controle determinístico sobre os dados médicos extraídos.</li>
+    </ul>
+    <h3>Obrigado! Perguntas?</h3>
+  </section>
+
+</body>
+</html>
