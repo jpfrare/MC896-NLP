@@ -1,0 +1,321 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#ff4d4d", "id": "woman", "label": "woman", "shape": "dot", "title": "Tipo: Patient"}, {"color": "#d9d9d9", "id": "right flank", "label": "right flank", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "low quadrant", "label": "low quadrant", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "abdominal pain", "label": "abdominal pain", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#ffa64d", "id": "nausea", "label": "nausea", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#ffa64d", "id": "constipation", "label": "constipation", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "family", "label": "family", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "medication history", "label": "medication history", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#66b3ff", "id": "physical examination", "label": "physical examination", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#d9d9d9", "id": "contrast", "label": "contrast", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#66b3ff", "id": "computed tomography", "label": "computed tomography", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#d9d9d9", "id": "cm", "label": "cm", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "cystic lesion", "label": "cystic lesion", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "stomach", "label": "stomach", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "body", "label": "body", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "tail", "label": "tail", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "pancrea", "label": "pancrea", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "eus", "label": "eus", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#66b3ff", "id": "fna", "label": "fna", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#d9d9d9", "id": "normal pancreatic echotexture", "label": "normal pancreatic echotexture", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "cyst", "label": "cyst", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "internal septation", "label": "internal septation", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "masse", "label": "masse", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "malignancy", "label": "malignancy", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "extracellular mucin", "label": "extracellular mucin", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "carcinoembryonic antigen", "label": "carcinoembryonic antigen", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "cea", "label": "cea", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "level", "label": "level", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "ml", "label": "ml", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "carbohydrate antigen", "label": "carbohydrate antigen", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "ca", "label": "ca", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "diagnosis", "label": "diagnosis", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "mucinous pancreatic cystic neoplasm", "label": "mucinous pancreatic cystic neoplasm", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "patient", "label": "patient", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#66b3ff", "id": "surgical resection", "label": "surgical resection", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#66b3ff", "id": "laparoscopic distal pancreatectomy", "label": "laparoscopic distal pancreatectomy", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#66b3ff", "id": "laparoscopic exploration", "label": "laparoscopic exploration", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#d9d9d9", "id": "entrance", "label": "entrance", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "less sac", "label": "less sac", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "posterior wall", "label": "posterior wall", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "lesion", "label": "lesion", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "adherent", "label": "adherent", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#66b3ff", "id": "intraoperative endoscopy", "label": "intraoperative endoscopy", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#ffa64d", "id": "mucosal abnormality", "label": "mucosal abnormality", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "further mobilisation", "label": "further mobilisation", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "coeliac axis", "label": "coeliac axis", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "procedure", "label": "procedure", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#66b3ff", "id": "open resection", "label": "open resection", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#ffa64d", "id": "gastric duplication cyst", "label": "gastric duplication cyst", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "coeliac vessel", "label": "coeliac vessel", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#66b3ff", "id": "enbloc resection", "label": "enbloc resection", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#d9d9d9", "id": "portion", "label": "portion", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "surgical stapler", "label": "surgical stapler", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "repeat oesophagogastroduodenoscopy", "label": "repeat oesophagogastroduodenoscopy", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "intact staple line", "label": "intact staple line", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "posterior stomach wall", "label": "posterior stomach wall", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "bleeding", "label": "bleeding", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "gross margin", "label": "gross margin", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#66b3ff", "id": "final pathology", "label": "final pathology", "shape": "dot", "title": "Tipo: Procedure/Exam"}, {"color": "#d9d9d9", "id": "cm x", "label": "cm x", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "cm cyst", "label": "cm cyst", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#ffa64d", "id": "smooth internal cyst wall", "label": "smooth internal cyst wall", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#ffa64d", "id": "gdc", "label": "gdc", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "figs", "label": "figs", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "postoperative day", "label": "postoperative day", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "regular diet", "label": "regular diet", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "complication", "label": "complication", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "follow", "label": "follow", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "complete resolution", "label": "complete resolution", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffa64d", "id": "pain", "label": "pain", "shape": "dot", "title": "Tipo: DISEASE"}, {"color": "#d9d9d9", "id": "return", "label": "return", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "regular bowel function", "label": "regular bowel function", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#d9d9d9", "id": "activity", "label": "activity", "shape": "dot", "title": "Tipo: MedicalConcept"}, {"color": "#ffff66", "id": "6 cm", "label": "6 cm", "shape": "dot", "title": "Tipo: ExamResult | Valor: 6 cm"}, {"color": "#ffff66", "id": "9 cm", "label": "9 cm", "shape": "dot", "title": "Tipo: ExamResult | Valor: 9 cm"}, {"color": "#ffff66", "id": "12,476.5 ng/ml", "label": "12,476.5 ng/ml", "shape": "dot", "title": "Tipo: ExamResult | Valor: 12,476.5 ng/ml"}, {"color": "#ffff66", "id": "6 iu/ml", "label": "6 iu/ml", "shape": "dot", "title": "Tipo: ExamResult | Valor: 6 iu/ml"}, {"color": "#ffff66", "id": "9.5 cm", "label": "9.5 cm", "shape": "dot", "title": "Tipo: ExamResult | Valor: 9.5 cm"}, {"color": "#ffff66", "id": "4.5 cm", "label": "4.5 cm", "shape": "dot", "title": "Tipo: ExamResult | Valor: 4.5 cm"}, {"color": "#ffff66", "id": "2.0 cm", "label": "2.0 cm", "shape": "dot", "title": "Tipo: ExamResult | Valor: 2.0 cm"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "right flank"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "low quadrant"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "abdominal pain"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "nausea"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "constipation"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "UNDERWENT_PROCEDURE", "title": "UNDERWENT_PROCEDURE", "to": "computed tomography"}, {"arrows": "to", "color": "#808080", "from": "contrast", "label": "SUPPORTS", "title": "SUPPORTS", "to": "computed tomography"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "UNDERWENT_PROCEDURE", "title": "UNDERWENT_PROCEDURE", "to": "fna"}, {"arrows": "to", "color": "#808080", "from": "eus", "label": "SUPPORTS", "title": "SUPPORTS", "to": "fna"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "eus"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "normal pancreatic echotexture"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "cyst"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "internal septation"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "masse"}, {"arrows": "to", "color": "#808080", "from": "malignancy", "label": "SUPPORTS", "title": "SUPPORTS", "to": "extracellular mucin"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "UNDERWENT_PROCEDURE", "title": "UNDERWENT_PROCEDURE", "to": "laparoscopic distal pancreatectomy"}, {"arrows": "to", "color": "#808080", "from": "laparoscopic exploration", "label": "SUPPORTS", "title": "SUPPORTS", "to": "entrance"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "UNDERWENT_PROCEDURE", "title": "UNDERWENT_PROCEDURE", "to": "intraoperative endoscopy"}, {"arrows": "to", "color": "#808080", "from": "intraoperative endoscopy", "label": "SUPPORTS", "title": "SUPPORTS", "to": "mucosal abnormality"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "UNDERWENT_PROCEDURE", "title": "UNDERWENT_PROCEDURE", "to": "open resection"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "UNDERWENT_PROCEDURE", "title": "UNDERWENT_PROCEDURE", "to": "enbloc resection"}, {"arrows": "to", "color": "#808080", "from": "repeat oesophagogastroduodenoscopy", "label": "SUPPORTS", "title": "SUPPORTS", "to": "intact staple line"}, {"arrows": "to", "color": "#808080", "from": "final pathology", "label": "SUPPORTS", "title": "SUPPORTS", "to": "cm x"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "TREATED_BY", "title": "TREATED_BY", "to": "postoperative day"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "TREATED_BY", "title": "TREATED_BY", "to": "regular diet"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "TREATED_BY", "title": "TREATED_BY", "to": "complication"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "follow"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "complete resolution"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "pain"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "return"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "regular bowel function"}, {"arrows": "to", "color": "#808080", "from": "woman", "label": "HAS_SYMPTOM", "title": "HAS_SYMPTOM", "to": "activity"}, {"arrows": "to", "color": "#808080", "from": "cm", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "6 cm"}, {"arrows": "to", "color": "#808080", "from": "cystic lesion", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "6 cm"}, {"arrows": "to", "color": "#808080", "from": "cyst", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "6 cm"}, {"arrows": "to", "color": "#808080", "from": "cyst", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "9 cm"}, {"arrows": "to", "color": "#808080", "from": "internal septation", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "6 cm"}, {"arrows": "to", "color": "#808080", "from": "internal septation", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "9 cm"}, {"arrows": "to", "color": "#808080", "from": "cea", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "12,476.5 ng/ml"}, {"arrows": "to", "color": "#808080", "from": "level", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "12,476.5 ng/ml"}, {"arrows": "to", "color": "#808080", "from": "ml", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "12,476.5 ng/ml"}, {"arrows": "to", "color": "#808080", "from": "carbohydrate antigen", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "12,476.5 ng/ml"}, {"arrows": "to", "color": "#808080", "from": "ca", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "6 iu/ml"}, {"arrows": "to", "color": "#808080", "from": "diagnosis", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "6 iu/ml"}, {"arrows": "to", "color": "#808080", "from": "final pathology", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "9.5 cm"}, {"arrows": "to", "color": "#808080", "from": "cm x", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "9.5 cm"}, {"arrows": "to", "color": "#808080", "from": "cm x", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "4.5 cm"}, {"arrows": "to", "color": "#808080", "from": "cm x", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "2.0 cm"}, {"arrows": "to", "color": "#808080", "from": "cm cyst", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "9.5 cm"}, {"arrows": "to", "color": "#808080", "from": "cm cyst", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "4.5 cm"}, {"arrows": "to", "color": "#808080", "from": "cm cyst", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "2.0 cm"}, {"arrows": "to", "color": "#808080", "from": "smooth internal cyst wall", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "4.5 cm"}, {"arrows": "to", "color": "#808080", "from": "smooth internal cyst wall", "label": "HAS_VALUE", "title": "HAS_VALUE", "to": "2.0 cm"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"forceAtlas2Based": {"gravitationalConstant": -50, "centralGravity": 0.01, "springLength": 100, "springConstant": 0.08}, "minVelocity": 0.75, "solver": "forceAtlas2Based"}, "edges": {"font": {"size": 10, "align": "middle"}, "arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
