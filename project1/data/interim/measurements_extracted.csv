@@ -1,0 +1,9 @@
+node_type,label_original,label_normalizado,token_start,token_end,span_start,span_end,value,unit
+ExamResult,6cm,6 cm,-1,-1,337,340,6,cm
+ExamResult,6cm,6 cm,-1,-1,516,519,6,cm
+ExamResult,9cm,9 cm,-1,-1,522,525,9,cm
+ExamResult,"12,476.5ng/ml","12,476.5 ng/ml",-1,-1,777,790,"12,476.5",ng/ml
+ExamResult,6iu/ml,6 iu/ml,-1,-1,837,843,6,iu/ml
+ExamResult,9.5cm,9.5 cm,-1,-1,2070,2075,9.5,cm
+ExamResult,4.5cm,4.5 cm,-1,-1,2078,2083,4.5,cm
+ExamResult,2.0cm,2.0 cm,-1,-1,2086,2091,2.0,cm
