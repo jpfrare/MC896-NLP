@@ -25,8 +25,8 @@ E_023,woman,pain,HAS_SYMPTOM
 E_024,cystic lesion,6 cm,HAS_VALUE
 E_025,cyst,6 cm,HAS_VALUE
 E_026,cyst,9 cm,HAS_VALUE
-E_027,carbohydrate antigen,"12,476.5 ng/ml",HAS_VALUE
+E_027,cea,"12,476.5 ng/ml",HAS_VALUE
 E_028,carbohydrate antigen,6 iu/ml,HAS_VALUE
 E_029,final pathology,9.5 cm,HAS_VALUE
 E_030,final pathology,4.5 cm,HAS_VALUE
-E_031,smooth internal cyst wall,2.0 cm,HAS_VALUE
+E_031,final pathology,2.0 cm,HAS_VALUE
