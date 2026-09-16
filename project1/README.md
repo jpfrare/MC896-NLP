@@ -17,8 +17,7 @@ O projeto realiza a extração de dados de casos clínicos para a construção d
     measurement_pattern = re.compile(r'(\d+(?:,\d+)?(?:\.\d+)?)\s*(cm|mm|ng/ml|iu/ml|mg)')
     ```
 
-<!-- Precisamos tirar essa referência ao en_core_web_sm né? -->
-* **Extração de Entidades:** Utilização do modelo `en_core_web_sm` da biblioteca spaCy. A extração de pacientes foi feita por meio do `Matcher` utilizando vocabulários fechados (ex: "woman", "man", "patient"). Para conceitos clínicos (doenças, exames, tratamentos), utilizamos análise de classe gramatical (adjetivos seguidos de substantivos) em conjunto com remoção de *stopwords* customizadas e via NLTK. As entidades foram classificadas em categorias como `DISEASE` e `Procedure/Exam` através de verificação em listas de palavras-chave (dicionários estáticos).
+* **Extração de Entidades:** Utilização do `en_core_web_sm` da biblioteca spaCy. A extração de pacientes foi feita por meio do `Matcher` utilizando vocabulários fechados (ex: "woman", "man", "patient"). Para conceitos clínicos (doenças, exames, tratamentos), utilizamos análise de classe gramatical (adjetivos seguidos de substantivos) em conjunto com remoção de *stopwords* customizadas e via NLTK. As entidades foram classificadas em categorias como `DISEASE` e `Procedure/Exam` através de verificação em listas de palavras-chave (dicionários estáticos).
 
 * **Identificação de Relações (Arestas):** As arestas sintáticas foram estabelecidas percorrendo os limites de sentenças (via `doc.sents` do spaCy). A relação foi inferida baseada nos lemas dos verbos presentes na sentença (ex: "present" $\rightarrow$ `HAS_SYMPTOM`; "undergo" $\rightarrow$ `UNDERWENT_PROCEDURE`). Já as arestas de resultados de exames (`HAS_VALUE`) foram criadas calculando a distância de caracteres no texto, ligando medidas a entidades se estivessem a menos de 30 caracteres de distância.
 
@@ -60,12 +59,10 @@ A partir da estrutura extraída nas tabelas finais de nós e arestas, diversas a
 
 A estratégia mista baseada em spaCy e dicionários se demonstrou funcional para os casos de validação. O projeto unifica os resultados no esquema tabular de nós e arestas sugerido pela disciplina.
 
-<!-- Cores estão erradas eu acho -->
-Como destaque positivo de apresentação, implementou-se uma visualização interativa do grafo final. Os nós gerados foram colorizados segundo as heurísticas extraídas: Vermelho para o paciente (`Patient`), Laranja para doenças (`DISEASE`), Azul para exames e procedimentos (`Procedure/Exam`) e Amarelo para valores extraídos do texto (`ExamResult`).
+Como destaque positivo de apresentação, implementou-se uma visualização interativa do grafo final. Os nós gerados foram colorizados segundo as heurísticas extraídas: Verde para o paciente (`Patient`), Vermelho para doenças (`DISEASE`), Azul para conceitos relevantes fora de escopo (`MedicalConcept`), Amarelo para exames e procedimentos (`Procedure/Exam`) e Cinza para valores extraídos do texto (`ExamResult`).
 
 <img src="https://github.com/jpfrare/MC896-NLP/blob/main/project1/assets/knowledge_graph.png" width="75%">
 
-<!-- Confirmar se ficou bom -->
 ## Como Modelos de Linguagem foram Usados
 
 * Auxilio com dúvidas referentes a sintaxe e configuração de bibliotecas
