@@ -4,7 +4,7 @@
 
 ## Slides
 
-[Extração de Grafos de Casos Clínicos (MultiCaRe) - NoLarPing.pdf](https://github.com/jpfrare/MC896-NLP/blob/c4b3e05bec85a9cb38199fd3f559e87298f27c0b/project1/assets/Extra%C3%A7%C3%A3o%20de%20Grafos%20de%20Casos%20Cl%C3%ADnicos%20(MultiCaRe)%20-%20NoLarPing.pdf)
+[Extração de Grafos de Casos Clínicos (MultiCaRe) - NoLarPing.pdf](<assets/slides/Extração de Grafos de Casos Clínicos (MultiCaRe) - NoLarPing.pdf>)
 
 ## Metodologia
 
@@ -12,7 +12,7 @@ O projeto realiza a extração de dados de casos clínicos para a construção d
 
 * **Ingestão e Preparação:** Leitura dos arquivos `cases.csv` e `metadata.csv` e mesclagem dos dados.
 
-* **Extração de Medidas (RegEx):** Uso de expressões regulares para buscar valores numéricos vinculados a unidades de medida (como `cm`, `mm`, `ng/ml`, `iu/ml`).
+* **Extração de Medidas (RegEx):** Uso de expressões regulares para buscar valores numéricos vinculados a unidades de medida (como `cm`, `mm`, `ng/ml`, `iu/ml`, `mg`).
     ```python
     measurement_pattern = re.compile(r'(\d{1,3}(?:,\d{3})*(?:\.\d+)?(?:\s*[xX]\s*\d+(?:\.\d+)?)*|\d+(?:\.\d+)?(?:\s*[xX]\s*\d+(?:\.\d+)?)*)\s*(cm|mm|ng/ml|iu/ml|mg)')
     ```
@@ -39,7 +39,7 @@ O modelo desenhado baseia-se em um esquema de grafos de propriedades com tipagem
 
 * **Arestas/Relacionamentos:** `HAS_SYMPTOM`, `UNDERWENT_PROCEDURE`, `SUPPORTS`, `TREATED_BY` e `HAS_VALUE`.
 
-[Lembre-se de substituir o arquivo abaixo pelo PNG do diagrama lógico gerado pelo grupo na pasta correspondente]
+<img src="assets/images/logic_model.png" width="50%">
 
 ## Análises que podem ser realizadas
 
@@ -65,7 +65,7 @@ A estratégia mista baseada em spaCy e dicionários se demonstrou funcional para
 
 Como destaque positivo de apresentação, implementou-se uma visualização interativa do grafo final. Os nós gerados foram colorizados segundo as heurísticas extraídas: Verde para o paciente (`Patient`), Vermelho para doenças (`DISEASE`), Azul para conceitos relevantes fora de escopo (`MedicalConcept`), Amarelo para exames e procedimentos (`Procedure/Exam`) e Cinza para valores extraídos do texto (`ExamResult`).
 
-<img src="https://github.com/jpfrare/MC896-NLP/blob/main/project1/assets/knowledge_graph.png" width="75%">
+<img src="assets/images/knowledge_graph.png" width="50%">
 
 ## Como Modelos de Linguagem foram Usados
 
