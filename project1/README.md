@@ -14,12 +14,16 @@ O projeto realiza a extração de dados de casos clínicos para a construção d
 
 * **Extração de Medidas (RegEx):** Uso de expressões regulares para buscar valores numéricos vinculados a unidades de medida (como `cm`, `mm`, `ng/ml`, `iu/ml`).
     ```python
-    measurement_pattern = re.compile(r'(\d+(?:,\d+)?(?:\.\d+)?)\s*(cm|mm|ng/ml|iu/ml|mg)')
+    measurement_pattern = re.compile(r'(\d{1,3}(?:,\d{3})*(?:\.\d+)?(?:\s*[xX]\s*\d+(?:\.\d+)?)*|\d+(?:\.\d+)?(?:\s*[xX]\s*\d+(?:\.\d+)?)*)\s*(cm|mm|ng/ml|iu/ml|mg)')
     ```
 
 * **Extração de Entidades:** Utilização do `en_core_web_sm` da biblioteca spaCy. A extração de pacientes foi feita por meio do `Matcher` utilizando vocabulários fechados (ex: "woman", "man", "patient"). Para conceitos clínicos (doenças, exames, tratamentos), utilizamos análise de classe gramatical (adjetivos seguidos de substantivos) em conjunto com remoção de *stopwords* customizadas e via NLTK. As entidades foram classificadas em categorias como `DISEASE` e `Procedure/Exam` através de verificação em listas de palavras-chave (dicionários estáticos).
 
-* **Identificação de Relações (Arestas):** As arestas sintáticas foram estabelecidas percorrendo os limites de sentenças (via `doc.sents` do spaCy). A relação foi inferida baseada nos lemas dos verbos presentes na sentença (ex: "present" $\rightarrow$ `HAS_SYMPTOM`; "undergo" $\rightarrow$ `UNDERWENT_PROCEDURE`). Já as arestas de resultados de exames (`HAS_VALUE`) foram criadas calculando a distância de caracteres no texto, ligando medidas a entidades se estivessem a menos de 30 caracteres de distância.
+* **Tratamento de Negação:** Implementação de uma heurística de janela de contexto analisando os tokens anteriores às entidades. Se palavras associadas a negação (como "no", "deny" ou "without") antecedem o termo, a extração é ignorada, prevenindo a geração de falsos positivos (ex: "no nausea").
+
+* **Identificação de Relações (Arestas):** As arestas sintáticas foram estabelecidas percorrendo os limites de sentenças (via `doc.sents` do spaCy). A relação foi inferida baseada nos lemas dos verbos presentes na sentença (ex: "present" $\rightarrow$ `HAS_SYMPTOM`; "undergo" $\rightarrow$ `UNDERWENT_PROCEDURE`). 
+
+* **Heurística Espacial com Viés Direcional:** Para conectar valores numéricos aos seus respectivos conceitos, é calculado espaço livre em caracteres entre as duas entidades. Existe uma penalidade direcional, de modo queo algoritmo aceita um espaço maior (30 caracteres) se o nome do exame preceder o valor, mas exige adjacência quase estrita se o valor preceder a entidade (ex: "6 cm cyst"), resolvendo ambiguidades de fronteira de oração.
 
 ## Trabalhos Estudados
 
