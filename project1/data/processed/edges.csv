@@ -1,47 +1,32 @@
 edge_id,source_label,target_label,relation
-E_001,woman,right flank,HAS_SYMPTOM
-E_002,woman,low quadrant abdominal pain,HAS_SYMPTOM
-E_003,woman,nausea,HAS_SYMPTOM
-E_004,woman,constipation,HAS_SYMPTOM
-E_005,woman,computed tomography,UNDERWENT_PROCEDURE
-E_006,contrast,computed tomography,SUPPORTS
+E_001,woman,abdominal pain,HAS_SYMPTOM
+E_002,woman,nausea,HAS_SYMPTOM
+E_003,woman,constipation,HAS_SYMPTOM
+E_004,woman,computed tomography,UNDERWENT_PROCEDURE
+E_005,contrast,computed tomography,SUPPORTS
+E_006,woman,eus,UNDERWENT_PROCEDURE
 E_007,woman,fna,UNDERWENT_PROCEDURE
 E_008,woman,normal pancreatic echotexture,UNDERWENT_PROCEDURE
 E_009,woman,internal septation,UNDERWENT_PROCEDURE
 E_010,eus,fna,SUPPORTS
-E_011,malignancy,extracellular mucin,SUPPORTS
-E_012,woman,laparoscopic distal pancreatectomy,UNDERWENT_PROCEDURE
-E_013,laparoscopic exploration,entrance,SUPPORTS
-E_014,woman,intraoperative endoscopy,UNDERWENT_PROCEDURE
-E_015,intraoperative endoscopy,mucosal abnormality,SUPPORTS
-E_016,woman,open resection,UNDERWENT_PROCEDURE
-E_017,woman,enbloc resection,UNDERWENT_PROCEDURE
-E_018,repeat,intact staple line,SUPPORTS
-E_019,final pathology,cm cyst,SUPPORTS
-E_020,woman,postoperative day,TREATED_BY
-E_021,woman,regular diet,TREATED_BY
-E_022,woman,complication,TREATED_BY
-E_023,woman,follow,HAS_SYMPTOM
-E_024,woman,complete resolution,HAS_SYMPTOM
-E_025,woman,pain,HAS_SYMPTOM
-E_026,woman,return,HAS_SYMPTOM
-E_027,cm,6 cm,HAS_VALUE
-E_028,cystic lesion,6 cm,HAS_VALUE
-E_029,cyst,6 cm,HAS_VALUE
-E_030,cyst,9 cm,HAS_VALUE
-E_031,internal septation,6 cm,HAS_VALUE
-E_032,internal septation,9 cm,HAS_VALUE
-E_033,cea,"12,476.5 ng/ml",HAS_VALUE
-E_034,level,"12,476.5 ng/ml",HAS_VALUE
-E_035,"12,476.5ng","12,476.5 ng/ml",HAS_VALUE
-E_036,ml,"12,476.5 ng/ml",HAS_VALUE
-E_037,carbohydrate antigen,"12,476.5 ng/ml",HAS_VALUE
-E_038,ca,6 iu/ml,HAS_VALUE
-E_039,6iu,6 iu/ml,HAS_VALUE
-E_040,diagnosis,6 iu/ml,HAS_VALUE
-E_041,final pathology,9.5 cm,HAS_VALUE
-E_042,cm cyst,9.5 cm,HAS_VALUE
-E_043,cm cyst,4.5 cm,HAS_VALUE
-E_044,cm cyst,2.0 cm,HAS_VALUE
-E_045,smooth internal cyst wall,4.5 cm,HAS_VALUE
-E_046,smooth internal cyst wall,2.0 cm,HAS_VALUE
+E_011,woman,cyst,HAS_SYMPTOM
+E_012,woman,masse,HAS_SYMPTOM
+E_013,extracellular mucin,carcinoembryonic antigen,SUPPORTS
+E_014,woman,laparoscopic distal pancreatectomy,UNDERWENT_PROCEDURE
+E_015,laparoscopic exploration,entrance,SUPPORTS
+E_016,woman,intraoperative endoscopy,UNDERWENT_PROCEDURE
+E_017,woman,open resection,UNDERWENT_PROCEDURE
+E_018,woman,enbloc resection,UNDERWENT_PROCEDURE
+E_019,repeat oesophagogastroduodenoscopy,intact staple line,SUPPORTS
+E_020,final pathology,smooth internal cyst wall,SUPPORTS
+E_021,woman,postoperative day,TREATED_BY
+E_022,woman,regular diet,TREATED_BY
+E_023,woman,pain,HAS_SYMPTOM
+E_024,cystic lesion,6 cm,HAS_VALUE
+E_025,cyst,6 cm,HAS_VALUE
+E_026,cyst,9 cm,HAS_VALUE
+E_027,carbohydrate antigen,"12,476.5 ng/ml",HAS_VALUE
+E_028,carbohydrate antigen,6 iu/ml,HAS_VALUE
+E_029,final pathology,9.5 cm,HAS_VALUE
+E_030,final pathology,4.5 cm,HAS_VALUE
+E_031,smooth internal cyst wall,2.0 cm,HAS_VALUE
