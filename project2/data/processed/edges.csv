@@ -1,0 +1,822 @@
+edge_id,case_id,source_label,target_label,relation,contexto
+E_001,PMC10106591_01,female,intermittent chest pain,HAS_SYMPTOM,"A 44-year-old female patient presented to the emergency room (ER) of our hospital with complaints of """
+E_002,PMC10106591_01,physical examination,admission,SUPPORTS,upon
+E_003,PMC10106591_01,pulmonary examination,normal heart,SUPPORTS,revealed
+E_004,PMC10106591_01,female,electrocardiogram,UNDERWENT_PROCEDURE,The
+E_005,PMC10106591_01,female,ecg,UNDERWENT_PROCEDURE,The electrocardiogram (
+E_006,PMC10106591_01,female,echocardiography,UNDERWENT_PROCEDURE,The electrocardiogram (ECG) performed at rest showed normal sinus rhythm with no significant ST-T changes (Figure 1A);
+E_007,PMC10106591_01,female,ventricular septum,UNDERWENT_PROCEDURE,The electrocardiogram (ECG) performed at rest showed normal sinus rhythm with no significant ST-T changes (Figure 1A); echocardiography completed in the ER showed a mildly thickened
+E_008,PMC10106591_01,female,ventricular ejection fraction,UNDERWENT_PROCEDURE,"The electrocardiogram (ECG) performed at rest showed normal sinus rhythm with no significant ST-T changes (Figure 1A); echocardiography completed in the ER showed a mildly thickened ventricular septum and left ventricular posterior wall, mild tricuspid regurgitation, and slightly reduced left"
+E_009,PMC10106591_01,electrocardiogram,ecg,SUPPORTS,(
+E_010,PMC10106591_01,acute coronary syndrome,acs,SUPPORTS,(
+E_011,PMC10106591_01,minute,hospitalization,SUPPORTS,after
+E_012,PMC10106591_01,female,prompt relief,UNDERWENT_PROCEDURE,"With a possible diagnosis of CAS, 5 mg of diltiazem was administered intravenously with"
+E_013,PMC10106591_01,second day,suggestion,SUPPORTS,after a repeated
+E_014,PMC10106591_01,routine lab work,white blood cell count,SUPPORTS,during hospitalization revealed that
+E_015,PMC10106591_01,female,myocardial ischemia,HAS_SYMPTOM,With other in-patient treatments and improving
+E_016,PMC10405809_01,female,progressive dysphagia,HAS_SYMPTOM,A 55-year-old female presented with
+E_017,PMC10405809_01,female,gastrointestinal disease,HAS_SYMPTOM,None of her family members had any
+E_018,PMC10405809_01,blood investigation,hemoglobin,SUPPORTS,showed
+E_019,PMC10405809_01,barium swallow,sized diverticulum,SUPPORTS,showed a 3 cm x 2 cm
+E_020,PMC10405809_01,female,computed tomography,UNDERWENT_PROCEDURE,Hence a
+E_021,PMC10405809_01,female,ct,UNDERWENT_PROCEDURE,Hence a computed tomography (
+E_022,PMC10405809_01,female,scan,UNDERWENT_PROCEDURE,Hence a computed tomography (CT)
+E_023,PMC10405809_01,computed tomography,ct,SUPPORTS,(
+E_024,PMC10405809_01,esophagogastroduodenoscopy,incisor,SUPPORTS,revealed KJD at 20 cm from
+E_025,PMC10434843_01,male,right arm paresis,HAS_SYMPTOM,A 49-year-old male presented to our clinic for further diagnostic evaluation of
+E_026,PMC10434843_01,magnetic resonance imaging,mri,SUPPORTS,(
+E_027,PMC10434843_01,male,magnetic resonance imaging,UNDERWENT_PROCEDURE,
+E_028,PMC10434843_01,male,mri,UNDERWENT_PROCEDURE,Magnetic resonance imaging (
+E_029,PMC10434843_01,clinical neurological examination,admission,SUPPORTS,on
+E_030,PMC10434843_01,thumb abduction,opposition,SUPPORTS,","
+E_031,PMC10434843_01,cramp,fasciculation,SUPPORTS,and
+E_032,PMC10434843_01,diagnostic lumbar puncture,subsequent cerebrospinal fluid,SUPPORTS,and
+E_033,PMC10434843_01,flow cytometry analysis,increase,SUPPORTS,revealed an
+E_034,PMC10434843_01,proportion,natural killer cell,SUPPORTS,of
+E_035,PMC10434843_01,antibody determination,antibody,SUPPORTS,showed negative Immunoglobulin (Ig)G
+E_036,PMC10434843_01,further diagnostic,motor nerve conduction block,SUPPORTS,showed a
+E_037,PMC10434843_01,nerve conduction velocity,normal value,SUPPORTS,showed
+E_038,PMC10434843_01,tibial nerve,normal function,SUPPORTS,on both sides showed
+E_039,PMC10434843_01,needle electromyography,chronic neurogenic change,SUPPORTS,showed
+E_040,PMC10434843_01,peripheral nerve ultrasonography,enlargement,SUPPORTS,(Figure 2) showed an
+E_041,PMC10434843_01,neuropsychiatric consultation,normal neurocognitive performance profile,SUPPORTS,showed a
+E_042,PMC10434843_01,male,malignancy,HAS_SYMPTOM,"Due to the CASPR2 antibodies, which can be associated with"
+E_043,PMC10434843_01,male,tumor search,HAS_SYMPTOM,"Due to the CASPR2 antibodies, which can be associated with malignancy,   we initiated a"
+E_044,PMC10434843_01,male,tumor,HAS_SYMPTOM,"Due to the CASPR2 antibodies, which can be associated with malignancy,   we initiated a tumor search with an abdomen and thyroid sonography as well as an urologic consultation and Positron emission tomography-computed tomography (PET-CT) which showed no indication of a"
+E_045,PMC10434843_01,malignancy,tumor search,SUPPORTS,",   we initiated a"
+E_046,PMC10434843_01,up visit,sign,SUPPORTS,the patient showed
+E_047,PMC10488652_01,female,edema,HAS_SYMPTOM,"On physical examination, the patient had mild pallor, icteric sclerae, supraclavicular and cervical adenopathies, synovitis in bilateral metacarpophalangeal joints, and grade II"
+E_048,PMC10488652_01,female,infectious etiology,UNDERWENT_PROCEDURE,"Paraclinical testing was performed (Table 1), and"
+E_049,PMC10488652_01,autoimmune,hemolytic anemia,SUPPORTS,
+E_050,PMC10488652_01,intensive care unit,severe hematological involvement,SUPPORTS,because of
+E_051,PMC10488652_01,treatment,dexamethasone,SUPPORTS,was initiated with
+E_052,PMC10488652_01,female,hospital,TREATED_BY,The patient was discharged from the
+E_053,PMC10488652_01,female,outpatient treatment,TREATED_BY,The patient was discharged from the hospital after receiving
+E_054,PMC10488652_01,female,prednisone,TREATED_BY,The patient was discharged from the hospital after receiving outpatient treatment with
+E_055,PMC10488652_01,female,mofetil,TREATED_BY,"The patient was discharged from the hospital after receiving outpatient treatment with prednisone at a dose of 5 mg daily orally, hydroxychloroquine at a dose of 200 mg daily orally and mycophenolate"
+E_056,PMC10488652_01,female,hour,TREATED_BY,"The patient was discharged from the hospital after receiving outpatient treatment with prednisone at a dose of 5 mg daily orally, hydroxychloroquine at a dose of 200 mg daily orally and mycophenolate mofetil at a dose of 500 mg every 12"
+E_057,PMC10488652_01,female,week,TREATED_BY,"The patient was discharged from the hospital after receiving outpatient treatment with prednisone at a dose of 5 mg daily orally, hydroxychloroquine at a dose of 200 mg daily orally and mycophenolate mofetil at a dose of 500 mg every 12 hours for one"
+E_058,PMC10521634_01,colonoscopy,extensive colitis,SUPPORTS,showed
+E_059,PMC10521634_01,laboratory finding,hemoglobin,SUPPORTS,showed a
+E_060,PMC10521634_01,vdz treatment,mild thrombocytosis,SUPPORTS,", a routine follow-up showed"
+E_061,PMC10521634_01,erythema,large amount,SUPPORTS,and a
+E_062,PMC10521634_01,male,ct,UNDERWENT_PROCEDURE,"He is transferred into de ICU unit for monitoring, and a"
+E_063,PMC10521634_01,male,scan,UNDERWENT_PROCEDURE,"He is transferred into de ICU unit for monitoring, and a CT"
+E_064,PMC10521634_01,male,active diffuse,UNDERWENT_PROCEDURE,"He is transferred into de ICU unit for monitoring, and a CT scan is performed showing"
+E_065,PMC10521634_01,icu,unit,SUPPORTS,
+E_066,PMC10521634_01,male,urgent subtotal colectomy,UNDERWENT_PROCEDURE,
+E_067,PMC10521634_01,male,splenectomy,UNDERWENT_PROCEDURE,Urgent subtotal colectomy and
+E_068,PMC10521634_01,male,rectum,UNDERWENT_PROCEDURE,Urgent subtotal colectomy and splenectomy with preservation of the
+E_069,PMC10521634_01,male,histopathology report,TREATED_BY,The
+E_070,PMC10521634_01,male,dysplasia,TREATED_BY,The histopathology report of the resected colon did not identify malignancy or
+E_071,PMC10521634_01,male,continuous active disease,TREATED_BY,"The histopathology report of the resected colon did not identify malignancy or dysplasia, but it showed severe and"
+E_072,PMC10521634_01,male,diffuse erosion,TREATED_BY,"The histopathology report of the resected colon did not identify malignancy or dysplasia, but it showed severe and continuous active disease with"
+E_073,PMC10521634_01,male,ulcer,TREATED_BY,"The histopathology report of the resected colon did not identify malignancy or dysplasia, but it showed severe and continuous active disease with diffuse erosions, fissuring"
+E_074,PMC10521634_01,male,focal transmural inflammation,TREATED_BY,"The histopathology report of the resected colon did not identify malignancy or dysplasia, but it showed severe and continuous active disease with diffuse erosions, fissuring ulcers, and"
+E_075,PMC10521634_01,male,proximity,TREATED_BY,"The histopathology report of the resected colon did not identify malignancy or dysplasia, but it showed severe and continuous active disease with diffuse erosions, fissuring ulcers, and focal transmural inflammation in the"
+E_076,PMC10521634_01,male,ulcerated area,TREATED_BY,"The histopathology report of the resected colon did not identify malignancy or dysplasia, but it showed severe and continuous active disease with diffuse erosions, fissuring ulcers, and focal transmural inflammation in the proximity of deeply"
+E_077,PMC10521634_01,histopathology report,dysplasia,SUPPORTS,of the resected colon did not identify malignancy or
+E_078,PMC10521634_01,male,minor rectal bleeding,HAS_SYMPTOM,"Seven days of IFX- B, the patient had"
+E_079,PMC10521634_01,male,clinical outcome,TREATED_BY,The
+E_080,PMC10521634_01,male,therapy,TREATED_BY,"The clinical outcome was favorable, and the patient was discharged and continued IFX-B"
+E_081,PMC10521634_01,male,drainage,UNDERWENT_PROCEDURE,The patient underwent a CT scan and was taken to surgery for
+E_082,PMC10521634_01,endoscopy report,lesion,SUPPORTS,showed Mayo 2
+E_083,PMC10710131_01,guidance,digital workflow,SUPPORTS,of 3D printed titanium mesh was displayed below to show the
+E_084,PMC10710131_01,clinical exam,good oral hygiene,SUPPORTS,revealed
+E_085,PMC10710131_01,preoperative cbct,horizontal bone defect,SUPPORTS,reveals a severely vertical and
+E_086,PMC11131390_01,thyroid function test,mild overt hyperthyroidism,SUPPORTS,revealing
+E_087,PMC11131390_01,male,severe biochemical hypothyroidism,HAS_SYMPTOM,"In November 2017, 4 months after stopping CBZ, the patient presented with 4 kg weight gain (67-71 kg) and"
+E_088,PMC11131390_01,male,coincidence,TREATED_BY,The
+E_089,PMC11131390_01,male,spontaneous development,TREATED_BY,The coincidence of quitting smoking in July 2017 and the
+E_090,PMC11131390_01,male,overt hypothyroidism,TREATED_BY,The coincidence of quitting smoking in July 2017 and the spontaneous development of
+E_091,PMC11131390_01,male,possible link,TREATED_BY,"The coincidence of quitting smoking in July 2017 and the spontaneous development of overt hypothyroidism in November 2017, only 4 months later, urged us to search for a"
+E_092,PMC11131390_01,male,new onset hypothyroidism,TREATED_BY,"The coincidence of quitting smoking in July 2017 and the spontaneous development of overt hypothyroidism in November 2017, only 4 months later, urged us to search for a possible link between quitting smoking and"
+E_093,PMC11259348_01,patient,fever,HAS_SYMPTOM,A child admitted with
+E_094,PMC11259348_02,tenth tube,negativity,SUPPORTS,"did not show color change compared to the patient's serum, indicating the"
+E_095,PMC11345641_01,december,center,SUPPORTS,"2021, a 48-year-old woman was admitted to our"
+E_096,PMC11345641_01,woman,abdominal pain,HAS_SYMPTOM,She has experienced
+E_097,PMC11345641_01,endometrial thickening,mri,SUPPORTS,to 15mm.
+E_098,PMC11345641_01,degeneration,cellular leiomyoma,SUPPORTS,"of the leiomyomas, possibly indicating a"
+E_099,PMC11345641_01,woman,endometrial biopsy,UNDERWENT_PROCEDURE,An
+E_100,PMC11345641_01,woman,total laparoscopic hysterectomy,UNDERWENT_PROCEDURE,"On December 14, 2021, we performed a"
+E_101,PMC11345641_01,woman,bilateral salpingectomy,UNDERWENT_PROCEDURE,"On December 14, 2021, we performed a total laparoscopic hysterectomy and"
+E_102,PMC11345641_01,microscopic examination post-surgery,mass,SUPPORTS,revealed the
+E_103,PMC11345641_01,month post-operation,transabdominal ultrasonography,SUPPORTS,","
+E_104,PMC11345641_01,further mri,multiple abnormal signal shadow,SUPPORTS,revealed
+E_105,PMC11345641_01,physical examination,significant abdominal distention,SUPPORTS,revealed
+E_106,PMC11345641_01,woman,resection,UNDERWENT_PROCEDURE,"On April 29, 2022, we performed an exploratory laparotomy, including"
+E_107,PMC11345641_01,woman,palliative resection,UNDERWENT_PROCEDURE,"On April 29, 2022, we performed an exploratory laparotomy, including resections of pelvic, abdominal, and mesenteric tumors, and a"
+E_108,PMC11345641_01,microscopic analysis,undifferentiated sarcoma,SUPPORTS,confirmed
+E_109,PMC11345641_01,woman,pleural effusion,HAS_SYMPTOM,"Postoperatively, the patient experienced"
+E_110,PMC11345641_01,woman,treatment,TREATED_BY,"However, the patient chose to discontinue"
+E_111,PMC11345641_01,woman,personal reason,TREATED_BY,"However, the patient chose to discontinue treatment for"
+E_112,PMC11345641_01,woman,unsuccessful follow,TREATED_BY,"However, the patient chose to discontinue treatment for personal reasons and was discharged, resulting in"
+E_113,PMC11368112_01,male,significant dyspnea,HAS_SYMPTOM,"Two days ago, he experienced"
+E_114,PMC11368112_01,male,intermittent fever,HAS_SYMPTOM,"Two days ago, he experienced significant dyspnea accompanied by"
+E_115,PMC11368112_01,physical examination,temperature,SUPPORTS,revealed a
+E_116,PMC11368112_01,laboratory result,wbc,SUPPORTS,were as follows:
+E_117,PMC11368112_01,male,similar high fever,HAS_SYMPTOM,The patient reported experiencing a
+E_118,PMC11368112_01,intraoperative finding,cystic mass,SUPPORTS,revealed a 3 x 3 cm
+E_119,PMC11368112_01,multiple ulcer,diameter,SUPPORTS,(0.2-0.8 cm in
+E_120,PMC11368112_01,male,skin biopsy,UNDERWENT_PROCEDURE,"On the 7th day of hospitalization, the patient underwent a"
+E_121,PMC11368112_01,7th day,skin biopsy,SUPPORTS,"of hospitalization, the patient underwent a"
+E_122,PMC11368112_01,male,admission,TREATED_BY,He was discharged 14 days after
+E_123,PMC11420039_01,woman,widespread erythematous patch,HAS_SYMPTOM,A 74-year-old woman presented with
+E_124,PMC11420039_01,woman,eczema,HAS_SYMPTOM,"A 74-year-old woman presented with widespread erythematous patches and vesicles on the limbs, which had appeared successively over a period of 2 weeks, and had previously been diagnosed as """
+E_125,PMC11420039_01,woman,direct immunofluorescence,UNDERWENT_PROCEDURE,"For a definitive diagnosis,"
+E_126,PMC11420039_01,woman,dermoepidermal junction,UNDERWENT_PROCEDURE,"For a definitive diagnosis, direct immunofluorescence (DIF) was performed on the skin lesions, showing linear deposits of IgG along the"
+E_127,PMC11420039_01,definitive diagnosis,direct immunofluorescence,SUPPORTS,","
+E_128,PMC11420039_01,woman,methylprednisolone,TREATED_BY,The patient was treated with
+E_129,PMC11420039_01,woman,methylprednisolone tablet,TREATED_BY,"The patient was treated with methylprednisolone 40 mg orally per day, which was adjusted to"
+E_130,PMC11420039_01,woman,dose,TREATED_BY,"The patient was treated with methylprednisolone 40 mg orally per day, which was adjusted to methylprednisolone tablets orally after one week, with a"
+E_131,PMC11420039_01,woman,morning,TREATED_BY,"The patient was treated with methylprednisolone 40 mg orally per day, which was adjusted to methylprednisolone tablets orally after one week, with a dose of 20 mg in the"
+E_132,PMC11420039_01,woman,evening,TREATED_BY,"The patient was treated with methylprednisolone 40 mg orally per day, which was adjusted to methylprednisolone tablets orally after one week, with a dose of 20 mg in the morning and 16 mg in the"
+E_133,PMC11420039_01,woman,overall skin condition,TREATED_BY,The patient's
+E_134,PMC11420039_01,woman,hospitalization,TREATED_BY,The patient was discharged after a week of
+E_135,PMC11420039_01,woman,original dosage regiman,TREATED_BY,The patient was discharged after a week of hospitalization and continued to take methylprednisolone tablets orally at the
+E_136,PMC11420039_01,woman,regular subcutaneous injection,TREATED_BY,"The patient was discharged after a week of hospitalization and continued to take methylprednisolone tablets orally at the original dosage regimen, with"
+E_137,PMC11420039_01,chest ct,patchy change,SUPPORTS,revealed
+E_138,PMC11420039_01,throughput,pathogenic microorganism,SUPPORTS,
+E_139,PMC11420039_01,woman,viral septicemia,TREATED_BY,"Therefore, the patient was diagnosed with"
+E_140,PMC11420039_01,woman,antiviral therapy,TREATED_BY,"Therefore, the patient was diagnosed with viral septicemia and treated with acyclovir for"
+E_141,PMC11420039_01,instance,immune status,SUPPORTS,and considering the severely compromised
+E_142,PMC11420039_01,further inquiry,medical history,SUPPORTS,into the
+E_143,PMC11420039_01,schirmer,test,SUPPORTS,
+E_144,PMC11420039_01,subsequent lumbar puncture,enterococcus,SUPPORTS,revealed
+E_145,PMC11420039_01,woman,microbial cns infection,HAS_SYMPTOM,"Considering that the patient suffered from severe immunosuppression, with reactivation of several herpesviruses in plasma, before having a"
+E_146,PMC11420039_01,woman,lung infection,HAS_SYMPTOM,"Considering that the patient suffered from severe immunosuppression, with reactivation of several herpesviruses in plasma, before having a microbial CNS infection and succumbing to"
+E_147,PMC11722600_01,female,continuous abdominal pain,HAS_SYMPTOM,A 41-year-old female with a history of cesarean section presented to the emergency department with
+E_148,PMC11722600_01,physical examination,abdominal pain,SUPPORTS,revealed
+E_149,PMC11722600_01,white blood cell,normal range,SUPPORTS,at 8800/mm3 (
+E_150,PMC11722600_01,pelvic ultrasound,free fluid,SUPPORTS,showed only
+E_151,PMC11722600_01,ct,intravenous contrast,SUPPORTS,with
+E_152,PMC11722600_01,laparoscopic exploration,phlegmonous appendicitis,SUPPORTS,"was decided, which revealed"
+E_153,PMC11722600_01,female,laparoscopic appendectomy,UNDERWENT_PROCEDURE,A
+E_154,PMC11722600_01,female,right salpingectomy,UNDERWENT_PROCEDURE,"A laparoscopic appendectomy was performed successfully, and gynecology was consulted for a"
+E_155,PMC11722600_01,female,patient,TREATED_BY,The
+E_156,PMC11722600_01,female,uneventful postoperative course,TREATED_BY,The patient had an
+E_157,PMC11722600_01,histopathology,ectopic endometrial stroma,SUPPORTS,of the appendix describes the presence of
+E_158,PMC11722600_01,fallopian tube histology,endometrial gland,SUPPORTS,showed
+E_159,PMC11722600_02,female,abdominal pain,HAS_SYMPTOM,"A 44-year-old female with a history of endometriosis on hormonal treatment, previous surgeries including two cesarean sections and a laparoscopic exploration with resection of pelvic endometriotic foci two years prior, presented with"
+E_160,PMC11722600_02,physical examination,localized tenderness,SUPPORTS,"showed abdominal pain in RIF, with"
+E_161,PMC11722600_02,tenderness,blumberg,SUPPORTS,was positive in the RIF showing a positive
+E_162,PMC11722600_02,presumptive diagnosis,acute appendicitis,SUPPORTS,of
+E_163,PMC11722600_02,evolution,fever,SUPPORTS,"was irregular, with"
+E_164,PMC11722600_02,bacteriological study,collection,SUPPORTS,of the
+E_165,PMC11722600_02,female,patient,TREATED_BY,The
+E_166,PMC11722600_02,female,admisison,TREATED_BY,The patient improved and was discharged after 7 days of
+E_167,PMC11722600_02,female,control,TREATED_BY,The patient improved and was discharged after 7 days of admisison; before this a
+E_168,PMC11722600_02,female,complete drainage,TREATED_BY,The patient improved and was discharged after 7 days of admisison; before this a control CT was performed to ensure
+E_169,PMC11722600_02,female,periappendiceal collection,TREATED_BY,The patient improved and was discharged after 7 days of admisison; before this a control CT was performed to ensure complete drainage of the
+E_170,PMC11722600_02,female,case,TREATED_BY,"The patient improved and was discharged after 7 days of admisison; before this a control CT was performed to ensure complete drainage of the periappendiceal collection, as this"
+E_171,PMC11722600_02,female,atypical scenario,TREATED_BY,"The patient improved and was discharged after 7 days of admisison; before this a control CT was performed to ensure complete drainage of the periappendiceal collection, as this case presented an"
+E_172,PMC11722600_02,female,team,TREATED_BY,"The patient improved and was discharged after 7 days of admisison; before this a control CT was performed to ensure complete drainage of the periappendiceal collection, as this case presented an atypical scenario for our"
+E_173,PMC11722600_02,female,complete drainage,UNDERWENT_PROCEDURE,The patient improved and was discharged after 7 days of admisison; before this a control CT was performed to ensure
+E_174,PMC11722600_02,female,periappendiceal collection,UNDERWENT_PROCEDURE,The patient improved and was discharged after 7 days of admisison; before this a control CT was performed to ensure complete drainage of the
+E_175,PMC11722600_02,image,5a,SUPPORTS,
+E_176,PMC11722600_02,laparoscopic appendectomy,persistent enlargement,SUPPORTS,was suggested due to the
+E_177,PMC11722600_02,cecal appendix,significant inflammatory component,SUPPORTS,with a
+E_178,PMC11722600_02,female,third postoperative day,TREATED_BY,She was discharged on the
+E_179,PMC11722600_02,histopathological examination,luman,SUPPORTS,showed a cecal appendix with a coprolite inside its
+E_180,PMC11722600_02,female,recent bleeding,HAS_SYMPTOM,"Histopathological examination showed a cecal appendix with a coprolite inside its lumen and chronic inflammatory process, with endometrial glands lined by cylindrical cells without atypia in the muscular and serosal layers, lined by normal columnar epithelial cells, a classic histological feature of endometriosis; these were surrounded by fusocellular stromal cells with a spindle shape that resembles the endometrial stroma found in the uterine lining with foci of"
+E_181,PMC11722600_02,female,hemorrhage,HAS_SYMPTOM,"Histopathological examination showed a cecal appendix with a coprolite inside its lumen and chronic inflammatory process, with endometrial glands lined by cylindrical cells without atypia in the muscular and serosal layers, lined by normal columnar epithelial cells, a classic histological feature of endometriosis; these were surrounded by fusocellular stromal cells with a spindle shape that resembles the endometrial stroma found in the uterine lining with foci of recent bleeding, that indicates"
+E_182,PMC11723754_01,renal function test,deranged electrolyte,SUPPORTS,showed
+E_183,PMC11723754_01,patient,transfusion,UNDERWENT_PROCEDURE,He underwent PRBC
+E_184,PMC11723754_01,patient,strict input output monitoring,TREATED_BY,"Patient was treated aggressively with fluid resuscitation, with"
+E_185,PMC11723754_01,patient,noradrenaline,TREATED_BY,"Patient was treated aggressively with fluid resuscitation, with strict input output monitoring, inotropic"
+E_186,PMC11723754_01,npd,considerable improvement,SUPPORTS,was applied over his sacral PI following which
+E_187,PMC11723754_01,patient,stable vital,TREATED_BY,Patient was discharged with
+E_188,PMC11723754_01,patient,healthy pressure injury,TREATED_BY,"Patient was discharged with stable vitals,"
+E_189,PMC11723754_01,patient,granulation tissue,TREATED_BY,"Patient was discharged with stable vitals, healthy pressure injuries having"
+E_190,PMC11723754_01,patient,surface area,TREATED_BY,"Patient was discharged with stable vitals, healthy pressure injuries having granulation tissue and a decreased"
+E_191,PMC11783470_01,biopsy,gastric lesion,SUPPORTS,of the
+E_192,PMC11783470_01,duodenal biopsy,celiac disease,SUPPORTS,did not show features of
+E_193,PMC11783470_01,woman,endoscopic resection,UNDERWENT_PROCEDURE,Patient underwent repeat EGD and
+E_194,PMC12215201_01,male,fatigue,HAS_SYMPTOM,A 56-year-old Puerto Rican male with no past medical history originally presented to the emergency department with complaints of 2 months of
+E_195,PMC12215201_01,physical examination,dullness,SUPPORTS,revealed a diffusely tender and distended abdomen with shifting
+E_196,PMC12215201_01,laboratory result,hemoglobin,SUPPORTS,showed
+E_197,PMC12215201_01,male,abdominal ultrasound,UNDERWENT_PROCEDURE,"Laboratory results showed hemoglobin 6.1 g/dL, platelet count 63 x 103/mm3, total bilirubin 3.2 mg/dL, alkaline phosphatase 315 IU/L, AST 305 IU/L, ALT 209 IU/L, and albumin 2.6 g/dL. An"
+E_198,PMC12215201_01,male,ct,UNDERWENT_PROCEDURE,He also underwent
+E_199,PMC12215201_01,fluid analysis,pmn,SUPPORTS,showed a
+E_200,PMC12215201_01,male,colonoscopy,UNDERWENT_PROCEDURE,"To find the possible primary, a"
+E_201,PMC12215201_01,esophagogastroduodenoscopy,multiple erythematous nodular lesion,SUPPORTS,demonstrated
+E_202,PMC12215201_01,video capsule endoscopy,numerous metastatic lesion,SUPPORTS,showed
+E_203,PMC12215201_01,small aggregate,vascular channel,SUPPORTS,of anastomosing
+E_204,PMC12832199_01,female,obesity,HAS_SYMPTOM,A 57-year-old female with
+E_205,PMC12832199_01,female,upper abdominal pain,HAS_SYMPTOM,A 57-year-old female with obesity presented to our emergency department with
+E_206,PMC12832199_01,female,vomiting,HAS_SYMPTOM,A 57-year-old female with obesity presented to our emergency department with upper abdominal pain and
+E_207,PMC12832199_01,female,disease,HAS_SYMPTOM,She had a significant medical history of Buerger's
+E_208,PMC12832199_01,female,central adrenal insufficiency,HAS_SYMPTOM,"She had a significant medical history of Buerger's disease, which resulted in bilateral below-knee amputations,"
+E_209,PMC12832199_01,female,left hemicolectomy,UNDERWENT_PROCEDURE,"Three years earlier, she underwent a"
+E_210,PMC12832199_01,laboratory investigation,leukocytosis,SUPPORTS,revealed
+E_211,PMC12832199_01,ct,marked gastric distention,SUPPORTS,revealed
+E_212,PMC12832199_01,addition,pulmonary consolidation,SUPPORTS,","
+E_213,PMC12832199_01,abdominal pain,distension,SUPPORTS,and
+E_214,PMC12832199_01,laboratory datum,improvement,SUPPORTS,showed no progression of anemia and
+E_215,PMC12832199_01,female,postoperative course,TREATED_BY,
+E_216,PMC12832199_01,female,pod,TREATED_BY,"Postoperative course was uneventful, and the patient was discharged on"
+E_217,PMC12832199_01,female,endoscopy,UNDERWENT_PROCEDURE,
+E_218,PMC12832199_01,endoscopy,chronic gastritis,SUPPORTS,performed on day 27 revealed
+E_219,PMC12832199_01,gastric body,antrum,SUPPORTS,and
+E_220,PMC2700431_01,male,spleenectomy,UNDERWENT_PROCEDURE,He was taken to the operating room and
+E_221,PMC2700431_01,male,elective surgical tracheostomy,UNDERWENT_PROCEDURE,"He was taken to the operating room and spleenectomy and hepatic repair were done; and keeping in mind the seriousness of injuries and anticipating long recovery time, the"
+E_222,PMC2700431_01,chest radiograph,opacity,SUPPORTS,showed
+E_223,PMC2700431_01,bronchoscopy,fistula,SUPPORTS,revealed the
+E_224,PMC2700431_01,male,tracheoesophageal fistula,HAS_SYMPTOM,He was diagnosed as having
+E_225,PMC2817501_01,physical examination,hemiparesis,SUPPORTS,revealed left
+E_226,PMC2817501_01,cardiac auscultation,systolic murmur,SUPPORTS,revealed a 4/6
+E_227,PMC2817501_01,transesophageal echocardiography,mechanical prosthesis,SUPPORTS,showed a functioning Starr-Edwards caged ball
+E_228,PMC2817501_01,coronary arteriography,% stenosis,SUPPORTS,showed a 90
+E_229,PMC2817501_01,man,coronary artery bypass grafting,UNDERWENT_PROCEDURE,The patient underwent a reoperation of double valve replacement and one vessel
+E_230,PMC2817501_01,man,cardiopulmonary bypass,UNDERWENT_PROCEDURE,The patient underwent a reoperation of double valve replacement and one vessel coronary artery bypass grafting through a median sternotomy by the help of
+E_231,PMC2817501_01,macroscopic inspection,significant cloth,SUPPORTS,of the excised Starr-Edwards caged ball
+E_232,PMC3437073_01,male,mass,HAS_SYMPTOM,A 55-year-old male presented with a gradually increasing
+E_233,PMC3437073_01,chest,x-ray,SUPPORTS,
+E_234,PMC3437073_01,abdominal radiograph,calcified lesion,SUPPORTS,showed
+E_235,PMC3437073_01,ct scan,splenic abscess,SUPPORTS,of the abdomen revealed a
+E_236,PMC3437073_01,male,splenectomy,UNDERWENT_PROCEDURE,"Under general anesthesia, the subcutaneous abscess was incised and drained, and"
+E_237,PMC3437073_01,histopathology,characteristic tuberculoid granuloma,SUPPORTS,of the spleen revealed the
+E_238,PMC3437073_01,condition,anti-tuberculous medication,SUPPORTS,improved on
+E_239,PMC3557982_01,respiratory viral culture,cytopathic effect,SUPPORTS,revealed a
+E_240,PMC3557982_01,postmortem examination,dark purple,SUPPORTS,of the patient revealed
+E_241,PMC3557982_01,examination,microscopy,SUPPORTS,by
+E_242,PMC3557982_01,immunohistochemistry,anti-adenovirus antibody,SUPPORTS,(
+E_243,PMC3557982_01,patient,retrospective study,UNDERWENT_PROCEDURE,"Once HAdV-14 had been isolated, we conducted a"
+E_244,PMC3557982_01,patient,positive viral culture,UNDERWENT_PROCEDURE,"Once HAdV-14 had been isolated, we conducted a retrospective study of all adenovirus-"
+E_245,PMC3557982_01,patient,moncton,UNDERWENT_PROCEDURE,"Once HAdV-14 had been isolated, we conducted a retrospective study of all adenovirus-positive viral cultures performed at the Provincial Laboratory for Viral Illnesses, Centre hospitalier universitaire Dr-Georges-L.-Dumont ("
+E_246,PMC3557982_01,patient,restriction,UNDERWENT_PROCEDURE,
+E_247,PMC3557982_01,restriction,analysis,SUPPORTS,enzyme
+E_248,PMC3859158_01,man,vague epigastric pain,HAS_SYMPTOM,A 44-year-old man presented with a 4-month history of
+E_249,PMC3859158_01,man,pain,HAS_SYMPTOM,The
+E_250,PMC3859158_01,man,nausea,HAS_SYMPTOM,The pain was gradually increasing in severity and associated with
+E_251,PMC3859158_01,man,vomiting,HAS_SYMPTOM,The pain was gradually increasing in severity and associated with nausea and
+E_252,PMC3859158_01,contrast,computed tomography,SUPPORTS,-enhanced
+E_253,PMC3859158_01,mass,mild heterogeneous enhancement,SUPPORTS,demonstrated
+E_254,PMC3859158_01,man,surgical resection,UNDERWENT_PROCEDURE,Patient underwent
+E_255,PMC3859158_01,man,splenectomy,UNDERWENT_PROCEDURE,"Patient underwent surgical resection of pancreatic tail,"
+E_256,PMC3859158_01,man,celiac lymph node dissection,UNDERWENT_PROCEDURE,"Patient underwent surgical resection of pancreatic tail, splenectomy, and"
+E_257,PMC3859158_01,microscopic examination,spleen,SUPPORTS,of
+E_258,PMC3859158_01,cut section,yellow mass,SUPPORTS,showed solid and
+E_259,PMC3859158_01,month followup,ct scan imaging,SUPPORTS,", patient was completely asymptomatic and"
+E_260,PMC3897989_01,past medical history,atrial fibrillation,SUPPORTS,revealed
+E_261,PMC3897989_01,icteric sclera,skin,SUPPORTS,and
+E_262,PMC3897989_01,laboratory test datum,admission,SUPPORTS,at
+E_263,PMC3897989_01,antoimmune disease,antimitochondrial antibody,SUPPORTS,revealed that the patient was positive for
+E_264,PMC3897989_01,computed tomography,ct,SUPPORTS,(
+E_265,PMC3897989_01,endoscopic,cholangio,SUPPORTS,retrograde
+E_266,PMC3897989_01,test,tumor marker,SUPPORTS,of
+E_267,PMC3897989_01,male,pancreatic biopsy,UNDERWENT_PROCEDURE,CT-guided
+E_268,PMC3897989_01,pancreatic biopsy,histopathological evaluation,SUPPORTS,"was performed, and"
+E_269,PMC3897989_01,repeat,remarkable reduction,SUPPORTS,MRI showed
+E_270,PMC3897989_01,male,clinic,TREATED_BY,The patient was discharged and followed up at the
+E_271,PMC3897989_01,male,herpe zoster,TREATED_BY,The patient was diagnosed with
+E_272,PMC3897989_01,male,acyclovir,TREATED_BY,The patient was diagnosed with herpes zoster and treated with
+E_273,PMC3897989_01,chest x-ray,multiple nodule,SUPPORTS,later showed
+E_274,PMC3897989_01,lung biopsy,neutrophil,SUPPORTS,showed
+E_275,PMC3897989_01,male,pulmonary abscess,TREATED_BY,The patient was diagnosed with
+E_276,PMC3917415_01,woman,severe headache,HAS_SYMPTOM,A 47-year-old Japanese woman with 23 years' history of SLE had sudden onset of
+E_277,PMC3917415_01,woman,patient,TREATED_BY,She had been treated as an out-
+E_278,PMC3917415_01,woman,daily prednisolone dose,TREATED_BY,She had been treated as an out-patient with a
+E_279,PMC3917415_01,woman,cyclophosphamide,TREATED_BY,She had been treated as an out-patient with a daily prednisolone dose of 7.5mg and
+E_280,PMC3917415_01,woman,50mg,TREATED_BY,She had been treated as an out-patient with a daily prednisolone dose of 7.5mg and cyclophosphamide of
+E_281,PMC3917415_01,woman,onset,TREATED_BY,She had been treated as an out-patient with a daily prednisolone dose of 7.5mg and cyclophosphamide of 50mg/day before the
+E_282,PMC3917415_01,laboratory examination,hypocomplementemia,SUPPORTS,revealed
+E_283,PMC3917415_01,computed tomography,ct,SUPPORTS,(
+E_284,PMC3917415_01,woman,chronic renal failure,HAS_SYMPTOM,Considering that she had SLE and had developed
+E_285,PMC3917415_01,woman,ruptured aneurysm,HAS_SYMPTOM,"Considering that she had SLE and had developed chronic renal failure without renal dialysis, MRA was used to identify her"
+E_286,PMC3917415_01,woman,usual maximum intensity projection,UNDERWENT_PROCEDURE,"The volume rendering (VR) method with three-dimensional time-of-flight (TOF) MRA was performed (Figure 1c,d) in addition to the"
+E_287,PMC3917415_01,fenestration,m1,SUPPORTS,at the
+E_288,PMC3917415_01,woman,left frontotemporal craniotomy,UNDERWENT_PROCEDURE,A
+E_289,PMC3917415_01,woman,good condition,TREATED_BY,She was ultimately discharged home in
+E_290,PMC3950436_01,female,obstructive sleep apnea,HAS_SYMPTOM,The patient had
+E_291,PMC3950436_01,female,visual impairment,HAS_SYMPTOM,"The patient had obstructive sleep apnea, shortness of breath,"
+E_292,PMC3950436_01,female,dysphagia,HAS_SYMPTOM,"The patient had obstructive sleep apnea, shortness of breath, visual impairment and"
+E_293,PMC3950436_01,female,pain,HAS_SYMPTOM,The patient absolutely refused any trial to insert an intravenous (IV) cannula as she had a low threshold for
+E_294,PMC4073451_01,extraoral view,slight swelling,SUPPORTS,showed
+E_295,PMC4073451_01,girl,ct,UNDERWENT_PROCEDURE,"In addition, computerized tomography ("
+E_296,PMC4073451_01,girl,reconstruction,UNDERWENT_PROCEDURE,"In addition, computerized tomography (CT) with axial and 3-dimensional (3D)"
+E_297,PMC4073451_01,addition,computerized tomography,SUPPORTS,","
+E_298,PMC4073451_01,girl,incisional biopsy,UNDERWENT_PROCEDURE,
+E_299,PMC4073451_01,incisional biopsy,local anesthesia,SUPPORTS,was performed under
+E_300,PMC4073451_01,girl,october,UNDERWENT_PROCEDURE,The patient was lost to follow-up returning in
+E_301,PMC4073451_01,girl,oblique mandibular radiograph,UNDERWENT_PROCEDURE,"The patient was lost to follow-up returning in October of 2011, during which an"
+E_302,PMC4073451_01,patient,october,SUPPORTS,was lost to follow-up returning in
+E_303,PMC4073451_01,girl,scan,UNDERWENT_PROCEDURE,A CT
+E_304,PMC4073451_01,scan,hypodense lesion,SUPPORTS,was done and it revealed a
+E_305,PMC4073451_01,girl,ct scan,UNDERWENT_PROCEDURE,"In addition, a multislice"
+E_306,PMC4073451_01,multislice,ct scan,SUPPORTS,
+E_307,PMC4310058_01,patient,week,SUPPORTS,had first noted the indentation 2
+E_308,PMC4310058_01,male,occasional headache,HAS_SYMPTOM,The patient described having
+E_309,PMC4310058_01,examination,palpable defect,SUPPORTS,", the patient was noted to have a"
+E_310,PMC4310058_01,male,palpable defect,HAS_SYMPTOM,"On examination, the patient was noted to have a"
+E_311,PMC4310058_01,first study,skull defect,SUPPORTS,", from 2 years prior, showed a"
+E_312,PMC4310058_01,third computed tomography,ct,SUPPORTS,(
+E_313,PMC4310058_01,male,right parietal indentation,TREATED_BY,The
+E_314,PMC4310058_01,male,postoperative day,TREATED_BY,The right parietal indentation was corrected and the patient was discharged on
+E_315,PMC4630775_01,woman,frank ischemia,HAS_SYMPTOM,The patient presented with desquamation of the palm and a leathery appearance of the skin to the right dorsal hand and circumferential forearm with
+E_316,PMC4782471_01,laboratory investigation,elevated erythrocyte sedimentation rate,SUPPORTS,showed an
+E_317,PMC4782471_01,echocardiography,vegetation,SUPPORTS,revealed
+E_318,PMC4782471_01,severe dilatation,right ventricle,SUPPORTS,of the
+E_319,PMC4782471_01,infective endocarditis,sensitivity result,SUPPORTS,and started empirically on the
+E_320,PMC4782471_01,week,intermittent fever,SUPPORTS,and continued to develop
+E_321,PMC4782471_01,female,cardiopulmonary bypass,UNDERWENT_PROCEDURE,The patient then underwent surgical intervention on
+E_322,PMC4782471_01,right atrium,tricuspid,SUPPORTS,revealed a destroyed
+E_323,PMC4828947_01,man,resistant seizure,HAS_SYMPTOM,A 61-year-old man presented with chronic drug-
+E_324,PMC4828947_01,man,complex partial seizure,HAS_SYMPTOM,"After video-electroencephalogram (EEG) analysis, he was found to have"
+E_325,PMC4828947_01,man,oxcarbazepine,TREATED_BY,The seizures were treated with
+E_326,PMC4828947_01,man,valproic acid,TREATED_BY,The seizures were treated with oxcarbazepine 1200 mg/day and
+E_327,PMC4828947_01,man,febrile seizure,HAS_SYMPTOM,The medical history was negative for epilepsy-associated risk factors such as
+E_328,PMC4828947_01,tesla magnetic resonance imaging,mri,SUPPORTS,(
+E_329,PMC4828947_01,epileptiform focus,congruent,SUPPORTS,"in the left temporal lobe,"
+E_330,PMC4828947_01,other part,glial component,SUPPORTS,of the lesion [Figure 4] had a clear neuronal and
+E_331,PMC4828947_01,man,edema,HAS_SYMPTOM,"In the first two postoperative weeks, the patient had mixed speech disturbances most probably due to manipulation-induced"
+E_332,PMC4835621_01,petechia,upper extremity,SUPPORTS,were observed over the
+E_333,PMC4835621_01,laboratory,diagnostic test,SUPPORTS,
+E_334,PMC4835621_01,blood chemistry,normal creatinine,SUPPORTS,revealed
+E_335,PMC4835621_01,bone marrow biopsy,hypercellular marrow,SUPPORTS,demonstrated slightly
+E_336,PMC4835621_01,female,computed tomography,UNDERWENT_PROCEDURE,In order to rule out underling malignancy a
+E_337,PMC4835621_01,female,scan,UNDERWENT_PROCEDURE,In order to rule out underling malignancy a computed tomography (CT)
+E_338,PMC4835621_01,order,malignancy,SUPPORTS,to rule out underling
+E_339,PMC4835621_01,further pet ct,finding,SUPPORTS,supported the
+E_340,PMC4835621_01,further investigation,gastroduodenoscopy,SUPPORTS,with
+E_341,PMC4835621_01,female,therapy regime,TREATED_BY,The patient was treated for 10 days with a triple-
+E_342,PMC4835621_01,female,omeprazole,TREATED_BY,The patient was treated for 10 days with a triple-therapy regime consisting of
+E_343,PMC4835621_01,female,amoxicillin,TREATED_BY,"The patient was treated for 10 days with a triple-therapy regime consisting of omeprazole,"
+E_344,PMC4835621_01,female,clarithromycin,TREATED_BY,"The patient was treated for 10 days with a triple-therapy regime consisting of omeprazole, amoxicillin, and"
+E_345,PMC5137649_01,woman,low quadrant abdominal pain,HAS_SYMPTOM,A 44-year-old woman presented with a 3-day history of right flank and
+E_346,PMC5137649_01,woman,nausea,HAS_SYMPTOM,A 44-year-old woman presented with a 3-day history of right flank and lower quadrant abdominal pain associated with
+E_347,PMC5137649_01,woman,constipation,HAS_SYMPTOM,A 44-year-old woman presented with a 3-day history of right flank and lower quadrant abdominal pain associated with nausea and
+E_348,PMC5137649_01,woman,computed tomography,UNDERWENT_PROCEDURE,She underwent contrast enhanced
+E_349,PMC5137649_01,contrast,computed tomography,SUPPORTS,enhanced
+E_350,PMC5137649_01,woman,fna,UNDERWENT_PROCEDURE,She subsequently underwent EUS-
+E_351,PMC5137649_01,woman,normal pancreatic echotexture,UNDERWENT_PROCEDURE,"She subsequently underwent EUS-FNA, which revealed"
+E_352,PMC5137649_01,woman,internal septation,UNDERWENT_PROCEDURE,"She subsequently underwent EUS-FNA, which revealed normal pancreatic echotexture and a cyst measuring 6cm x 9cm that was free of"
+E_353,PMC5137649_01,eus,fna,SUPPORTS,-
+E_354,PMC5137649_01,extracellular mucin,carcinoembryonic antigen,SUPPORTS,as well as a
+E_355,PMC5137649_01,woman,laparoscopic distal pancreatectomy,UNDERWENT_PROCEDURE,A
+E_356,PMC5137649_01,laparoscopic exploration,entrance,SUPPORTS,","
+E_357,PMC5137649_01,woman,intraoperative endoscopy,UNDERWENT_PROCEDURE,
+E_358,PMC5137649_01,woman,open resection,UNDERWENT_PROCEDURE,"On further mobilisation, the cyst was adherent to the coeliac axis and the procedure was converted to an"
+E_359,PMC5137649_01,woman,enbloc resection,UNDERWENT_PROCEDURE,It was dissected off the coeliac vessels and an
+E_360,PMC5137649_01,repeat,intact staple line,SUPPORTS,oesophagogastroduodenoscopy revealed the presence of an
+E_361,PMC5137649_01,final pathology,smooth internal cyst wall,SUPPORTS,revealed a 9.5cm x 4.5cm x 2.0cm cyst with a
+E_362,PMC5137649_01,woman,postoperative day,TREATED_BY,The patient was discharged home on
+E_363,PMC5137649_01,woman,regular diet,TREATED_BY,"The patient was discharged home on postoperative day 4, doing well and tolerating a"
+E_364,PMC5137649_01,woman,pain,HAS_SYMPTOM,"On follow-up, she had complete resolution of her"
+E_365,PMC5804616_01,man,esophageal bypass surgery,UNDERWENT_PROCEDURE,
+E_366,PMC5804616_01,man,chemotherapy,UNDERWENT_PROCEDURE,He had undergone
+E_367,PMC5804616_01,man,radiotherapy,UNDERWENT_PROCEDURE,He had undergone chemotherapy and
+E_368,PMC5804616_01,man,hypertension,HAS_SYMPTOM,The patient had a past history of
+E_369,PMC5804616_01,man,bladder cancer,HAS_SYMPTOM,"The patient had a past history of hypertension, diabetes mellitus,"
+E_370,PMC5804616_01,man,cerebral infarction,HAS_SYMPTOM,"The patient had a past history of hypertension, diabetes mellitus, bladder cancer, and"
+E_371,PMC5804616_01,preoperative arterial blood gas analysis,partial oxygen tension,SUPPORTS,showed a
+E_372,PMC5804616_01,preoperative,computed tomography,SUPPORTS,
+E_373,PMC5804616_01,man,tracheal intubation,UNDERWENT_PROCEDURE,
+E_374,PMC5804616_01,man,depth,UNDERWENT_PROCEDURE,"Tracheal intubation was performed nasally under bronchoscopic guidance using a long spiral tube with a short cuff (6.0 mm internal diameter, 400 mm length; Phycon, Tokyo, Japan) to a"
+E_375,PMC5804616_01,man,lung ventilation,UNDERWENT_PROCEDURE,One-
+E_376,PMC5804616_01,man,case hypoxemia,HAS_SYMPTOM,We also had a jet ventilator and bronchoscope on hand in
+E_377,PMC5804616_01,man,frequency jet ventilation,UNDERWENT_PROCEDURE,"We also had a jet ventilator and bronchoscope on hand in case hypoxemia developed during one-lung ventilation, so that high-"
+E_378,PMC5804616_01,arterial blood gas analysis,inspiratory fraction,SUPPORTS,"showed a PaO2 of 252.4 mmHg, a PaCO2 of 36.9 mmHg, and a pH of 7.424 with an"
+E_379,PMC5804616_01,bronchofiberscopic examination,obstruction,SUPPORTS,showed
+E_380,PMC5804616_01,pressure support level,cmh2o.,SUPPORTS,was increased to 5
+E_381,PMC5804616_01,completion,chest x-ray,SUPPORTS,"of surgery,"
+E_382,PMC5804616_01,man,chest tube,TREATED_BY,The
+E_383,PMC5804616_01,man,right thoracic cavity,TREATED_BY,The chest tube in the
+E_384,PMC5804616_01,man,exact mechanism,UNDERWENT_PROCEDURE,Although the
+E_385,PMC5804616_01,man,university hospital,TREATED_BY,"Before the present case, our"
+E_386,PMC5804616_01,man,postoperative pneumothorax,TREATED_BY,"Before the present case, our university hospital had treated 48 cases of esophageal bypass surgery and"
+E_387,PMC5804616_01,man,personal communication,TREATED_BY,"Before the present case, our university hospital had treated 48 cases of esophageal bypass surgery and postoperative pneumothorax was encountered in only one case (2.1%) ("
+E_388,PMC5804616_01,man,dr. nakajima,TREATED_BY,"Before the present case, our university hospital had treated 48 cases of esophageal bypass surgery and postoperative pneumothorax was encountered in only one case (2.1%) (personal communication with"
+E_389,PMC5804616_01,man,department,TREATED_BY,"Before the present case, our university hospital had treated 48 cases of esophageal bypass surgery and postoperative pneumothorax was encountered in only one case (2.1%) (personal communication with Dr. Nakajima,"
+E_390,PMC5804616_01,man,tokyo medical,TREATED_BY,"Before the present case, our university hospital had treated 48 cases of esophageal bypass surgery and postoperative pneumothorax was encountered in only one case (2.1%) (personal communication with Dr. Nakajima, Department of Surgery of"
+E_391,PMC5804616_01,man,dental university,TREATED_BY,"Before the present case, our university hospital had treated 48 cases of esophageal bypass surgery and postoperative pneumothorax was encountered in only one case (2.1%) (personal communication with Dr. Nakajima, Department of Surgery of Tokyo Medical and"
+E_392,PMC5804616_01,man,fact,UNDERWENT_PROCEDURE,Taking the
+E_393,PMC5833205_01,boy,progressive generalized swelling,HAS_SYMPTOM,A previously healthy 20-month-old boy presented for evaluation of
+E_394,PMC5833205_01,clinical history,office,SUPPORTS,obtained in the
+E_395,PMC5833205_01,additional history,ounce,SUPPORTS,revealed that the boy routinely drank more than 28
+E_396,PMC5833205_01,laboratory study,pediatrician,SUPPORTS,obtained at his
+E_397,PMC5833205_01,workup,performance,SUPPORTS,included
+E_398,PMC5833205_01,subsequent histologic examination,mild increase,SUPPORTS,revealed only a
+E_399,PMC5833205_01,boy,transfusion,TREATED_BY,The patient received 1
+E_400,PMC5833205_01,boy,kg,TREATED_BY,The patient received 1 transfusion (20 mL/
+E_401,PMC5833205_01,boy,red blood cell,TREATED_BY,The patient received 1 transfusion (20 mL/kg) of packed
+E_402,PMC5833205_01,boy,oral iron replacement,TREATED_BY,The patient received 1 transfusion (20 mL/kg) of packed red blood cells and was treated with
+E_403,PMC5833205_01,boy,dose,TREATED_BY,The patient received 1 transfusion (20 mL/kg) of packed red blood cells and was treated with oral iron replacement at a
+E_404,PMC5833205_01,boy,elemental iron,TREATED_BY,The patient received 1 transfusion (20 mL/kg) of packed red blood cells and was treated with oral iron replacement at a dose of 6 mg/kg of
+E_405,PMC5833205_01,boy,diarrhea,HAS_SYMPTOM,He has had no subsequent episodes of edema and his
+E_406,PMC5875137_01,woman,breast cancer,HAS_SYMPTOM,"An 83-year-old woman, during the diagnostic assessments for a"
+E_407,PMC5875137_01,woman,aortic aneurysm,HAS_SYMPTOM,"An 83-year-old woman, during the diagnostic assessments for a breast cancer, was diagnosed by chest computed tomography (CT) scan as having an asymptomatic ascending"
+E_408,PMC5875137_01,woman,elective replacement,UNDERWENT_PROCEDURE,"After 3 weeks, she underwent"
+E_409,PMC5875137_01,routine,surgery,SUPPORTS,after
+E_410,PMC5875137_01,woman,ct scan,UNDERWENT_PROCEDURE,"Therefore, a new chest"
+E_411,PMC5875137_01,new chest,ct scan,SUPPORTS,
+E_412,PMC5875137_01,woman,mass,HAS_SYMPTOM,"Consequently, the"
+E_413,PMC5875137_01,woman,pseudomass,HAS_SYMPTOM,"Consequently, the mass visible during echocardiography was referred to a"
+E_414,PMC6083636_01,external physical examination,ocular albinism,SUPPORTS,did not reveal obvious signs of cutaneous or
+E_415,PMC6083636_02,lamp examination,anterior segment,SUPPORTS,of the
+E_416,PMC6083636_02,oct image,image,SUPPORTS,shown in Figure 2 (patient's
+E_417,PMC6083636_02,thick macula,age,SUPPORTS,when compared with an
+E_418,PMC6083636_02,overall thickness,retina,SUPPORTS,of the
+E_419,PMC6083636_02,patient,sonomed pacscan 300a,UNDERWENT_PROCEDURE,"Biometry, performed with a"
+E_420,PMC6083636_02,biometry,sonomed pacscan 300a,SUPPORTS,", performed with a"
+E_421,PMC6083636_02,fundus,photograph,SUPPORTS,
+E_422,PMC6083636_02,top panel,foveal zone,SUPPORTS,) show a poorly defined
+E_423,PMC6083636_02,addition,bottom panel,SUPPORTS,of the control retina (
+E_424,PMC6083636_02,multiple raster cut,anatomical position,SUPPORTS,through the
+E_425,PMC6083636_03,hue,total error score,SUPPORTS,showed a
+E_426,PMC6083636_03,cover,test,SUPPORTS,-
+E_427,PMC6134951_01,female,asthma,TREATED_BY,"A 49-year-old Hispanic never-smoking female, with a history of"
+E_428,PMC6134951_01,female,atrial myxoma,TREATED_BY,"A 49-year-old Hispanic never-smoking female, with a history of asthma and resected"
+E_429,PMC6134951_01,female,left upper lobe,TREATED_BY,"A 49-year-old Hispanic never-smoking female, with a history of asthma and resected atrial myxoma, was found to have a"
+E_430,PMC6134951_01,female,perihilar,TREATED_BY,"A 49-year-old Hispanic never-smoking female, with a history of asthma and resected atrial myxoma, was found to have a left upper lobe"
+E_431,PMC6134951_01,female,lung nodule,TREATED_BY,"A 49-year-old Hispanic never-smoking female, with a history of asthma and resected atrial myxoma, was found to have a left upper lobe perihilar"
+E_432,PMC6134951_01,female,mediastinal lymphadenopathy,TREATED_BY,"A 49-year-old Hispanic never-smoking female, with a history of asthma and resected atrial myxoma, was found to have a left upper lobe perihilar lung nodule,"
+E_433,PMC6134951_01,female,large left pleural effusion,TREATED_BY,"A 49-year-old Hispanic never-smoking female, with a history of asthma and resected atrial myxoma, was found to have a left upper lobe perihilar lung nodule, mediastinal lymphadenopathy, and a"
+E_434,PMC6134951_01,female,asthma,HAS_SYMPTOM,"A 49-year-old Hispanic never-smoking female, with a history of"
+E_435,PMC6134951_01,female,lung nodule,HAS_SYMPTOM,"A 49-year-old Hispanic never-smoking female, with a history of asthma and resected atrial myxoma, was found to have a left upper lobe perihilar"
+E_436,PMC6134951_01,female,large left pleural effusion,HAS_SYMPTOM,"A 49-year-old Hispanic never-smoking female, with a history of asthma and resected atrial myxoma, was found to have a left upper lobe perihilar lung nodule, mediastinal lymphadenopathy, and a"
+E_437,PMC6134951_01,further testing,egfr,SUPPORTS,revealed
+E_438,PMC6134951_01,female,cycle,TREATED_BY,She was treated initially with four
+E_439,PMC6134951_01,female,carboplatin,TREATED_BY,She was treated initially with four cycles of
+E_440,PMC6134951_01,female,pembrolizumab,TREATED_BY,She was treated initially with four cycles of carboplatin and pemetrexed and subsequently eight cycles of
+E_441,PMC6134951_01,female,progression,TREATED_BY,She was treated initially with four cycles of carboplatin and pemetrexed and subsequently eight cycles of pembrolizumab with the
+E_442,PMC6134951_01,female,disease,TREATED_BY,She was treated initially with four cycles of carboplatin and pemetrexed and subsequently eight cycles of pembrolizumab with the progression of
+E_443,PMC6134951_01,female,chest pain,HAS_SYMPTOM,The patient started on alectinib 600 mg twice a day and had a rapid improvement of her left-sided
+E_444,PMC6134951_01,female,recurrent fever,HAS_SYMPTOM,She had
+E_445,PMC6134951_01,right arm lesion,punch,SUPPORTS,was
+E_446,PMC6134951_01,female,pulmonary abnormality,HAS_SYMPTOM,"She had no hematologic (eosinophilia), hepatic, renal, or"
+E_447,PMC6134951_01,pulmonary abnormality,drug reaction,SUPPORTS,to suggest
+E_448,PMC6134951_01,tumor response,1c,SUPPORTS,(Figure
+E_449,PMC6343374_01,male,surgical correction,UNDERWENT_PROCEDURE,
+E_450,PMC6343374_01,postoperative echocardiography,homograft site,SUPPORTS,revealed no pressure gradient at the
+E_451,PMC6343374_01,echo,pressure,SUPPORTS,revealed progressive worsening of
+E_452,PMC6343374_01,male,cardiopulmonary bypass,UNDERWENT_PROCEDURE,"Therefore at 7 months of life, he underwent stent removal and PA repair under"
+E_453,PMC6343374_01,male,hospital,TREATED_BY,The patient was discharged from the
+E_454,PMC6343374_01,male,day hospital stay,TREATED_BY,The patient was discharged from the hospital after 54-
+E_455,PMC6343374_01,mild truncal valve regurgitation,mild homograft regurgitation,SUPPORTS,", and"
+E_456,PMC6343374_01,previous study,early death,SUPPORTS,about patients with TAC-IAA showed 12.5%
+E_457,PMC6343374_01,recent report,such patient,SUPPORTS,showed no mortality among 9
+E_458,PMC6343374_01,intravascular ultrasound analysis,minimum stent area,SUPPORTS,showed that the
+E_459,PMC6343374_01,male,congenital heart defect,HAS_SYMPTOM,"Stent insertion may have priority, particularly in a patient with proximal PA stenosis, but surgical repair may be the better choice in a young infant with"
+E_460,PMC6354154_01,woman,gynecologic cancer,HAS_SYMPTOM,No one in her family had history of infertility or any type of
+E_461,PMC6354154_01,transvaginal ultrasonography,uterus,SUPPORTS,was performed revealing a normed
+E_462,PMC6354154_01,surgery,formation,SUPPORTS,", both ovaries were polycystic and a yellowish nodular solid and hardened"
+E_463,PMC6354154_01,immunohistochemical study,calretinin,SUPPORTS,revealed diffuse marking for
+E_464,PMC6949661_01,computed tomography,ct,SUPPORTS,(
+E_465,PMC6949661_01,episode,large amount,SUPPORTS,of a
+E_466,PMC6949661_01,male,nausea,HAS_SYMPTOM,"Further history revealed that the patient had an episode of a large amount of melena before the syncopal attack, associated with"
+E_467,PMC6949661_01,male,vomiting,HAS_SYMPTOM,"Further history revealed that the patient had an episode of a large amount of melena before the syncopal attack, associated with nausea and two episodes of"
+E_468,PMC6949661_01,male,liver disease,HAS_SYMPTOM,"Further history revealed that the patient had an episode of a large amount of melena before the syncopal attack, associated with nausea and two episodes of vomiting, but denied history of alcohol consumption, analgesic intake, and history of"
+E_469,PMC6949661_01,digital rectal examination,dre,SUPPORTS,(
+E_470,PMC6949661_01,laboratory result,drop,SUPPORTS,showed a
+E_471,PMC6949661_01,esophagogastroduodenoscopy,egd,SUPPORTS,(
+E_472,PMC6949661_01,colonoscopy,enteroscopy,SUPPORTS,"was normal, whereas"
+E_473,PMC6949661_01,male,angiography,UNDERWENT_PROCEDURE,CT
+E_474,PMC6949661_01,male,attempt,UNDERWENT_PROCEDURE,CT angiography was done in an
+E_475,PMC6949661_01,angiography,attempt,SUPPORTS,was done in an
+E_476,PMC6949661_01,male,diagnostic laparoscopy,UNDERWENT_PROCEDURE,The patient underwent
+E_477,PMC6949661_01,diagnostic laparoscopy,jejunal loop,SUPPORTS,that did not show any abnormality in the
+E_478,PMC6949661_01,histology,small jejunal diverticulum,SUPPORTS,showed a
+E_479,PMC6949661_01,speciman,false diverticulum,SUPPORTS,consists of a
+E_480,PMC6949661_01,focal crypt,rupture,SUPPORTS,
+E_481,PMC7086412_01,review,record,SUPPORTS,of her
+E_482,PMC7086412_01,patient,induction,UNDERWENT_PROCEDURE,The patient underwent an
+E_483,PMC7086412_02,review,record,SUPPORTS,of her
+E_484,PMC7086412_02,patient,induction,UNDERWENT_PROCEDURE,The patient underwent an
+E_485,PMC7102447_01,male,hypertension,HAS_SYMPTOM,A 65-year-old male with a past medical history significant for
+E_486,PMC7102447_01,male,asthma,HAS_SYMPTOM,"A 65-year-old male with a past medical history significant for hypertension,"
+E_487,PMC7102447_01,initial electrocardiogram,ekg,SUPPORTS,(
+E_488,PMC7102447_01,anticoagulation study,inr,SUPPORTS,revealed an
+E_489,PMC7102447_01,transfer,intensive care unit,SUPPORTS,to the
+E_490,PMC7102447_01,male,transesophageal echocardiogram,UNDERWENT_PROCEDURE,
+E_491,PMC7102447_01,transesophageal echocardiogram,tee,SUPPORTS,(
+E_492,PMC7102447_01,anticoagulation,bioprosthetic mitral valve replacement,SUPPORTS,following his
+E_493,PMC7102447_01,valve,massive amount,SUPPORTS,was noted to have a
+E_494,PMC7102447_01,male,massive amount,HAS_SYMPTOM,The valve was noted to have a
+E_495,PMC7102447_01,male,thrombosis,HAS_SYMPTOM,The valve was noted to have a massive amount of material on the ventricular side of each cusp (Figures 2 and 3) with pathology findings consistent with
+E_496,PMC7102447_01,valve replacement,mitral valve,SUPPORTS,", intraoperative TEE showed that the"
+E_497,PMC7519975_01,tomography,ct,SUPPORTS,(
+E_498,PMC7519975_01,head,area,SUPPORTS,revealed
+E_499,PMC7519975_01,preoperative record,mean arterial blood pressure,SUPPORTS,showed that her
+E_500,PMC7519975_01,preoperative electrocardiogram,ecg,SUPPORTS,(
+E_501,PMC7519975_01,breathing,operating room,SUPPORTS,were noted by the
+E_502,PMC7519975_01,bpm,sinus rhythm,SUPPORTS,","
+E_503,PMC7718649_01,patient,fever,HAS_SYMPTOM,"On January 22, 2020, the patient presented"
+E_504,PMC7718649_01,patient,fatigue,HAS_SYMPTOM,"On January 22, 2020, the patient presented fever (peak value: 39 C) with chills, rigor, muscular soreness and"
+E_505,PMC7718649_01,thoracic,ct,SUPPORTS,
+E_506,PMC7718649_01,second thoracic,pulmonary lesion extension,SUPPORTS,CT showed
+E_507,PMC7718649_01,patient,mild coughing,HAS_SYMPTOM,"On admission, the patient presented with"
+E_508,PMC7718649_01,physical examination,temperature,SUPPORTS,"revealed that the conscious of the patient was clear,"
+E_509,PMC7718649_01,mild injury,kidney,SUPPORTS,of
+E_510,PMC7718649_01,bilateral ground,glass,SUPPORTS,-
+E_511,PMC7718649_01,value,previous test,SUPPORTS,were better than
+E_512,PMC7718649_01,thoracic ct,modest upturn,SUPPORTS,"(February 23, 2020) showed a"
+E_513,PMC7718649_01,criterion,discharge,SUPPORTS,of
+E_514,PMC7718649_01,patient,criterion,TREATED_BY,Since the patient met the
+E_515,PMC7718649_01,patient,discharge,TREATED_BY,Since the patient met the criteria of
+E_516,PMC7718649_01,patient,respiratory symptom,TREATED_BY,"Since the patient met the criteria of discharge (temperature came back to normal for over 3 days,"
+E_517,PMC7718649_01,patient,radiology,TREATED_BY,"Since the patient met the criteria of discharge (temperature came back to normal for over 3 days, respiratory symptoms significantly improved, thoracic"
+E_518,PMC7718649_01,patient,obvious improvement,TREATED_BY,"Since the patient met the criteria of discharge (temperature came back to normal for over 3 days, respiratory symptoms significantly improved, thoracic radiology showed"
+E_519,PMC7718649_01,patient,acute exudative lesion,TREATED_BY,"Since the patient met the criteria of discharge (temperature came back to normal for over 3 days, respiratory symptoms significantly improved, thoracic radiology showed obvious improvement in"
+E_520,PMC7718649_01,patient,negative result,TREATED_BY,"Since the patient met the criteria of discharge (temperature came back to normal for over 3 days, respiratory symptoms significantly improved, thoracic radiology showed obvious improvement in acute exudative lesions and"
+E_521,PMC7718649_01,patient,nasal pharyngeal swab,TREATED_BY,"Since the patient met the criteria of discharge (temperature came back to normal for over 3 days, respiratory symptoms significantly improved, thoracic radiology showed obvious improvement in acute exudative lesions and negative results of rRT-PCR of SARS-CoV-2 for two"
+E_522,PMC7718649_01,patient,h,TREATED_BY,"Since the patient met the criteria of discharge (temperature came back to normal for over 3 days, respiratory symptoms significantly improved, thoracic radiology showed obvious improvement in acute exudative lesions and negative results of rRT-PCR of SARS-CoV-2 for two nasal pharyngeal swabs over 24"
+E_523,PMC7718649_01,patient,march,TREATED_BY,"Since the patient met the criteria of discharge (temperature came back to normal for over 3 days, respiratory symptoms significantly improved, thoracic radiology showed obvious improvement in acute exudative lesions and negative results of rRT-PCR of SARS-CoV-2 for two nasal pharyngeal swabs over 24 h), she was discharged on"
+E_524,PMC8627357_01,male,left upper extremity cellulitis,HAS_SYMPTOM,A 36-year-old HIV-negative male with a history of methamphetamine and intravenous heroin use initially presented to an outside facility with
+E_525,PMC8627357_01,computed tomography,ct,SUPPORTS,(
+E_526,PMC8627357_01,arrival,physical exam,SUPPORTS,", a"
+E_527,PMC8627357_01,chest,x-ray,SUPPORTS,
+E_528,PMC8627357_01,cavitation focus,pleural effusion,SUPPORTS,", diffuse mediastinal and axillary lymphadenopathy,"
+E_529,PMC8627357_01,male,transesophageal echocardiogram,UNDERWENT_PROCEDURE,A
+E_530,PMC8627357_01,male,emphysema,HAS_SYMPTOM,"Two days following the removal of the first chest tube, the patient spontaneously had the development of large subcutaneous"
+E_531,PMC8627357_01,male,hemodialysis,UNDERWENT_PROCEDURE,After a course of
+E_532,PMC8627357_01,male,protective ventilation,UNDERWENT_PROCEDURE,"After a course of hemodialysis, lung-"
+E_533,PMC8627357_01,male,rehabilitation facility,TREATED_BY,The patient was subsequently discharged to a
+E_534,PMC9387390_01,man,diarrhea,HAS_SYMPTOM,A 57-year-old man with no significant past medical or surgical history initially presented with postprandial abdominal fullness and
+E_535,PMC9387390_01,computed tomography,ct,SUPPORTS,(
+E_536,PMC9387390_01,repeat ct,abdomen,SUPPORTS,of the
+E_537,PMC9387390_01,man,biopsy,UNDERWENT_PROCEDURE,The patient underwent CT guided
+E_538,PMC9387390_01,man,upper gastrointestinal tract,UNDERWENT_PROCEDURE,"The patient underwent CT guided biopsy of the mass; this was consistent with invasive moderately to poorly differentiated adenocarcinoma, thought to have arisen from the"
+E_539,PMC9387390_01,man,pancreaticobiliary tract,UNDERWENT_PROCEDURE,"The patient underwent CT guided biopsy of the mass; this was consistent with invasive moderately to poorly differentiated adenocarcinoma, thought to have arisen from the upper gastrointestinal tract and/or"
+E_540,PMC9387390_01,man,nausea,HAS_SYMPTOM,"Approximately 11 months after the initiation of chemotherapy, he presented to the hospital with"
+E_541,PMC9387390_01,man,palliative bypass,UNDERWENT_PROCEDURE,The patient underwent laparoscopic gastrojejunostomy (GJ) for
+E_542,PMC9387390_01,man,relaparoscopy,UNDERWENT_PROCEDURE,and he underwent
+E_543,PMC9387390_01,suture,intra-abdominal abscess,SUPPORTS,"placed at the GJ were noted to be loose; these were reinforced,"
+E_544,PMC9387390_01,study,re-operation,SUPPORTS,performed on POD 11 (4 days after the
+E_545,PMC9387390_01,up ct,second operation,SUPPORTS,on POD 14 (7 days after the
+E_546,PMC9387390_01,man,post-procedure,TREATED_BY,The patient was discharged two days
+E_547,PMC9387390_01,preferential drainage,duodenum,SUPPORTS,of contrast into the
+E_548,PMC9387390_01,patient afferent limb,push enteroscopy,SUPPORTS,;
+E_549,PMC9387390_01,functional obstruction,gastric emptying,SUPPORTS,and delayed
+E_550,PMC9387390_01,replacement,multiple time,SUPPORTS,of this NJ tube
+E_551,PMC9387390_01,initial symptomatic improvement,recurrent symptom,SUPPORTS,","
+E_552,PMC9387390_01,small amount,extraluminal air,SUPPORTS,of
+E_553,PMC9387390_01,man,gastric tube,TREATED_BY,"The patient was discharged home, tolerating"
+E_554,PMC9387390_01,man,oral liquid,TREATED_BY,"The patient was discharged home, tolerating gastric tube feeds and"
+E_555,PMC9529523_01,patient,transthoracic echocardiogram,SUPPORTS,was evaluated extensively; a
+E_556,PMC9529523_01,female,incision,UNDERWENT_PROCEDURE,The patient developed a left index fingertip abscess for which
+E_557,PMC9529523_01,female,amputation,UNDERWENT_PROCEDURE,"The patient developed a left index fingertip abscess for which incision and drainage were performed, followed by"
+E_558,PMC9529523_01,laboratory testing,antinuclear antibody,SUPPORTS,was notable for positive
+E_559,PMC9529523_01,progressive alopecia,rash,SUPPORTS,and a hypopigmented
+E_560,PMC9529523_01,evaluation,outside lab,SUPPORTS,of her
+E_561,PMC9529523_01,progressive kidney injury,significant serologic profile,SUPPORTS,and a
+E_562,PMC9529523_01,further testing,pulmonary function testing,SUPPORTS,", including"
+E_563,PMC9529523_01,diffusing capacity,carbon monoxide,SUPPORTS,for
+E_564,PMC9529523_01,resolution,computed tomography,SUPPORTS,
+E_565,PMC9529523_01,additional workup,adamts,SUPPORTS,showed
+E_566,PMC9529523_01,ventilation,perfusion,SUPPORTS,-
+E_567,PMC9529523_01,repeat hrct,large pericardial effusion,SUPPORTS,"of the chest showed no interstitial changes but noted a new,"
+E_568,PMC9529523_01,week,mycophenolate,SUPPORTS,of
+E_569,PMC9529523_01,electrocardiogram,ekg,SUPPORTS,(
+E_570,PMC9529523_01,female,right heart catheterization,UNDERWENT_PROCEDURE,
+E_571,PMC9529523_01,female,endomyocardial biopsy,UNDERWENT_PROCEDURE,Right heart catheterization with
+E_572,PMC9529523_01,right heart catheterization,endomyocardial biopsy,SUPPORTS,with
+E_573,PMC9529523_01,occasional curvilinear body,myelin figure,SUPPORTS,with
+E_574,PMC9532611_01,patient,weakness,HAS_SYMPTOM,"In the first family, the index patient (patient 1) was a 12-year-old female-phenotype patient who presented with hypokalemic (1.8 mmol/l)"
+E_575,PMC9532611_01,patient,hypertension,HAS_SYMPTOM,"In the first family, the index patient (patient 1) was a 12-year-old female-phenotype patient who presented with hypokalemic (1.8 mmol/l) weakness that was accompanied by"
+E_576,PMC9532611_01,patient,periodic paralysis,HAS_SYMPTOM,All siblings of the index case were asymptomatic and no other family member had a similar history of hypertension and
+E_577,PMC9532611_01,patient,inguinal hernia,HAS_SYMPTOM,"At the age of 4 years, the proband had undergone surgery at the local hospital for an"
+E_578,PMC9532611_02,parent,child,SUPPORTS,noted that the
+E_579,PMC9532611_02,patient,surgical exploration,UNDERWENT_PROCEDURE,The child underwent
+E_580,PMC9532611_02,surgical exploration,vagina,SUPPORTS,", which revealed that a"
+E_581,PMC9532611_02,patient,blood test,UNDERWENT_PROCEDURE,
+E_582,PMC9532611_02,patient,congenital adrenal hyperplasia,HAS_SYMPTOM,The exons of genes associated with
+E_583,PMC9650410_01,story,several important lesson,SUPPORTS,is one that obviously demonstrates
+E_584,PMC9650410_01,reporting,narrative,SUPPORTS,and
+E_585,PMC9650410_01,patient,action,UNDERWENT_PROCEDURE,"They inform, guide, and direct our"
+E_586,PMC9650410_01,patient,disposable linchpin,TREATED_BY,She treated employees as
+E_587,PMC9650410_01,droplet,more vigor,SUPPORTS,"of blood was needed to conduct the tests, she barreled forward with"
+E_588,PMC9650410_01,patient,conviction,UNDERWENT_PROCEDURE,He was tireless in his
+E_589,PMC9815523_01,patient,total,TREATED_BY,A
+E_590,PMC9815523_01,patient,puedvt,TREATED_BY,A total of 115 patients with
+E_591,PMC9815523_01,patient,distinct treatment strategy,TREATED_BY,A total of 115 patients with pUEDVT were included and divided into three
+E_592,PMC9815523_01,patient,conservative treatment group,TREATED_BY,A total of 115 patients with pUEDVT were included and divided into three distinct treatment strategies; A
+E_593,PMC9815523_01,patient,group,TREATED_BY,A total of 115 patients with pUEDVT were included and divided into three distinct treatment strategies; A conservative treatment group (
+E_594,PMC9815523_01,patient,n,TREATED_BY,"A total of 115 patients with pUEDVT were included and divided into three distinct treatment strategies; A conservative treatment group (group 1,"
+E_595,PMC9815523_01,patient,invasive treatment group,TREATED_BY,"A total of 115 patients with pUEDVT were included and divided into three distinct treatment strategies; A conservative treatment group (group 1, N = 35), an"
+E_596,PMC9815523_01,patient,first period,TREATED_BY,"A total of 115 patients with pUEDVT were included and divided into three distinct treatment strategies; A conservative treatment group (group 1, N = 35), an invasive treatment group (Group 2, N = 53) and a cross-over group of patients treated surgically after a"
+E_597,PMC9815523_01,patient,conservative therapy,TREATED_BY,"A total of 115 patients with pUEDVT were included and divided into three distinct treatment strategies; A conservative treatment group (group 1, N = 35), an invasive treatment group (Group 2, N = 53) and a cross-over group of patients treated surgically after a first period of"
+E_598,PMC9815523_01,patient,antithrombotic,TREATED_BY,Forty-four patients (97.8%) were treated with
+E_599,PMC9815523_01,patient,vitamin,TREATED_BY,"Forty-four patients (97.8%) were treated with antithrombotics; 25 DOAC, 18"
+E_600,PMC9815523_01,patient,k,TREATED_BY,"Forty-four patients (97.8%) were treated with antithrombotics; 25 DOAC, 18 vitamin"
+E_601,PMC9815523_01,patient,antagonist,TREATED_BY,"Forty-four patients (97.8%) were treated with antithrombotics; 25 DOAC, 18 vitamin K"
+E_602,PMC9815523_01,patient,antiplatelet therapy,TREATED_BY,"Forty-four patients (97.8%) were treated with antithrombotics; 25 DOAC, 18 vitamin K antagonist, one"
+E_603,PMC9815523_01,patient,recurrent thrombosis,HAS_SYMPTOM,"Sixteen patients (35.6%) were symptom free at last follow-up (median 36 months), the remaining 29 patients had persisting or recurrent symptoms (N = 22) or"
+E_604,PMC9815523_01,patient,postoperative follow,TREATED_BY,Ten of these patients were eventually treated surgically and were included as cross-over patients of group 3 for the
+E_605,PMC9815523_01,patient,reintervention,TREATED_BY,The only patient who required a
+E_606,PMC9815523_01,patient,pta,UNDERWENT_PROCEDURE,Because of persisting symptoms a TOD and
+E_607,PMC9815523_01,patient,full symptom resolution,UNDERWENT_PROCEDURE,Because of persisting symptoms a TOD and PTA was performed leading to
+E_608,PMC9815523_01,patient,majority,TREATED_BY,The
+E_609,PMC9815523_01,patient,surgery,TREATED_BY,The majority of patients were treated with
+E_610,PMC9815523_01,patient,cdt,TREATED_BY,The majority of patients were treated with surgery; 31 patients (58%) with
+E_611,PMC9815523_01,patient,anticoagulant therapy,TREATED_BY,"The majority of patients were treated with surgery; 31 patients (58%) with CDT followed by TOD, 14 patients (26%) with"
+E_612,PMC9815523_01,patient,intravenous stent placement,UNDERWENT_PROCEDURE,Three patients did not primarily undergo surgery but received
+E_613,PMC9815523_01,patient,symptom resolution,UNDERWENT_PROCEDURE,In 14 of these symptomatic patients a total of 23 reinterventions were performed leading to
+E_614,PMC9815523_01,patient,stent fracture,TREATED_BY,The two primarily stented patients both suffered a
+E_615,PMC9815523_01,patient,pectoralis minor release,TREATED_BY,The third patient was additionally treated with a
+E_616,PMC9815523_01,patient,vein,TREATED_BY,The third patient was additionally treated with a pectoralis minor release and finally a subclavian
+E_617,PMC9815523_01,patient,bypass,TREATED_BY,The third patient was additionally treated with a pectoralis minor release and finally a subclavian vein
+E_618,PMC9815523_01,patient,anticoagulant,TREATED_BY,All 27 patients were originally treated conservatively with
+E_619,PMC9815523_01,patient,surgical intervention,TREATED_BY,"Twenty-one patients were treated with vitamin K antagonists and six with a DOAC, for a median duration of 13 months prior to"
+E_620,PMC9815523_01,patient,haematothorax,TREATED_BY,Bleeding complications occurred in five patients; One patient had a bleeding complication after CDT (Grade 2) and four patients suffered a
+E_621,PMC9815523_01,patient,surgical exploration,TREATED_BY,"Bleeding complications occurred in five patients; One patient had a bleeding complication after CDT (Grade 2) and four patients suffered a haematothorax (three grade 2, one Grade 3) of which three required"
+E_622,PMC9815523_01,patient,chest drain,TREATED_BY,"Bleeding complications occurred in five patients; One patient had a bleeding complication after CDT (Grade 2) and four patients suffered a haematothorax (three grade 2, one Grade 3) of which three required surgical exploration and one was treated with a"
+E_623,PMC9969157_01,boy,hellp syndrome,HAS_SYMPTOM,"The patient was delivered by cesarean section at an outside facility due to concern for serious maternal morbidity associated with preeclampsia, specifically"
+E_624,PMC9969157_01,echocardiogram,arrival,SUPPORTS,shortly after
+E_625,PMC9969157_01,boy,new bradycardia,HAS_SYMPTOM,"On day 7 of life, the patient started to have"
+E_626,PMC9969157_01,abdominal x-ray,pneumatosis intestinali,SUPPORTS,(Figure 1) demonstrated
+E_627,PMC10106591_01,irbesartan,150 mg,HAS_VALUE,","
+E_628,PMC10106591_01,mmhg,51 mm,HAS_VALUE,
+E_629,PMC10106591_01,hg =,1 mm,HAS_VALUE,
+E_630,PMC10106591_01,aspirin,300 mg,HAS_VALUE,(
+E_631,PMC10106591_01,clopidogrel,300 mg,HAS_VALUE,(
+E_632,PMC10106591_01,bp,51 mm,HAS_VALUE,at 96/
+E_633,PMC10106591_01,possible diagnosis,5 mg,HAS_VALUE,"of CAS,"
+E_634,PMC10106591_01,figure 2c,50 mg,HAS_VALUE,). The patient was on
+E_635,PMC10106591_01,release capsule,90 mg,HAS_VALUE,(
+E_636,PMC10106591_01,antiplatelet medication,100 mg,HAS_VALUE,"(aspirin,"
+E_637,PMC10106591_01,atorvastatin,20 mg,HAS_VALUE,","
+E_638,PMC10405809_01,barium swallow,3 cm,HAS_VALUE,showed a
+E_639,PMC10405809_01,sized diverticulum,2 cm,HAS_VALUE,
+E_640,PMC10405809_01,esophagogastroduodenoscopy,20 cm,HAS_VALUE,revealed KJD at
+E_641,PMC10405809_01,balloon,12 mm,HAS_VALUE,up to
+E_642,PMC10405809_01,balloon dilatation session,15 mm,HAS_VALUE,from 12 to
+E_643,PMC10434843_01,total protein level,603 mg,HAS_VALUE,(
+E_644,PMC10488652_01,dose,40 mg,HAS_VALUE,of
+E_645,PMC10488652_01,hydroxychloroquine,200 mg,HAS_VALUE,at a dose of
+E_646,PMC10488652_01,prednisone,5 mg,HAS_VALUE,at a dose of
+E_647,PMC10488652_01,mofetil,500 mg,HAS_VALUE,at a dose of
+E_648,PMC10488652_01,week,500 mg,HAS_VALUE,and thereafter at a dose of
+E_649,PMC10521634_01,5mg,5 mg,HAS_VALUE,
+E_650,PMC10521634_01,vdz,300 mg,HAS_VALUE,
+E_651,PMC10521634_01,total,120 cm,HAS_VALUE,of
+E_652,PMC10521634_01,kg,5 mg,HAS_VALUE,/
+E_653,PMC10521634_01,2.5mg,2.5 mg,HAS_VALUE,
+E_654,PMC11131390_01,cbz,20 mg,HAS_VALUE,)
+E_655,PMC11345641_01,12.6x12.0x8.4cm,8.4 cm,HAS_VALUE,
+E_656,PMC11345641_01,mri,15 mm,HAS_VALUE,.
+E_657,PMC11345641_01,multiple fibroid,12 cm,HAS_VALUE,", the largest being"
+E_658,PMC11345641_01,large measuring 12.5x11.8x7.8 cm,7.8 cm,HAS_VALUE,
+E_659,PMC11345641_01,cystic mass,5 cm,HAS_VALUE,approximately
+E_660,PMC11345641_01,cm tumor,20 cm,HAS_VALUE,
+E_661,PMC11345641_01,additional tumor,3 cm,HAS_VALUE,up to
+E_662,PMC11345641_01,large tumor,7 cm,HAS_VALUE,up to
+E_663,PMC11368112_01,crp,65 mg,HAS_VALUE,","
+E_664,PMC11368112_01,h,55 mm,HAS_VALUE,/
+E_665,PMC11368112_01,l. venous,26.12 mg,HAS_VALUE,/
+E_666,PMC11368112_01,cystic mass,3 cm,HAS_VALUE,
+E_667,PMC11368112_01,multiple ulcer,0.8 cm,HAS_VALUE,(0.2-
+E_668,PMC11368112_01,methylprednisolone,80 mg,HAS_VALUE,at
+E_669,PMC11368112_01,week,60 mg,HAS_VALUE,", with"
+E_670,PMC11368112_01,cyclosporine,200 mg,HAS_VALUE,at
+E_671,PMC11420039_01,cm2,1000 cm,HAS_VALUE,
+E_672,PMC11420039_01,exudation area,200 cm,HAS_VALUE,of approximately
+E_673,PMC11420039_01,methylprednisolone,40 mg,HAS_VALUE,
+E_674,PMC11420039_01,dose,20 mg,HAS_VALUE,of
+E_675,PMC11420039_01,morning,16 mg,HAS_VALUE,and
+E_676,PMC11420039_01,methylprednisolone dosage,16 mg,HAS_VALUE,was adjusted to
+E_677,PMC11420039_01,initial dose,600 mg,HAS_VALUE,of
+E_678,PMC11420039_01,initial dose,300 mg,HAS_VALUE,of 600 mg (
+E_679,PMC11420039_01,daily subcutaneous injection,1.6 mg,HAS_VALUE,of
+E_680,PMC11722600_01,l,55 mg,HAS_VALUE,/
+E_681,PMC11722600_01,l,5 mg,HAS_VALUE,(NR <
+E_682,PMC11722600_01,erythrocyte sedimentation rate,29 mm,HAS_VALUE,at
+E_683,PMC11722600_01,erythrocyte sedimentation rate,20 mm,HAS_VALUE,at 29 mm/h (NR 3-
+E_684,PMC11722600_01,enlarged cecal appendix,8 mm,HAS_VALUE,measuring
+E_685,PMC11722600_01,laparoscopic exploration,4 cm,HAS_VALUE,.
+E_686,PMC11722600_02,l,85 mg,HAS_VALUE,/
+E_687,PMC11722600_02,dl,5 mg,HAS_VALUE,/
+E_688,PMC11722600_02,enlarged cecal appendix,17 mm,HAS_VALUE,measuring
+E_689,PMC11722600_02,use,45 mm,HAS_VALUE,of a
+E_690,PMC11723754_01,pi,7 cm,HAS_VALUE,over sacral region:
+E_691,PMC11723754_01,daily cleaning,3 cm,HAS_VALUE,.
+E_692,PMC12215201_01,bilirubin,3.2 mg,HAS_VALUE,
+E_693,PMC12215201_01,extensive one,2.1 cm,HAS_VALUE,measuring 2.5 x 2.7 x
+E_694,PMC12215201_01,discrete mass,4.6 cm,HAS_VALUE,measuring 4.1 x 3.8 x
+E_695,PMC12832199_01,creatinine,2.2 mg,HAS_VALUE,","
+E_696,PMC12832199_01,hernial orifice,6.5 cm,HAS_VALUE,measured
+E_697,PMC12832199_01,craniocaudal direction,5.5 cm,HAS_VALUE,and
+E_698,PMC12832199_01,intraperitoneal mesh,5 cm,HAS_VALUE,tailored to achieve
+E_699,PMC2700431_01,cmh2o. water,40 cm,HAS_VALUE,
+E_700,PMC2817501_01,mmhg,80 mm,HAS_VALUE,
+E_701,PMC2817501_01,mechanical prosthesis,30 mm,HAS_VALUE,with
+E_702,PMC2817501_01,transmitral gradient,20 mm,HAS_VALUE,of
+E_703,PMC2817501_01,cm2,1.8 cm,HAS_VALUE,
+E_704,PMC2817501_01,pulmonary artery pressure,68 mm,HAS_VALUE,of
+E_705,PMC2817501_01,st. jude medical,29 mm,HAS_VALUE,
+E_706,PMC2817501_01,mm bileaflet,21 mm,HAS_VALUE,
+E_707,PMC3437073_01,subcutaneous mass,7 cm,HAS_VALUE,measuring about
+E_708,PMC3437073_01,spleen,8 cm,HAS_VALUE,was enlarged
+E_709,PMC3437073_01,mg od,300 mg,HAS_VALUE,
+E_710,PMC3437073_01,rifampin,600 mg,HAS_VALUE,
+E_711,PMC3437073_01,ethambutol,600 mg,HAS_VALUE,
+E_712,PMC3437073_01,pyrazinamide,500 mg,HAS_VALUE,
+E_713,PMC3859158_01,scan,11.5 cm,HAS_VALUE,showed a 9.2 x 9.5 x
+E_714,PMC3859158_01,distal pancreatic mass,6.2 cm,HAS_VALUE,measured 7.1 x
+E_715,PMC3897989_01,dl,"3,180 mg",HAS_VALUE,/
+E_716,PMC3897989_01,dl,1620 mg,HAS_VALUE,(694-
+E_717,PMC3897989_01,dl,344 mg,HAS_VALUE,(694-1620 mg/dL) and
+E_718,PMC3897989_01,udca,250 mg,HAS_VALUE,(
+E_719,PMC3897989_01,mep,40 mg,HAS_VALUE,) (
+E_720,PMC3897989_01,mg daily,32 mg,HAS_VALUE,
+E_721,PMC3897989_01,dose,32 mg,HAS_VALUE,to
+E_722,PMC3897989_01,morning,16 mg,HAS_VALUE,and
+E_723,PMC3897989_01,acyclovir,500 mg,HAS_VALUE,(
+E_724,PMC3917415_01,daily prednisolone dose,7.5 mg,HAS_VALUE,of
+E_725,PMC3917415_01,50mg,50 mg,HAS_VALUE,
+E_726,PMC3917415_01,dl,66 mg,HAS_VALUE,/
+E_727,PMC3917415_01,c4,14 mg,HAS_VALUE,:
+E_728,PMC3950436_01,mmhg,74 mm,HAS_VALUE,
+E_729,PMC3950436_01,dose,120 mg,HAS_VALUE,of
+E_730,PMC3950436_01,dose,3 mg,HAS_VALUE,of 120 mg (
+E_731,PMC3950436_01,cm2,10 cm,HAS_VALUE,
+E_732,PMC3950436_01,pulse oximetry,70 mm,HAS_VALUE,). BP was 105/
+E_733,PMC3950436_01,mm tube,6.0 mm,HAS_VALUE,
+E_734,PMC4782471_01,vsd,5 mm,HAS_VALUE,measuring
+E_735,PMC4782471_01,kg,50 mg,HAS_VALUE,/
+E_736,PMC4782471_01,hg,60 mm,HAS_VALUE,
+E_737,PMC4782471_01,elevated erythrocyte sedimentation rate,120 mm,HAS_VALUE,of
+E_738,PMC4782471_01,dl,91 mg,HAS_VALUE,/
+E_739,PMC4782471_01,vegetation,5 mm,HAS_VALUE,of
+E_740,PMC4782471_01,vegetation,6 mm,HAS_VALUE,of 5 mm x
+E_741,PMC4828947_01,oxcarbazepine,1200 mg,HAS_VALUE,
+E_742,PMC4828947_01,valproic acid,1500 mg,HAS_VALUE,
+E_743,PMC4835621_01,haptoglobin,15.30 mg,HAS_VALUE,was decreased (
+E_744,PMC4835621_01,cm size,3.5 cm,HAS_VALUE,
+E_745,PMC4835621_01,eradication therapy,31.2 mg,HAS_VALUE,from
+E_746,PMC4835621_01,dl.,99.3 mg,HAS_VALUE,/
+E_747,PMC5137649_01,cystic lesion,6 cm,HAS_VALUE,
+E_748,PMC5137649_01,cyst,6 cm,HAS_VALUE,measuring
+E_749,PMC5137649_01,cyst,9 cm,HAS_VALUE,measuring 6cm x
+E_750,PMC5137649_01,"12,476.5ng","12,476.5 ng/ml",HAS_VALUE,
+E_751,PMC5137649_01,6iu,6 iu/ml,HAS_VALUE,
+E_752,PMC5137649_01,final pathology,9.5 cm,HAS_VALUE,revealed a
+E_753,PMC5137649_01,final pathology,4.5 cm,HAS_VALUE,revealed a 9.5cm x
+E_754,PMC5137649_01,final pathology,2.0 cm,HAS_VALUE,revealed a 9.5cm x 4.5cm x
+E_755,PMC5804616_01,mmhg,80.5 mm,HAS_VALUE,
+E_756,PMC5804616_01,paco2,38.8 mm,HAS_VALUE,) of
+E_757,PMC5804616_01,diameter,3 mm,HAS_VALUE,of 7 and
+E_758,PMC5804616_01,internal diameter,6.0 mm,HAS_VALUE,
+E_759,PMC5804616_01,mm length,400 mm,HAS_VALUE,
+E_760,PMC5804616_01,depth,26 cm,HAS_VALUE,of
+E_761,PMC5804616_01,cmh2o,3 cm,HAS_VALUE,
+E_762,PMC5804616_01,arterial blood gas analysis,252.4 mm,HAS_VALUE,showed a PaO2 of
+E_763,PMC5804616_01,cmh2o.,5 cm,HAS_VALUE,
+E_764,PMC5833205_01,hemoglobin,6.4 mg,HAS_VALUE,of
+E_765,PMC5833205_01,>,1.13 mg,HAS_VALUE,
+E_766,PMC5833205_01,dose,6 mg,HAS_VALUE,of
+E_767,PMC5875137_01,maximum diameter,6.5 cm,HAS_VALUE,
+E_768,PMC5875137_01,hemashield,30 mm,HAS_VALUE,
+E_769,PMC6083636_01,cicloplegicedol,10 mg,HAS_VALUE,
+E_770,PMC6083636_02,axial length,23.5 mm,HAS_VALUE,in our case of
+E_771,PMC6134951_01,alectinib,600 mg,HAS_VALUE,
+E_772,PMC6134951_01,oral prednisone,30 mg,HAS_VALUE,was started at
+E_773,PMC6134951_01,next day,10 mg,HAS_VALUE,. She then continued at
+E_774,PMC6134951_01,diphenhydramine,50 mg,HAS_VALUE,
+E_775,PMC6343374_01,mmhg,70 mm,HAS_VALUE,
+E_776,PMC6343374_01,expandable stent,5 mm,HAS_VALUE,(
+E_777,PMC6343374_01,expandable stent,20 mm,HAS_VALUE,(5 mm x
+E_778,PMC6949661_01,cms,50 cm,HAS_VALUE,
+E_779,PMC6949661_01,jejunum,30 cm,HAS_VALUE,
+E_780,PMC7086412_02,dl,160 mg,HAS_VALUE,/
+E_781,PMC7086412_02,hour value,135 mg,HAS_VALUE,"of 86, 184, 147, and"
+E_782,PMC7102447_01,invasive bioprosthetic mitral valve replacement,33 mm,HAS_VALUE,with a
+E_783,PMC7102447_01,mmhg,20.1 mm,HAS_VALUE,
+E_784,PMC7102447_01,cm2,0.68 cm,HAS_VALUE,
+E_785,PMC7102447_01,st. jude,33 mm,HAS_VALUE,
+E_786,PMC7519975_01,mmhg,65 mm,HAS_VALUE,
+E_787,PMC7519975_01,bun,17 mg,HAS_VALUE,
+E_788,PMC7519975_01,bun,0.4 mg,HAS_VALUE,"17 mg/deciliter, creatinine"
+E_789,PMC7519975_01,serum glucose,125 mg,HAS_VALUE,
+E_790,PMC7519975_01,serum calcium,8.2 mg,HAS_VALUE,
+E_791,PMC7718649_01,mg p.o.,10 mg,HAS_VALUE,
+E_792,PMC7718649_01,oseltamivir,75 mg,HAS_VALUE,
+E_793,PMC7718649_01,dose,25 mg,HAS_VALUE,of prednisone (
+E_794,PMC7718649_01,mmhg,74 mm,HAS_VALUE,
+E_795,PMC7718649_01,mmol,11.1 mm,HAS_VALUE,
+E_796,PMC7718649_01,mellitus,25 mg,HAS_VALUE,. Prednisone (
+E_797,PMC7718649_01,pantoprazole,40 mg,HAS_VALUE,(
+E_798,PMC7718649_01,acarbose,50 mg,HAS_VALUE,(
+E_799,PMC7718649_01,loxoprofen,60 mg,HAS_VALUE,(
+E_800,PMC9387390_01,stent,20 mm,HAS_VALUE,(
+E_801,PMC9387390_01,boston scientific,10 mm,HAS_VALUE,","
+E_802,PMC9387390_01,colonic stent,25 mm,HAS_VALUE,(
+E_803,PMC9387390_01,colonic stent,90 mm,HAS_VALUE,(25 mm x
+E_804,PMC9529523_01,dl.,2317 mg,HAS_VALUE,/
+E_805,PMC9529523_01,esr,77 mm,HAS_VALUE,) was
+E_806,PMC9529523_01,crp,6.2 mg,HAS_VALUE,) was
+E_807,PMC9529523_01,mg daily,300 mg,HAS_VALUE,
+E_808,PMC9529523_01,kg,3.9 mg,HAS_VALUE,/
+E_809,PMC9529523_01,dl,2.14 mg,HAS_VALUE,/
+E_810,PMC9529523_01,baseline,1.0 mg,HAS_VALUE,of
+E_811,PMC9529523_01,serology,61 mg,HAS_VALUE,showed low C3 (
+E_812,PMC9529523_01,ng,1232.1 ng/ml,HAS_VALUE,
+E_813,PMC9529523_01,hydroxychloroquine dose,200 mg,HAS_VALUE,was dropped to
+E_814,PMC9529523_01,malignancy,17 mg,HAS_VALUE,. C3 was 67 and C4 was
+E_815,PMC9532611_01,mmol,1.8 mm,HAS_VALUE,
+E_816,PMC9532611_01,mmhg,94 mm,HAS_VALUE,
+E_817,PMC9532611_01,height,142 cm,HAS_VALUE,was
+E_818,PMC9532611_02,mean,136 cm,HAS_VALUE,) and
+E_819,PMC9969157_01,length,47.5 cm,HAS_VALUE,
+E_820,PMC9969157_01,head circumference,32.5 cm,HAS_VALUE,
+E_821,PMC9969157_01,glucose infusion rate,15 mg,HAS_VALUE,~
