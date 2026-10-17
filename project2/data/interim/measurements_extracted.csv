@@ -1,0 +1,224 @@
+case_id,node_type,label_original,label_normalizado,token_start,token_end,span_start,span_end,value,unit
+PMC5137649_01,ExamResult,6cm,6 cm,-1,-1,337,340,6,cm
+PMC5137649_01,ExamResult,6cm,6 cm,-1,-1,516,519,6,cm
+PMC5137649_01,ExamResult,9cm,9 cm,-1,-1,522,525,9,cm
+PMC5137649_01,ExamResult,"12,476.5ng/ml","12,476.5 ng/ml",-1,-1,777,790,"12,476.5",ng/ml
+PMC5137649_01,ExamResult,6iu/ml,6 iu/ml,-1,-1,837,843,6,iu/ml
+PMC5137649_01,ExamResult,9.5cm,9.5 cm,-1,-1,2070,2075,9.5,cm
+PMC5137649_01,ExamResult,4.5cm,4.5 cm,-1,-1,2078,2083,4.5,cm
+PMC5137649_01,ExamResult,2.0cm,2.0 cm,-1,-1,2086,2091,2.0,cm
+PMC9387390_01,ExamResult,20 mm,20 mm,-1,-1,3666,3671,20,mm
+PMC9387390_01,ExamResult,10 mm,10 mm,-1,-1,3674,3679,10,mm
+PMC9387390_01,ExamResult,25 mm,25 mm,-1,-1,3938,3943,25,mm
+PMC9387390_01,ExamResult,90 mm,90 mm,-1,-1,3946,3951,90,mm
+PMC3437073_01,ExamResult,7 cm,7 cm,-1,-1,288,292,7,cm
+PMC3437073_01,ExamResult,8 cm,8 cm,-1,-1,546,550,8,cm
+PMC3437073_01,ExamResult,300 mg,300 mg,-1,-1,1864,1870,300,mg
+PMC3437073_01,ExamResult,600 mg,600 mg,-1,-1,1884,1890,600,mg
+PMC3437073_01,ExamResult,600 mg,600 mg,-1,-1,1906,1912,600,mg
+PMC3437073_01,ExamResult,500 mg,500 mg,-1,-1,1933,1939,500,mg
+PMC7102447_01,ExamResult,33 mm,33 mm,-1,-1,154,159,33,mm
+PMC7102447_01,ExamResult,20.1 mm,20.1 mm,-1,-1,1136,1143,20.1,mm
+PMC7102447_01,ExamResult,0.68 cm,0.68 cm,-1,-1,1164,1171,0.68,cm
+PMC7102447_01,ExamResult,33 mm,33 mm,-1,-1,1480,1485,33,mm
+PMC7102447_01,ExamResult,4 mm,4 mm,-1,-1,1789,1793,4,mm
+PMC4782471_01,ExamResult,5 mm,5 mm,-1,-1,73,77,5,mm
+PMC4782471_01,ExamResult,50 mg,50 mg,-1,-1,671,676,50,mg
+PMC4782471_01,ExamResult,60 mm,60 mm,-1,-1,1158,1163,60,mm
+PMC4782471_01,ExamResult,120 mm,120 mm,-1,-1,1406,1412,120,mm
+PMC4782471_01,ExamResult,91 mg,91 mg,-1,-1,1438,1443,91,mg
+PMC4782471_01,ExamResult,5 mm,5 mm,-1,-1,1704,1708,5,mm
+PMC4782471_01,ExamResult,6 mm,6 mm,-1,-1,1711,1715,6,mm
+PMC4835621_01,ExamResult,15.30 mg,15.30 mg,-1,-1,2148,2156,15.30,mg
+PMC4835621_01,ExamResult,3.5 cm,3.5 cm,-1,-1,2722,2728,3.5,cm
+PMC4835621_01,ExamResult,31.2 mg,31.2 mg,-1,-1,4078,4085,31.2,mg
+PMC4835621_01,ExamResult,99.3 mg,99.3 mg,-1,-1,4092,4099,99.3,mg
+PMC5833205_01,ExamResult,6.4 mg,6.4 mg,-1,-1,909,915,6.4,mg
+PMC5833205_01,ExamResult,1.13 mg,1.13 mg,-1,-1,1180,1187,1.13,mg
+PMC5833205_01,ExamResult,6 mg,6 mg,-1,-1,1796,1800,6,mg
+PMC3917415_01,ExamResult,7.5mg,7.5 mg,-1,-1,202,207,7.5,mg
+PMC3917415_01,ExamResult,50mg,50 mg,-1,-1,232,236,50,mg
+PMC3917415_01,ExamResult,66mg,66 mg,-1,-1,482,486,66,mg
+PMC3917415_01,ExamResult,14mg,14 mg,-1,-1,495,499,14,mg
+PMC7718649_01,ExamResult,10 mg,10 mg,-1,-1,108,113,10,mg
+PMC7718649_01,ExamResult,75 mg,75 mg,-1,-1,838,843,75,mg
+PMC7718649_01,ExamResult,25 mg,25 mg,-1,-1,1649,1654,25,mg
+PMC7718649_01,ExamResult,74 mm,74 mm,-1,-1,2554,2559,74,mm
+PMC7718649_01,ExamResult,11.1 mm,11.1 mm,-1,-1,3159,3166,11.1,mm
+PMC7718649_01,ExamResult,25 mg,25 mg,-1,-1,3355,3360,25,mg
+PMC7718649_01,ExamResult,40 mg,40 mg,-1,-1,3499,3504,40,mg
+PMC7718649_01,ExamResult,50 mg,50 mg,-1,-1,3704,3709,50,mg
+PMC7718649_01,ExamResult,15 mg,15 mg,-1,-1,4224,4229,15,mg
+PMC7718649_01,ExamResult,10 mg,10 mg,-1,-1,4872,4877,10,mg
+PMC7718649_01,ExamResult,60 mg,60 mg,-1,-1,5096,5101,60,mg
+PMC6134951_01,ExamResult,600 mg,600 mg,-1,-1,1077,1083,600,mg
+PMC6134951_01,ExamResult,30 mg,30 mg,-1,-1,2005,2010,30,mg
+PMC6134951_01,ExamResult,20 mg,20 mg,-1,-1,2039,2044,20,mg
+PMC6134951_01,ExamResult,10 mg,10 mg,-1,-1,2084,2089,10,mg
+PMC6134951_01,ExamResult,50 mg,50 mg,-1,-1,2193,2198,50,mg
+PMC6343374_01,ExamResult,70 mm,70 mm,-1,-1,1383,1388,70,mm
+PMC6343374_01,ExamResult,5 mm,5 mm,-1,-1,3453,3457,5,mm
+PMC6343374_01,ExamResult,20 mm,20 mm,-1,-1,3460,3465,20,mm
+PMC9529523_01,ExamResult,2317 mg,2317 mg,-1,-1,926,933,2317,mg
+PMC9529523_01,ExamResult,77 mm,77 mm,-1,-1,1411,1416,77,mm
+PMC9529523_01,ExamResult,6.2 mg,6.2 mg,-1,-1,1451,1457,6.2,mg
+PMC9529523_01,ExamResult,300 mg,300 mg,-1,-1,1695,1701,300,mg
+PMC9529523_01,ExamResult,3.9 mg,3.9 mg,-1,-1,1709,1715,3.9,mg
+PMC9529523_01,ExamResult,2.14 mg,2.14 mg,-1,-1,2235,2242,2.14,mg
+PMC9529523_01,ExamResult,1.0 mg,1.0 mg,-1,-1,2265,2271,1.0,mg
+PMC9529523_01,ExamResult,61 mg,61 mg,-1,-1,2311,2316,61,mg
+PMC9529523_01,ExamResult,90 mm,90 mm,-1,-1,2326,2331,90,mm
+PMC9529523_01,ExamResult,1232.1 ng/ml,1232.1 ng/ml,-1,-1,2407,2419,1232.1,ng/ml
+PMC9529523_01,ExamResult,200 mg,200 mg,-1,-1,2631,2637,200,mg
+PMC9529523_01,ExamResult,3.1 mg,3.1 mg,-1,-1,2645,2651,3.1,mg
+PMC9529523_01,ExamResult,17 mg,17 mg,-1,-1,4675,4680,17,mg
+PMC9529523_01,ExamResult,274 ng/ml,274 ng/ml,-1,-1,5093,5102,274,ng/ml
+PMC9532611_01,ExamResult,1.8 mm,1.8 mm,-1,-1,126,132,1.8,mm
+PMC9532611_01,ExamResult,94 mm,94 mm,-1,-1,189,194,94,mm
+PMC9532611_01,ExamResult,142 cm,142 cm,-1,-1,296,302,142,cm
+PMC9532611_02,ExamResult,136 cm,136 cm,-1,-1,228,234,136,cm
+PMC5875137_01,ExamResult,6.5 cm,6.5 cm,-1,-1,200,206,6.5,cm
+PMC5875137_01,ExamResult,30 mm,30 mm,-1,-1,319,324,30,mm
+PMC6949661_01,ExamResult,50 cm,50 cm,-1,-1,1808,1813,50,cm
+PMC6949661_01,ExamResult,30 cm,30 cm,-1,-1,2575,2580,30,cm
+PMC6949661_01,ExamResult,130 cm,130 cm,-1,-1,2776,2782,130,cm
+PMC10405809_01,ExamResult,3 cm,3 cm,-1,-1,878,882,3,cm
+PMC10405809_01,ExamResult,2 cm,2 cm,-1,-1,885,889,2,cm
+PMC10405809_01,ExamResult,20 cm,20 cm,-1,-1,1519,1524,20,cm
+PMC10405809_01,ExamResult,12 mm,12 mm,-1,-1,1721,1726,12,mm
+PMC10405809_01,ExamResult,15 mm,15 mm,-1,-1,2493,2498,15,mm
+PMC10405809_01,ExamResult,20 mg,20 mg,-1,-1,2576,2581,20,mg
+PMC7519975_01,ExamResult,65 mm,65 mm,-1,-1,1128,1133,65,mm
+PMC7519975_01,ExamResult,17 mg,17 mg,-1,-1,1711,1716,17,mg
+PMC7519975_01,ExamResult,0.4 mg,0.4 mg,-1,-1,1739,1745,0.4,mg
+PMC7519975_01,ExamResult,125 mg,125 mg,-1,-1,1771,1777,125,mg
+PMC7519975_01,ExamResult,8.2 mg,8.2 mg,-1,-1,1803,1809,8.2,mg
+PMC7519975_01,ExamResult,60 mm,60 mm,-1,-1,3835,3840,60,mm
+PMC3950436_01,ExamResult,74 mm,74 mm,-1,-1,1413,1418,74,mm
+PMC3950436_01,ExamResult,120 mg,120 mg,-1,-1,1560,1566,120,mg
+PMC3950436_01,ExamResult,3 mg,3 mg,-1,-1,1568,1572,3,mg
+PMC3950436_01,ExamResult,10 cm,10 cm,-1,-1,1930,1935,10,cm
+PMC3950436_01,ExamResult,70 mm,70 mm,-1,-1,2198,2203,70,mm
+PMC3950436_01,ExamResult,6.0 mm,6.0 mm,-1,-1,2531,2537,6.0,mm
+PMC10434843_01,ExamResult,603 mg,603 mg,-1,-1,1962,1968,603,mg
+PMC2700431_01,ExamResult,40 cm,40 cm,-1,-1,1442,1447,40,cm
+PMC10106591_01,ExamResult,150 mg,150 mg,-1,-1,686,692,150,mg
+PMC10106591_01,ExamResult,51 mm,51 mm,-1,-1,909,914,51,mm
+PMC10106591_01,ExamResult,1 mm,1 mm,-1,-1,918,922,1,mm
+PMC10106591_01,ExamResult,300 mg,300 mg,-1,-1,1975,1981,300,mg
+PMC10106591_01,ExamResult,300 mg,300 mg,-1,-1,1998,2004,300,mg
+PMC10106591_01,ExamResult,51 mm,51 mm,-1,-1,2406,2411,51,mm
+PMC10106591_01,ExamResult,5 mg,5 mg,-1,-1,2668,2672,5,mg
+PMC10106591_01,ExamResult,50 mg,50 mg,-1,-1,2857,2862,50,mg
+PMC10106591_01,ExamResult,90 mg,90 mg,-1,-1,3884,3889,90,mg
+PMC10106591_01,ExamResult,100 mg,100 mg,-1,-1,3944,3950,100,mg
+PMC10106591_01,ExamResult,20 mg,20 mg,-1,-1,4008,4013,20,mg
+PMC6083636_01,ExamResult,10 mg,10 mg,-1,-1,598,603,10,mg
+PMC6083636_02,ExamResult,23.5 mm,23.5 mm,-1,-1,1267,1274,23.5,mm
+PMC9969157_01,ExamResult,47.5 cm,47.5 cm,-1,-1,698,705,47.5,cm
+PMC9969157_01,ExamResult,32.5 cm,32.5 cm,-1,-1,730,737,32.5,cm
+PMC9969157_01,ExamResult,15 mg,15 mg,-1,-1,2760,2765,15,mg
+PMC4828947_01,ExamResult,1200 mg,1200 mg,-1,-1,679,686,1200,mg
+PMC4828947_01,ExamResult,1500 mg,1500 mg,-1,-1,709,716,1500,mg
+PMC7086412_02,ExamResult,160 mg,160 mg,-1,-1,588,594,160,mg
+PMC7086412_02,ExamResult,135 mg,135 mg,-1,-1,736,742,135,mg
+PMC7086412_02,ExamResult,101 mg,101 mg,-1,-1,1124,1130,101,mg
+PMC4310058_01,ExamResult,5 cm,5 cm,-1,-1,1242,1246,5,cm
+PMC3859158_01,ExamResult,11.5 cm,11.5 cm,-1,-1,994,1001,11.5,cm
+PMC3859158_01,ExamResult,6.2 cm,6.2 cm,-1,-1,1710,1716,6.2,cm
+PMC5804616_01,ExamResult,80.5 mm,80.5 mm,-1,-1,624,631,80.5,mm
+PMC5804616_01,ExamResult,38.8 mm,38.8 mm,-1,-1,677,684,38.8,mm
+PMC5804616_01,ExamResult,3 mm,3 mm,-1,-1,800,804,3,mm
+PMC5804616_01,ExamResult,35 mg,35 mg,-1,-1,1313,1318,35,mg
+PMC5804616_01,ExamResult,6.0 mm,6.0 mm,-1,-1,1448,1454,6.0,mm
+PMC5804616_01,ExamResult,400 mm,400 mm,-1,-1,1474,1480,400,mm
+PMC5804616_01,ExamResult,26 cm,26 cm,-1,-1,1525,1530,26,cm
+PMC5804616_01,ExamResult,3 cm,3 cm,-1,-1,2795,2799,3,cm
+PMC5804616_01,ExamResult,252.4 mm,252.4 mm,-1,-1,3188,3196,252.4,mm
+PMC5804616_01,ExamResult,36.9 mm,36.9 mm,-1,-1,3211,3218,36.9,mm
+PMC5804616_01,ExamResult,5 cm,5 cm,-1,-1,3911,3915,5,cm
+PMC5804616_01,ExamResult,101.7 mm,101.7 mm,-1,-1,4014,4022,101.7,mm
+PMC3897989_01,ExamResult,"3,180 mg","3,180 mg",-1,-1,857,865,"3,180",mg
+PMC3897989_01,ExamResult,1620 mg,1620 mg,-1,-1,874,881,1620,mg
+PMC3897989_01,ExamResult,344 mg,344 mg,-1,-1,890,896,344,mg
+PMC3897989_01,ExamResult,263 mg,263 mg,-1,-1,904,910,263,mg
+PMC3897989_01,ExamResult,250 mg,250 mg,-1,-1,2222,2228,250,mg
+PMC3897989_01,ExamResult,40 mg,40 mg,-1,-1,2954,2959,40,mg
+PMC3897989_01,ExamResult,32 mg,32 mg,-1,-1,3279,3284,32,mg
+PMC3897989_01,ExamResult,32 mg,32 mg,-1,-1,3374,3379,32,mg
+PMC3897989_01,ExamResult,16 mg,16 mg,-1,-1,3399,3404,16,mg
+PMC3897989_01,ExamResult,5 mg,5 mg,-1,-1,3805,3809,5,mg
+PMC3897989_01,ExamResult,500 mg,500 mg,-1,-1,4081,4087,500,mg
+PMC2817501_01,ExamResult,80 mm,80 mm,-1,-1,340,345,80,mm
+PMC2817501_01,ExamResult,30 mm,30 mm,-1,-1,591,596,30,mm
+PMC2817501_01,ExamResult,20 mm,20 mm,-1,-1,677,682,20,mm
+PMC2817501_01,ExamResult,1.8 cm,1.8 cm,-1,-1,700,706,1.8,cm
+PMC2817501_01,ExamResult,68 mm,68 mm,-1,-1,832,837,68,mm
+PMC2817501_01,ExamResult,29 mm,29 mm,-1,-1,1502,1507,29,mm
+PMC2817501_01,ExamResult,21 mm,21 mm,-1,-1,1829,1834,21,mm
+PMC11131390_01,ExamResult,20 mg,20 mg,-1,-1,779,784,20,mg
+PMC11131390_01,ExamResult,5 mg,5 mg,-1,-1,990,994,5,mg
+PMC11131390_01,ExamResult,2.5 mg,2.5 mg,-1,-1,1153,1159,2.5,mg
+PMC10521634_01,ExamResult,5mg,5 mg,-1,-1,770,773,5,mg
+PMC10521634_01,ExamResult,300 mg,300 mg,-1,-1,888,894,300,mg
+PMC10521634_01,ExamResult,120 cm,120 cm,-1,-1,1942,1948,120,cm
+PMC10521634_01,ExamResult,5mg,5 mg,-1,-1,2427,2430,5,mg
+PMC10521634_01,ExamResult,2.5mg,2.5 mg,-1,-1,3128,3133,2.5,mg
+PMC10488652_01,ExamResult,40 mg,40 mg,-1,-1,1361,1366,40,mg
+PMC10488652_01,ExamResult,200 mg,200 mg,-1,-1,1434,1440,200,mg
+PMC10488652_01,ExamResult,5 mg,5 mg,-1,-1,1765,1769,5,mg
+PMC10488652_01,ExamResult,200 mg,200 mg,-1,-1,1816,1822,200,mg
+PMC10488652_01,ExamResult,500 mg,500 mg,-1,-1,1875,1881,500,mg
+PMC10488652_01,ExamResult,500 mg,500 mg,-1,-1,1938,1944,500,mg
+PMC11420039_01,ExamResult,1000 cm,1000 cm,-1,-1,609,616,1000,cm
+PMC11420039_01,ExamResult,200 cm,200 cm,-1,-1,659,665,200,cm
+PMC11420039_01,ExamResult,40 mg,40 mg,-1,-1,1305,1310,40,mg
+PMC11420039_01,ExamResult,20 mg,20 mg,-1,-1,1414,1419,20,mg
+PMC11420039_01,ExamResult,16 mg,16 mg,-1,-1,1439,1444,16,mg
+PMC11420039_01,ExamResult,16 mg,16 mg,-1,-1,1837,1842,16,mg
+PMC11420039_01,ExamResult,12 mg,12 mg,-1,-1,1862,1867,12,mg
+PMC11420039_01,ExamResult,600 mg,600 mg,-1,-1,1986,1992,600,mg
+PMC11420039_01,ExamResult,300 mg,300 mg,-1,-1,1994,2000,300,mg
+PMC11420039_01,ExamResult,300 mg,300 mg,-1,-1,2030,2036,300,mg
+PMC11420039_01,ExamResult,4 mg,4 mg,-1,-1,3295,3299,4,mg
+PMC11420039_01,ExamResult,1.6 mg,1.6 mg,-1,-1,4706,4712,1.6,mg
+PMC11368112_01,ExamResult,65 mg,65 mg,-1,-1,542,547,65,mg
+PMC11368112_01,ExamResult,55 mm,55 mm,-1,-1,556,561,55,mm
+PMC11368112_01,ExamResult,26.12 mg,26.12 mg,-1,-1,578,586,26.12,mg
+PMC11368112_01,ExamResult,3 cm,3 cm,-1,-1,1782,1786,3,cm
+PMC11368112_01,ExamResult,0.8 cm,0.8 cm,-1,-1,2283,2289,0.8,cm
+PMC11368112_01,ExamResult,80 mg,80 mg,-1,-1,2964,2969,80,mg
+PMC11368112_01,ExamResult,60 mg,60 mg,-1,-1,2998,3003,60,mg
+PMC11368112_01,ExamResult,5 mg,5 mg,-1,-1,3041,3045,5,mg
+PMC11368112_01,ExamResult,5 mg,5 mg,-1,-1,3062,3066,5,mg
+PMC11368112_01,ExamResult,200 mg,200 mg,-1,-1,3091,3097,200,mg
+PMC11345641_01,ExamResult,8.4cm,8.4 cm,-1,-1,859,864,8.4,cm
+PMC11345641_01,ExamResult,15mm,15 mm,-1,-1,988,992,15,mm
+PMC11345641_01,ExamResult,12.6cm,12.6 cm,-1,-1,1152,1158,12.6,cm
+PMC11345641_01,ExamResult,12 cm,12 cm,-1,-1,1656,1661,12,cm
+PMC11345641_01,ExamResult,7.8 cm,7.8 cm,-1,-1,2351,2357,7.8,cm
+PMC11345641_01,ExamResult,5 cm,5 cm,-1,-1,3034,3038,5,cm
+PMC11345641_01,ExamResult,20 cm,20 cm,-1,-1,3336,3341,20,cm
+PMC11345641_01,ExamResult,3 cm,3 cm,-1,-1,3664,3668,3,cm
+PMC11345641_01,ExamResult,7 cm,7 cm,-1,-1,3761,3765,7,cm
+PMC11345641_01,ExamResult,4 cm,4 cm,-1,-1,3865,3869,4,cm
+PMC11723754_01,ExamResult,7cm,7 cm,-1,-1,290,293,7,cm
+PMC11723754_01,ExamResult,3cm,3 cm,-1,-1,294,297,3,cm
+PMC11722600_01,ExamResult,55 mg,55 mg,-1,-1,648,653,55,mg
+PMC11722600_01,ExamResult,5 mg,5 mg,-1,-1,661,665,5,mg
+PMC11722600_01,ExamResult,29 mm,29 mm,-1,-1,704,709,29,mm
+PMC11722600_01,ExamResult,20 mm,20 mm,-1,-1,718,723,20,mm
+PMC11722600_01,ExamResult,8 mm,8 mm,-1,-1,988,992,8,mm
+PMC11722600_01,ExamResult,4 cm,4 cm,-1,-1,1071,1075,4,cm
+PMC11722600_02,ExamResult,85 mg,85 mg,-1,-1,748,753,85,mg
+PMC11722600_02,ExamResult,5 mg,5 mg,-1,-1,761,765,5,mg
+PMC11722600_02,ExamResult,17 mm,17 mm,-1,-1,904,909,17,mm
+PMC11722600_02,ExamResult,2.5 cm,2.5 cm,-1,-1,2518,2524,2.5,cm
+PMC11722600_02,ExamResult,45 mm,45 mm,-1,-1,2549,2554,45,mm
+PMC12215201_01,ExamResult,3.2 mg,3.2 mg,-1,-1,904,910,3.2,mg
+PMC12215201_01,ExamResult,2.1 cm,2.1 cm,-1,-1,1118,1124,2.1,cm
+PMC12215201_01,ExamResult,4.6 cm,4.6 cm,-1,-1,1272,1278,4.6,cm
+PMC12832199_01,ExamResult,2.2 mg,2.2 mg,-1,-1,1034,1040,2.2,mg
+PMC12832199_01,ExamResult,6.5 cm,6.5 cm,-1,-1,1229,1235,6.5,cm
+PMC12832199_01,ExamResult,5.5 cm,5.5 cm,-1,-1,1270,1276,5.5,cm
+PMC12832199_01,ExamResult,5 cm,5 cm,-1,-1,3766,3770,5,cm

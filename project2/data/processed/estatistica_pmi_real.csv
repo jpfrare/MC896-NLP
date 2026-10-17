@@ -1,0 +1,795 @@
+Par_de_Entidades,PMI_Score
+"('10 mm', 'boston scientific')",5.807
+"('125 mg', 'serum glucose')",5.807
+"('8.2 mg', 'serum calcium')",5.807
+"('1.0 mg', 'baseline')",5.807
+"('61 mg', 'serology')",5.807
+"('re-operation', 'study')",5.807
+"('second operation', 'up ct')",5.807
+"('abdomen', 'repeat ct')",5.807
+"('77 mm', 'esr')",5.807
+"('initial symptomatic improvement', 'recurrent symptom')",5.807
+"('extraluminal air', 'small amount')",5.807
+"('intra-abdominal abscess', 'suture')",5.807
+"('microscopic analysis', 'undifferentiated sarcoma')",5.807
+"('cellular leiomyoma', 'degeneration')",5.807
+"('mild thrombocytosis', 'vdz treatment')",5.807
+"('icu', 'unit')",5.807
+"('12,476.5 ng/ml', '12,476.5ng')",5.807
+"('6 iu/ml', '6iu')",5.807
+"('38.8 mm', 'paco2')",5.807
+"('400 mm', 'mm length')",5.807
+"('progressive alopecia', 'rash')",5.807
+"('evaluation', 'outside lab')",5.807
+"('progressive kidney injury', 'significant serologic profile')",5.807
+"('duodenum', 'preferential drainage')",5.807
+"('patient afferent limb', 'push enteroscopy')",5.807
+"('functional obstruction', 'gastric emptying')",5.807
+"('multiple time', 'replacement')",5.807
+"('adamts', 'additional workup')",5.807
+"('perfusion', 'ventilation')",5.807
+"('large pericardial effusion', 'repeat hrct')",5.807
+"('antinuclear antibody', 'laboratory testing')",5.807
+"('child', 'parent')",5.807
+"('several important lesson', 'story')",5.807
+"('narrative', 'reporting')",5.807
+"('myelin figure', 'occasional curvilinear body')",5.807
+"('carbon monoxide', 'diffusing capacity')",5.807
+"('mitral valve', 'valve replacement')",5.807
+"('area', 'head')",5.807
+"('anticoagulation study', 'inr')",5.807
+"('droplet', 'more vigor')",5.807
+"('60 mm', 'hg')",5.807
+"('15.30 mg', 'haptoglobin')",5.807
+"('3.5 cm', 'cm size')",5.807
+"('31.2 mg', 'eradication therapy')",5.807
+"('endoscopy report', 'lesion')",5.807
+"('digital workflow', 'guidance')",5.807
+"('clinical exam', 'good oral hygiene')",5.807
+"('horizontal bone defect', 'preoperative cbct')",5.807
+"('mild overt hyperthyroidism', 'thyroid function test')",5.807
+"('month post-operation', 'transabdominal ultrasonography')",5.807
+"('further mri', 'multiple abnormal signal shadow')",5.807
+"('negativity', 'tenth tube')",5.807
+"('center', 'december')",5.807
+"('breathing', 'operating room')",5.807
+"('bpm', 'sinus rhythm')",5.807
+"('pulmonary lesion extension', 'second thoracic')",5.807
+"('anticoagulation', 'bioprosthetic mitral valve replacement')",5.807
+"('echo', 'pressure')",5.807
+"('mild homograft regurgitation', 'mild truncal valve regurgitation')",5.807
+"('kidney', 'mild injury')",5.807
+"('bilateral ground', 'glass')",5.807
+"('previous test', 'value')",5.807
+"('modest upturn', 'thoracic ct')",5.807
+"('mean arterial blood pressure', 'preoperative record')",5.807
+"('recent report', 'such patient')",5.807
+"('intravascular ultrasound analysis', 'minimum stent area')",5.807
+"('transvaginal ultrasonography', 'uterus')",5.807
+"('calretinin', 'immunohistochemical study')",5.807
+"('1c', 'tumor response')",5.807
+"('homograft site', 'postoperative echocardiography')",5.807
+"('false diverticulum', 'speciman')",5.807
+"('focal crypt', 'rupture')",5.807
+"('digital rectal examination', 'dre')",5.807
+"('early death', 'previous study')",5.807
+"('chest ct', 'patchy change')",5.807
+"('immune status', 'instance')",5.807
+"('further inquiry', 'medical history')",5.807
+"('enterococcus', 'subsequent lumbar puncture')",5.807
+"('250 mg', 'udca')",5.807
+"('pathogenic microorganism', 'throughput')",5.807
+"('14 mg', 'c4')",5.807
+"('external physical examination', 'ocular albinism')",5.807
+"('anterior segment', 'lamp examination')",5.807
+"('age', 'thick macula')",5.807
+"('overall thickness', 'retina')",5.807
+"('histology', 'small jejunal diverticulum')",5.807
+"('fundus', 'photograph')",5.807
+"('foveal zone', 'top panel')",5.807
+"('anatomical position', 'multiple raster cut')",5.807
+"('hue', 'total error score')",5.807
+"('abdominal x-ray', 'pneumatosis intestinali')",5.807
+"('punch', 'right arm lesion')",5.807
+"('150 mg', 'irbesartan')",5.807
+"('1 mm', 'hg =')",5.807
+"('90 mg', 'release capsule')",5.807
+"('100 mg', 'antiplatelet medication')",5.807
+"('12 mm', 'balloon')",5.807
+"('603 mg', 'total protein level')",5.807
+"('additional history', 'ounce')",5.807
+"('clinical history', 'office')",5.807
+"('fluid analysis', 'pmn')",5.807
+"('numerous metastatic lesion', 'video capsule endoscopy')",5.807
+"('small aggregate', 'vascular channel')",5.807
+"('celiac disease', 'duodenal biopsy')",5.807
+"('normal range', 'white blood cell')",5.807
+"('free fluid', 'pelvic ultrasound')",5.807
+"('histopathological examination', 'luman')",5.807
+"('acute appendicitis', 'presumptive diagnosis')",5.807
+"('bacteriological study', 'collection')",5.807
+"('endometrial gland', 'fallopian tube histology')",5.807
+"('blumberg', 'tenderness')",5.807
+"('cecal appendix', 'significant inflammatory component')",5.807
+"('laboratory study', 'pediatrician')",5.807
+"('performance', 'workup')",5.807
+"('mild increase', 'subsequent histologic examination')",5.807
+"('carcinoembryonic antigen', 'extracellular mucin')",5.807
+"('partial oxygen tension', 'preoperative arterial blood gas analysis')",5.807
+"('bronchofiberscopic examination', 'obstruction')",5.807
+"('right ventricle', 'severe dilatation')",5.807
+"('infective endocarditis', 'sensitivity result')",5.807
+"('glial component', 'other part')",5.807
+"('petechia', 'upper extremity')",5.807
+"('diagnostic test', 'laboratory')",5.807
+"('blood chemistry', 'normal creatinine')",5.807
+"('bone marrow biopsy', 'hypercellular marrow')",5.807
+"('right atrium', 'tricuspid')",5.807
+"('fenestration', 'm1')",5.807
+"('finding', 'further pet ct')",5.807
+"('further investigation', 'gastroduodenoscopy')",5.807
+"('congruent', 'epileptiform focus')",5.807
+"('4.6 cm', 'discrete mass')",5.807
+"('2.2 mg', 'creatinine')",5.807
+"('5.5 cm', 'craniocaudal direction')",5.807
+"('68 mm', 'pulmonary artery pressure')",5.807
+"('21 mm', 'mm bileaflet')",5.807
+"('3.2 mg', 'bilirubin')",5.807
+"('2.1 cm', 'extensive one')",5.807
+"('6.2 cm', 'distal pancreatic mass')",5.807
+"('40 cm', 'cmh2o. water')",5.807
+"('deranged electrolyte', 'renal function test')",5.807
+"('considerable improvement', 'npd')",5.807
+"('extraoral view', 'slight swelling')",5.807
+"('hypocomplementemia', 'laboratory examination')",5.807
+"('first study', 'skull defect')",5.807
+"('2.5 mg', '2.5mg')",5.807
+"('12.6x12.0x8.4cm', '8.4 cm')",5.807
+"('12 cm', 'multiple fibroid')",5.807
+"('7.8 cm', 'large measuring 12.5x11.8x7.8 cm')",5.807
+"('26.12 mg', 'l. venous')",5.807
+"('200 cm', 'exudation area')",5.807
+"('1.6 mg', 'daily subcutaneous injection')",5.807
+"('cut section', 'yellow mass')",5.807
+"('ct scan imaging', 'month followup')",5.807
+"('atrial fibrillation', 'past medical history')",5.807
+"('icteric sclera', 'skin')",5.807
+"('antrum', 'gastric body')",5.807
+"('lung biopsy', 'neutrophil')",5.807
+"('antimitochondrial antibody', 'antoimmune disease')",5.807
+"('cholangio', 'endoscopic')",5.807
+"('bronchoscopy', 'fistula')",5.807
+"('cardiac auscultation', 'systolic murmur')",5.807
+"('% stenosis', 'coronary arteriography')",5.807
+"('improvement', 'laboratory datum')",5.807
+"('anti-adenovirus antibody', 'immunohistochemistry')",5.807
+"('macroscopic inspection', 'significant cloth')",5.807
+"('abdominal radiograph', 'calcified lesion')",5.807
+"('anti-tuberculous medication', 'condition')",5.807
+"('chest radiograph', 'opacity')",5.807
+"('45 mm', 'use')",5.807
+"('cytopathic effect', 'respiratory viral culture')",5.807
+"('dark purple', 'postmortem examination')",5.807
+"('opposition', 'thumb abduction')",5.807
+"('cramp', 'fasciculation')",5.807
+"('diagnostic lumbar puncture', 'subsequent cerebrospinal fluid')",5.807
+"('flow cytometry analysis', 'increase')",5.807
+"('antibody', 'antibody determination')",5.807
+"('further diagnostic', 'motor nerve conduction block')",5.807
+"('nerve conduction velocity', 'normal value')",5.807
+"('normal function', 'tibial nerve')",5.807
+"('chronic neurogenic change', 'needle electromyography')",5.807
+"('enlargement', 'peripheral nerve ultrasonography')",5.807
+"('neuropsychiatric consultation', 'normal neurocognitive performance profile')",5.807
+"('sign', 'up visit')",5.807
+"('autoimmune', 'hemolytic anemia')",5.807
+"('natural killer cell', 'proportion')",5.807
+"('75 mg', 'oseltamivir')",5.807
+"('135 mg', 'hour value')",5.807
+"('30 cm', 'jejunum')",5.807
+"('1.13 mg', '>')",5.807
+"('23.5 mm', 'axial length')",5.807
+"('1232.1 ng/ml', 'ng')",5.807
+"('30 mg', 'oral prednisone')",5.807
+"('50 cm', 'cms')",5.807
+"('acs', 'acute coronary syndrome')",5.807
+"('second day', 'suggestion')",5.807
+"('routine lab work', 'white blood cell count')",5.807
+"('15 mg', 'glucose infusion rate')",5.807
+"('32.5 cm', 'head circumference')",5.807
+"('normal heart', 'pulmonary examination')",5.807
+"('47.5 cm', 'length')",5.807
+"('136 cm', 'mean')",5.807
+"('142 cm', 'height')",5.807
+"('0.4 mg', 'bun')",4.807
+"('2317 mg', 'dl.')",4.807
+"('90 mm', 'colonic stent')",4.807
+"('1.8 mm', 'mmol')",4.807
+"('25 mm', 'colonic stent')",4.807
+"('hospitalization', 'minute')",4.807
+"('60 mg', 'loxoprofen')",4.807
+"('6.2 mg', 'crp')",4.807
+"('cavitation focus', 'pleural effusion')",4.807
+"('intensive care unit', 'transfer')",4.807
+"('further testing', 'pulmonary function testing')",4.807
+"('120 mm', 'elevated erythrocyte sedimentation rate')",4.807
+"('7.5 mg', 'daily prednisolone dose')",4.807
+"('record', 'review')",4.807
+"('ekg', 'initial electrocardiogram')",4.807
+"('1200 mg', 'oxcarbazepine')",4.807
+"('1500 mg', 'valproic acid')",4.807
+"('99.3 mg', 'dl.')",4.807
+"('6 cm', 'cystic lesion')",4.807
+"('70 mm', 'pulse oximetry')",4.807
+"('6.0 mm', 'mm tube')",4.807
+"('massive amount', 'valve')",4.807
+"('0.8 cm', 'multiple ulcer')",4.807
+"('histopathological evaluation', 'pancreatic biopsy')",4.807
+"('remarkable reduction', 'repeat')",4.807
+"('microscopic examination', 'spleen')",4.807
+"('analysis', 'restriction')",4.807
+"('mechanical prosthesis', 'transesophageal echocardiography')",4.807
+"('chronic gastritis', 'endoscopy')",4.807
+"('chest x-ray', 'multiple nodule')",4.807
+"('definitive diagnosis', 'direct immunofluorescence')",4.807
+"('episode', 'large amount')",4.807
+"('image', 'oct image')",4.807
+"('diagnostic laparoscopy', 'jejunal loop')",4.807
+"('arrival', 'echocardiogram')",4.807
+"('drug reaction', 'pulmonary abnormality')",4.807
+"('egfr', 'further testing')",4.807
+"('biometry', 'sonomed pacscan 300a')",4.807
+"('2 cm', 'sized diverticulum')",4.807
+"('15 mm', 'balloon dilatation session')",4.807
+"('51 mm', 'bp')",4.807
+"('cmh2o.', 'pressure support level')",4.807
+"('chest x-ray', 'completion')",4.807
+"('biopsy', 'gastric lesion')",4.807
+"('laboratory investigation', 'leukocytosis')",4.807
+"('7th day', 'skin biopsy')",4.807
+"('5a', 'image')",4.807
+"('laparoscopic appendectomy', 'persistent enlargement')",4.807
+"('ectopic endometrial stroma', 'histopathology')",4.807
+"('8 cm', 'spleen')",4.807
+"('incisional biopsy', 'local anesthesia')",4.807
+"('20 cm', 'cm tumor')",4.807
+"('65 mg', 'crp')",4.807
+"('55 mm', 'h')",4.807
+"('120 cm', 'total')",4.807
+"('eus', 'fna')",4.807
+"('intact staple line', 'repeat')",4.807
+"('arterial blood gas analysis', 'inspiratory fraction')",4.807
+"('29 mm', 'st. jude medical')",4.807
+"('6.5 cm', 'hernial orifice')",4.807
+"('8 mm', 'enlarged cecal appendix')",4.807
+"('arrival', 'physical exam')",4.807
+"('erythema', 'large amount')",4.807
+"('intensive care unit', 'severe hematological involvement')",4.807
+"('dexamethasone', 'treatment')",4.807
+"('9 cm', 'cyst')",4.807
+"('3 mm', 'diameter')",4.807
+"('6.0 mm', 'internal diameter')",4.807
+"('26 cm', 'depth')",4.807
+"('252.4 mm', 'arterial blood gas analysis')",4.807
+"('17 mm', 'enlarged cecal appendix')",4.807
+"('examination', 'microscopy')",4.807
+"('chest', 'x-ray')",4.807
+"('characteristic tuberculoid granuloma', 'histopathology')",4.807
+"('11.1 mm', 'mmol')",4.807
+"('25 mg', 'mellitus')",4.807
+"('33 mm', 'invasive bioprosthetic mitral valve replacement')",4.807
+"('33 mm', 'st. jude')",4.807
+"('6.5 cm', 'maximum diameter')",4.807
+"('30 mm', 'hemashield')",4.807
+"('10 mg', 'mg p.o.')",4.222
+"('200 mg', 'cyclosporine')",4.222
+"('55 mg', 'l')",4.222
+"('80 mg', 'methylprednisolone')",4.222
+"('colonoscopy', 'enteroscopy')",4.222
+"('test', 'tumor marker')",4.222
+"('drop', 'laboratory result')",4.222
+"('ecg', 'preoperative electrocardiogram')",4.222
+"('16 mg', 'methylprednisolone dosage')",4.222
+"('cover', 'test')",4.222
+"('schirmer', 'test')",4.222
+"('4 cm', 'laparoscopic exploration')",4.222
+"('formation', 'surgery')",4.222
+"('5 cm', 'intraperitoneal mesh')",4.222
+"('7 cm', 'large tumor')",4.222
+"('cystic mass', 'intraoperative finding')",4.222
+"('laboratory result', 'wbc')",4.222
+"('10 mg', 'cicloplegicedol')",4.222
+"('10 mg', 'next day')",4.222
+"('6 mm', 'vegetation')",4.222
+"('5 mm', 'vsd')",4.222
+"('tee', 'transesophageal echocardiogram')",4.222
+"('85 mg', 'l')",4.222
+"('7 cm', 'pi')",4.222
+"('colonoscopy', 'extensive colitis')",4.222
+"('surgical exploration', 'vagina')",4.222
+"('evolution', 'fever')",4.222
+"('addition', 'computerized tomography')",4.222
+"('20 mg', 'cbz')",4.222
+"('200 mg', 'hydroxychloroquine dose')",4.222
+"('entrance', 'laparoscopic exploration')",4.222
+"('routine', 'surgery')",4.222
+"('addition', 'bottom panel')",4.222
+"('20 mg', 'atorvastatin')",4.222
+"('200 mg', 'hydroxychloroquine')",4.222
+"('addition', 'pulmonary consolidation')",4.222
+"('laparoscopic exploration', 'phlegmonous appendicitis')",4.222
+"('7 cm', 'subcutaneous mass')",4.222
+"('esophagogastroduodenoscopy', 'incisor')",3.807
+"('29 mm', 'erythrocyte sedimentation rate')",3.807
+"('admission', 'laboratory test datum')",3.807
+"('barium swallow', 'sized diverticulum')",3.807
+"('blood investigation', 'hemoglobin')",3.807
+"('6.4 mg', 'hemoglobin')",3.807
+"('dysplasia', 'histopathology report')",3.807
+"('6 cm', 'cyst')",3.807
+"('17 mg', 'bun')",3.807
+"('hemoglobin', 'laboratory finding')",3.807
+"('600 mg', 'alectinib')",3.807
+"('0.68 cm', 'cm2')",3.807
+"('4.5 cm', 'final pathology')",3.807
+"('30 mm', 'mechanical prosthesis')",3.807
+"('600 mg', 'ethambutol')",3.807
+"('600 mg', 'rifampin')",3.807
+"('32 mg', 'mg daily')",3.807
+"('10 cm', 'cm2')",3.807
+"('40 mg', 'mep')",3.807
+"('malignancy', 'order')",3.807
+"('criterion', 'discharge')",3.807
+"('500 mg', 'pyrazinamide')",3.807
+"('20 mm', 'transmitral gradient')",3.807
+"('egd', 'esophagogastroduodenoscopy')",3.807
+"('1.8 cm', 'cm2')",3.807
+"('mass', 'mild heterogeneous enhancement')",3.807
+"('angiography', 'attempt')",3.807
+"('40 mg', 'pantoprazole')",3.807
+"('3.9 mg', 'kg')",3.807
+"('examination', 'palpable defect')",3.807
+"('diameter', 'multiple ulcer')",3.807
+"('elevated erythrocyte sedimentation rate', 'laboratory investigation')",3.807
+"('abdominal pain', 'distension')",3.807
+"('esophagogastroduodenoscopy', 'multiple erythematous nodular lesion')",3.807
+"('final pathology', 'smooth internal cyst wall')",3.807
+"('admission', 'clinical neurological examination')",3.807
+"('1000 cm', 'cm2')",3.807
+"('2.0 cm', 'final pathology')",3.807
+"('mass', 'microscopic examination post-surgery')",3.807
+"('9.5 cm', 'final pathology')",3.807
+"('20 mm', 'stent')",3.807
+"('endomyocardial biopsy', 'right heart catheterization')",3.807
+"('16 mg', 'morning')",3.637
+"('3 cm', 'daily cleaning')",3.485
+"('ct scan', 'new chest')",3.485
+"('endometrial thickening', 'mri')",3.485
+"('ct scan', 'splenic abscess')",3.485
+"('3 cm', 'cmh2o')",3.485
+"('50 mg', 'diphenhydramine')",3.485
+"('mri', 'tesla magnetic resonance imaging')",3.485
+"('50 mg', 'figure 2c')",3.485
+"('50 mg', 'acarbose')",3.485
+"('ct scan', 'multislice')",3.485
+"('3 cm', 'additional tumor')",3.485
+"('5 mg', 'possible diagnosis')",3.222
+"('5 mm', 'expandable stent')",3.222
+"('300 mg', 'clopidogrel')",3.222
+"('300 mg', 'aspirin')",3.222
+"('11.5 cm', 'scan')",3.222
+"('hypodense lesion', 'scan')",3.222
+"('300 mg', 'mg od')",3.222
+"('5 mg', '5mg')",3.222
+"('300 mg', 'vdz')",3.222
+"('echocardiography', 'vegetation')",3.222
+"('ekg', 'electrocardiogram')",3.222
+"('mycophenolate', 'week')",3.222
+"('5 cm', 'cmh2o.')",3.222
+"('girl', 'oblique mandibular radiograph')",3.0
+"('girl', 'reconstruction')",3.0
+"('2.14 mg', 'dl')",2.807
+"('17 mg', 'malignancy')",2.807
+"('malignancy', 'tumor search')",2.807
+"('160 mg', 'dl')",2.807
+"('physical examination', 'temperature')",2.807
+"('344 mg', 'dl')",2.807
+"('500 mg', 'mofetil')",2.807
+"('20 cm', 'esophagogastroduodenoscopy')",2.807
+"('localized tenderness', 'physical examination')",2.807
+"('dullness', 'physical examination')",2.807
+"('91 mg', 'dl')",2.807
+"('physical examination', 'significant abdominal distention')",2.807
+"('hemiparesis', 'physical examination')",2.807
+"('66 mg', 'dl')",2.807
+"('500 mg', 'acyclovir')",2.807
+"('3,180 mg', 'dl')",2.807
+"('1620 mg', 'dl')",2.807
+"('600 mg', 'initial dose')",2.807
+"('20 mm', 'expandable stent')",2.807
+"('20 mm', 'erythrocyte sedimentation rate')",2.807
+"('5 cm', 'cystic mass')",2.637
+"('20.1 mm', 'mmhg')",2.637
+"('ecg', 'electrocardiogram')",2.637
+"('5 mm', 'vegetation')",2.637
+"('65 mm', 'mmhg')",2.637
+"('6 mg', 'dose')",2.637
+"('80.5 mm', 'mmhg')",2.637
+"('94 mm', 'mmhg')",2.637
+"('74 mm', 'mmhg')",2.637
+"('80 mm', 'mmhg')",2.637
+"('3 mg', 'dose')",2.637
+"('120 mg', 'dose')",2.637
+"('magnetic resonance imaging', 'mri')",2.485
+"('boy', 'hellp syndrome')",2.485
+"('boy', 'new bradycardia')",2.485
+"('15 mm', 'mri')",2.485
+"('boy', 'elemental iron')",2.485
+"('3 cm', 'barium swallow')",2.485
+"('boy', 'oral iron replacement')",2.485
+"('boy', 'progressive generalized swelling')",2.485
+"('50 mg', '50mg')",2.485
+"('boy', 'red blood cell')",2.485
+"('300 mg', 'mg daily')",2.222
+"('40 mg', 'methylprednisolone')",2.222
+"('60 mg', 'week')",2.222
+"('intermittent fever', 'week')",2.222
+"('5 mg', 'prednisone')",2.222
+"('300 mg', 'initial dose')",2.222
+"('hemoglobin', 'laboratory result')",2.222
+"('computed tomography', 'contrast')",2.107
+"('computed tomography', 'preoperative')",2.107
+"('computed tomography', 'resolution')",2.107
+"('girl', 'incisional biopsy')",2.0
+"('girl', 'october')",2.0
+"('ct', 'tomography')",1.9
+"('ct', 'third computed tomography')",1.9
+"('ct', 'thoracic')",1.9
+"('ct', 'intravenous contrast')",1.9
+"('3 cm', 'cystic mass')",1.9
+"('ct', 'marked gastric distention')",1.9
+"('32 mg', 'dose')",1.637
+"('25 mg', 'dose')",1.637
+"('5 mg', 'l')",1.637
+"('70 mm', 'mmhg')",1.637
+"('51 mm', 'mmhg')",1.637
+"('50 mg', 'kg')",1.485
+"('boy', 'diarrhea')",1.485
+"('boy', 'transfusion')",1.485
+"('5 mg', 'kg')",1.222
+"('500 mg', 'week')",1.222
+"('20 mg', 'dose')",1.052
+"('admission', 'physical examination')",0.807
+"('abdominal pain', 'physical examination')",0.807
+"('computed tomography', 'ct')",0.785
+"('ct scan', 'girl')",0.678
+"('40 mg', 'dose')",0.637
+"('boy', 'kg')",0.485
+"('girl', 'scan')",0.415
+"('man', 'surgical resection')",0.253
+"('man', 'resistant seizure')",0.253
+"('man', 'oral liquid')",0.253
+"('man', 'post-procedure')",0.253
+"('coronary artery bypass grafting', 'man')",0.253
+"('celiac lymph node dissection', 'man')",0.253
+"('esophageal bypass surgery', 'man')",0.253
+"('frequency jet ventilation', 'man')",0.253
+"('chemotherapy', 'man')",0.253
+"('man', 'radiotherapy')",0.253
+"('bladder cancer', 'man')",0.253
+"('department', 'man')",0.253
+"('fact', 'man')",0.253
+"('man', 'tokyo medical')",0.253
+"('man', 'tracheal intubation')",0.253
+"('man', 'personal communication')",0.253
+"('case hypoxemia', 'man')",0.253
+"('lung ventilation', 'man')",0.253
+"('man', 'vague epigastric pain')",0.253
+"('man', 'relaparoscopy')",0.253
+"('complex partial seizure', 'man')",0.253
+"('dr. nakajima', 'man')",0.253
+"('man', 'right thoracic cavity')",0.253
+"('chest tube', 'man')",0.253
+"('exact mechanism', 'man')",0.253
+"('febrile seizure', 'man')",0.253
+"('man', 'pancreaticobiliary tract')",0.253
+"('man', 'palliative bypass')",0.253
+"('man', 'upper gastrointestinal tract')",0.253
+"('cerebral infarction', 'man')",0.253
+"('man', 'university hospital')",0.253
+"('man', 'postoperative pneumothorax')",0.253
+"('dental university', 'man')",0.253
+"('gastric tube', 'man')",0.253
+"('5 mg', 'dl')",0.222
+"('total laparoscopic hysterectomy', 'woman')",-0.123
+"('resection', 'woman')",-0.123
+"('bilateral salpingectomy', 'woman')",-0.123
+"('open resection', 'woman')",-0.123
+"('intraoperative endoscopy', 'woman')",-0.123
+"('onset', 'woman')",-0.123
+"('good condition', 'woman')",-0.123
+"('endoscopic resection', 'woman')",-0.123
+"('chronic renal failure', 'woman')",-0.123
+"('lung infection', 'woman')",-0.123
+"('regular diet', 'woman')",-0.123
+"('aortic aneurysm', 'woman')",-0.123
+"('breast cancer', 'woman')",-0.123
+"('internal septation', 'woman')",-0.123
+"('laparoscopic distal pancreatectomy', 'woman')",-0.123
+"('normal pancreatic echotexture', 'woman')",-0.123
+"('constipation', 'woman')",-0.123
+"('enbloc resection', 'woman')",-0.123
+"('original dosage regiman', 'woman')",-0.123
+"('evening', 'woman')",-0.123
+"('microbial cns infection', 'woman')",-0.123
+"('antiviral therapy', 'woman')",-0.123
+"('viral septicemia', 'woman')",-0.123
+"('pseudomass', 'woman')",-0.123
+"('elective replacement', 'woman')",-0.123
+"('regular subcutaneous injection', 'woman')",-0.123
+"('widespread erythematous patch', 'woman')",-0.123
+"('palliative resection', 'woman')",-0.123
+"('personal reason', 'woman')",-0.123
+"('unsuccessful follow', 'woman')",-0.123
+"('endometrial biopsy', 'woman')",-0.123
+"('overall skin condition', 'woman')",-0.123
+"('gynecologic cancer', 'woman')",-0.123
+"('left frontotemporal craniotomy', 'woman')",-0.123
+"('low quadrant abdominal pain', 'woman')",-0.123
+"('ruptured aneurysm', 'woman')",-0.123
+"('methylprednisolone tablet', 'woman')",-0.123
+"('dermoepidermal junction', 'woman')",-0.123
+"('eczema', 'woman')",-0.123
+"('frank ischemia', 'woman')",-0.123
+"('usual maximum intensity projection', 'woman')",-0.123
+"('severe headache', 'woman')",-0.123
+"('cyclophosphamide', 'woman')",-0.123
+"('male', 'right arm paresis')",-0.421
+"('male', 'tumor')",-0.421
+"('left upper extremity cellulitis', 'male')",-0.421
+"('male', 'protective ventilation')",-0.421
+"('emphysema', 'male')",-0.421
+"('male', 'rehabilitation facility')",-0.421
+"('hemodialysis', 'male')",-0.421
+"('day hospital stay', 'male')",-0.421
+"('male', 'surgical correction')",-0.421
+"('congenital heart defect', 'male')",-0.421
+"('liver disease', 'male')",-0.421
+"('male', 'right parietal indentation')",-0.421
+"('male', 'thrombosis')",-0.421
+"('male', 'minor rectal bleeding')",-0.421
+"('coincidence', 'male')",-0.421
+"('male', 'spontaneous development')",-0.421
+"('male', 'overt hypothyroidism')",-0.421
+"('elective surgical tracheostomy', 'male')",-0.421
+"('male', 'spleenectomy')",-0.421
+"('male', 'tracheoesophageal fistula')",-0.421
+"('abdominal ultrasound', 'male')",-0.421
+"('male', 'occasional headache')",-0.421
+"('male', 'pulmonary abscess')",-0.421
+"('herpe zoster', 'male')",-0.421
+"('clinic', 'male')",-0.421
+"('clinical outcome', 'male')",-0.421
+"('male', 'therapy')",-0.421
+"('drainage', 'male')",-0.421
+"('male', 'similar high fever')",-0.421
+"('male', 'severe biochemical hypothyroidism')",-0.421
+"('male', 'possible link')",-0.421
+"('male', 'significant dyspnea')",-0.421
+"('male', 'new onset hypothyroidism')",-0.421
+"('focal transmural inflammation', 'male')",-0.421
+"('male', 'proximity')",-0.421
+"('male', 'urgent subtotal colectomy')",-0.421
+"('continuous active disease', 'male')",-0.421
+"('male', 'ulcer')",-0.421
+"('male', 'rectum')",-0.421
+"('diffuse erosion', 'male')",-0.421
+"('active diffuse', 'male')",-0.421
+"('male', 'ulcerated area')",-0.421
+"('antagonist', 'patient')",-0.478
+"('patient', 'vitamin')",-0.478
+"('antithrombotic', 'patient')",-0.478
+"('obvious improvement', 'patient')",-0.478
+"('march', 'patient')",-0.478
+"('first period', 'patient')",-0.478
+"('conviction', 'patient')",-0.478
+"('patient', 'periodic paralysis')",-0.478
+"('inguinal hernia', 'patient')",-0.478
+"('nasal pharyngeal swab', 'patient')",-0.478
+"('negative result', 'patient')",-0.478
+"('invasive treatment group', 'patient')",-0.478
+"('n', 'patient')",-0.478
+"('patient', 'radiology')",-0.478
+"('acute exudative lesion', 'patient')",-0.478
+"('patient', 'surgical intervention')",-0.478
+"('anticoagulant', 'patient')",-0.478
+"('chest drain', 'patient')",-0.478
+"('patient', 'symptom resolution')",-0.478
+"('haematothorax', 'patient')",-0.478
+"('antiplatelet therapy', 'patient')",-0.478
+"('patient', 'postoperative follow')",-0.478
+"('conservative therapy', 'patient')",-0.478
+"('group', 'patient')",-0.478
+"('conservative treatment group', 'patient')",-0.478
+"('distinct treatment strategy', 'patient')",-0.478
+"('patient', 'puedvt')",-0.478
+"('induction', 'patient')",-0.478
+"('patient', 'respiratory symptom')",-0.478
+"('mild coughing', 'patient')",-0.478
+"('patient', 'vein')",-0.478
+"('patient', 'pta')",-0.478
+"('intravenous stent placement', 'patient')",-0.478
+"('anticoagulant therapy', 'patient')",-0.478
+"('cdt', 'patient')",-0.478
+"('majority', 'patient')",-0.478
+"('patient', 'pectoralis minor release')",-0.478
+"('patient', 'stent fracture')",-0.478
+"('bypass', 'patient')",-0.478
+"('patient', 'reintervention')",-0.478
+"('full symptom resolution', 'patient')",-0.478
+"('patient', 'stable vital')",-0.478
+"('patient', 'positive viral culture')",-0.478
+"('patient', 'strict input output monitoring')",-0.478
+"('patient', 'surface area')",-0.478
+"('healthy pressure injury', 'patient')",-0.478
+"('granulation tissue', 'patient')",-0.478
+"('moncton', 'patient')",-0.478
+"('noradrenaline', 'patient')",-0.478
+"('patient', 'retrospective study')",-0.478
+"('k', 'patient')",-0.478
+"('patient', 'recurrent thrombosis')",-0.478
+"('action', 'patient')",-0.478
+"('patient', 'weakness')",-0.478
+"('patient', 'transthoracic echocardiogram')",-0.478
+"('disposable linchpin', 'patient')",-0.478
+"('congenital adrenal hyperplasia', 'patient')",-0.478
+"('blood test', 'patient')",-0.478
+"('female', 'left upper lobe')",-0.55
+"('female', 'recurrent fever')",-0.55
+"('female', 'mediastinal lymphadenopathy')",-0.55
+"('female', 'lung nodule')",-0.55
+"('female', 'perihilar')",-0.55
+"('female', 'gastrointestinal disease')",-0.55
+"('female', 'infectious etiology')",-0.55
+"('female', 'incision')",-0.55
+"('amputation', 'female')",-0.55
+"('female', 'large left pleural effusion')",-0.55
+"('female', 'team')",-0.55
+"('female', 'progressive dysphagia')",-0.55
+"('female', 'third postoperative day')",-0.55
+"('female', 'obesity')",-0.55
+"('female', 'periappendiceal collection')",-0.55
+"('atrial myxoma', 'female')",-0.55
+"('carboplatin', 'female')",-0.55
+"('cycle', 'female')",-0.55
+"('chest pain', 'female')",-0.55
+"('female', 'progression')",-0.55
+"('female', 'pembrolizumab')",-0.55
+"('female', 'myocardial ischemia')",-0.55
+"('female', 'prompt relief')",-0.55
+"('female', 'ventricular ejection fraction')",-0.55
+"('female', 'ventricular septum')",-0.55
+"('female', 'intermittent chest pain')",-0.55
+"('female', 'outpatient treatment')",-0.55
+"('female', 'hour')",-0.55
+"('complete drainage', 'female')",-0.55
+"('atypical scenario', 'female')",-0.55
+"('dysphagia', 'female')",-0.55
+"('female', 'obstructive sleep apnea')",-0.55
+"('case', 'female')",-0.55
+"('admisison', 'female')",-0.55
+"('control', 'female')",-0.55
+"('female', 'uneventful postoperative course')",-0.55
+"('female', 'recent bleeding')",-0.55
+"('central adrenal insufficiency', 'female')",-0.55
+"('female', 'upper abdominal pain')",-0.55
+"('female', 'hemorrhage')",-0.55
+"('female', 'pod')",-0.55
+"('female', 'omeprazole')",-0.55
+"('amoxicillin', 'female')",-0.55
+"('female', 'therapy regime')",-0.55
+"('clarithromycin', 'female')",-0.55
+"('female', 'visual impairment')",-0.55
+"('female', 'left hemicolectomy')",-0.55
+"('continuous abdominal pain', 'female')",-0.55
+"('female', 'postoperative course')",-0.55
+"('disease', 'female')",-0.55
+"('female', 'right salpingectomy')",-0.55
+"('boy', 'dose')",-0.684
+"('man', 'oxcarbazepine')",-0.747
+"('biopsy', 'man')",-0.747
+"('depth', 'man')",-0.747
+"('edema', 'man')",-0.747
+"('man', 'valproic acid')",-0.747
+"('man', 'nausea')",-0.747
+"('diarrhea', 'man')",-0.747
+"('ct', 'girl')",-0.907
+"('male', 'transesophageal echocardiogram')",-1.006
+"('male', 'splenectomy')",-1.006
+"('patient', 'surgical exploration')",-1.063
+"('fever', 'patient')",-1.063
+"('50mg', 'woman')",-1.123
+"('fna', 'woman')",-1.123
+"('treatment', 'woman')",-1.123
+"('pleural effusion', 'woman')",-1.123
+"('postoperative day', 'woman')",-1.123
+"('hospitalization', 'woman')",-1.123
+"('daily prednisolone dose', 'woman')",-1.123
+"('direct immunofluorescence', 'woman')",-1.123
+"('asthma', 'female')",-1.135
+"('man', 'vomiting')",-1.332
+"('hypertension', 'man')",-1.332
+"('man', 'pain')",-1.332
+"('man', 'splenectomy')",-1.332
+"('cardiopulmonary bypass', 'man')",-1.332
+"('male', 'tumor search')",-1.421
+"('angiography', 'male')",-1.421
+"('attempt', 'male')",-1.421
+"('magnetic resonance imaging', 'male')",-1.421
+"('hospital', 'male')",-1.421
+"('male', 'massive amount')",-1.421
+"('diagnostic laparoscopy', 'male')",-1.421
+"('dysplasia', 'male')",-1.421
+"('intermittent fever', 'male')",-1.421
+"('histopathology report', 'male')",-1.421
+"('male', 'postoperative day')",-1.421
+"('acyclovir', 'male')",-1.421
+"('male', 'skin biopsy')",-1.421
+"('fatigue', 'male')",-1.421
+"('male', 'pancreatic biopsy')",-1.421
+"('male', 'palpable defect')",-1.421
+"('patient', 'sonomed pacscan 300a')",-1.478
+"('fatigue', 'patient')",-1.478
+"('patient', 'transfusion')",-1.478
+"('patient', 'restriction')",-1.478
+"('october', 'patient')",-1.478
+"('h', 'patient')",-1.478
+"('criterion', 'patient')",-1.478
+"('discharge', 'patient')",-1.478
+"('patient', 'total')",-1.478
+"('female', 'pulmonary abnormality')",-1.55
+"('edema', 'female')",-1.55
+"('endomyocardial biopsy', 'female')",-1.55
+"('female', 'right heart catheterization')",-1.55
+"('female', 'mofetil')",-1.55
+"('female', 'prednisone')",-1.55
+"('female', 'hospital')",-1.55
+"('endoscopy', 'female')",-1.55
+"('female', 'laparoscopic appendectomy')",-1.55
+"('echocardiography', 'female')",-1.55
+"('morning', 'woman')",-1.708
+"('methylprednisolone', 'woman')",-1.708
+"('pain', 'woman')",-1.708
+"('male', 'vomiting')",-2.006
+"('hypertension', 'male')",-2.006
+"('asthma', 'male')",-2.006
+"('colonoscopy', 'male')",-2.006
+"('cardiopulmonary bypass', 'male')",-2.006
+"('hypertension', 'patient')",-2.063
+"('patient', 'surgery')",-2.063
+"('abdominal pain', 'woman')",-2.123
+"('nausea', 'woman')",-2.123
+"('mass', 'woman')",-2.123
+"('electrocardiogram', 'female')",-2.135
+"('female', 'vomiting')",-2.135
+"('ecg', 'female')",-2.135
+"('female', 'pain')",-2.135
+"('cardiopulmonary bypass', 'female')",-2.135
+"('female', 'scan')",-2.135
+"('male', 'nausea')",-2.421
+"('admission', 'male')",-2.421
+"('male', 'malignancy')",-2.421
+"('male', 'mass')",-2.421
+"('ct scan', 'woman')",-2.445
+"('abdominal pain', 'female')",-2.55
+"('male', 'mri')",-2.743
+"('male', 'scan')",-3.006
+"('patient', 'week')",-3.063
+"('female', 'week')",-3.135
+"('computed tomography', 'female')",-3.251
+"('dose', 'woman')",-3.293
+"('ct', 'male')",-3.328
+"('computed tomography', 'woman')",-3.824
+"('ct', 'female')",-4.457
+"('female', 'patient')",-5.836
+"('patient', 'woman')",-6.409
