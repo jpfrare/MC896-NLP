@@ -1,0 +1,46 @@
+file,field,explanation
+captions_and_labels.csv,file_id,"Primary key for each row. Each row contains one image, with its caption and corresponding chunks and labels."
+captions_and_labels.csv,file,"Name of the image file. The file path can be deducted from the file name: f""{file[:4]}/{file[:5]}/{file}"". For example, the path to the image ""PMC10000323_jbsr-107-1-3012-g3_undivided_1_1.jpg"" is ""PMC1/PMC10/PMC10000323_jbsr-107-1-3012-g3_undivided_1_1.jpg"". The last part of the name before .jpg refer to the reference present in the caption, the sub-image order and the total amount of sub-images in a given image. For example, if the file corresponds to figure b (according to the caption) out of 4 sub-images present in an article image, the last part of the file name will be ""b_2_4.jgp""."
+captions_and_labels.csv,main_image,"Id from the original image (it corresponds to image_id from case_images.parquet). Files that were created as splits from an image file in a given article will have different file_id and file, and the same main_image value."
+captions_and_labels.csv,image_component,"It is 'undivided' if the source image was not split. Otherwise, this column contains the corresponding subimage reference (e.g. 'a' or 'b')."
+captions_and_labels.csv,patient_id,"Id of the patient, created combining the PMC of the article plus a sequential number."
+captions_and_labels.csv,license,"License of the article. The possible values are CC BY, CC BY-NC-ND, CC BY-NC-SA, CC BY-NC, NO-CC CODE, CC BY-ND and CC BY-SA. NO-CC CODE means that the article is open access but the actual license cannot be retrieved through the API, it has to be done manually."
+captions_and_labels.csv,file_size,Size of the corresponding image (in bytes).
+captions_and_labels.csv,caption,"It is the caption that corresponds to the image. If the image is a part of the original image present in the article, this field includes the corresponding part of the whole caption. In cases where the caption was split, there may be some extra special characters or truncated sentences."
+captions_and_labels.csv,case_substring,Part of the clinical case that references the image (e.g. 'Figure 2').
+captions_and_labels.csv,image_type,"Multiclass classification column with seven possible classes ('radiology', 'pathology', 'chart', 'endoscopy', 'medical_photograph', ophthalmic_imaging' and 'electrography')."
+captions_and_labels.csv,image_subtype,"Multiclass classification column with 40 possible classes (including 'x_ray', 'ct', 'mri', 'ekg', 'immunostaining', etc)."
+captions_and_labels.csv,radiology_region,"Multiclass classification column, including nine possible anatomical classes that are applicable only for 'radiology' images ('thorax', 'abdomen', 'head', 'lower_limb', etc)."
+captions_and_labels.csv,radiology_region_granular,"Multiclass classification column, including 19 possible anatomical classes that are applicable only for 'radiology' images (the same classes as in radiology_region, but 'upper_limb' and 'lower_limb' are replaced with more detailed classes, such as 'hip' and 'knee')."
+captions_and_labels.csv,radiology_view,"Multiclass classification column, including 12 possible classes that are only applicable for 'radiology' images (e.g. 'axial', 'frontal', 'transabdominal', etc)."
+captions_and_labels.csv,supervised_multilabel_classification,"Multilabel classification column (there can be more than one label per image). It contains labels from the reduced taxonomy (89 possible classes, including the ones present in the multiclass columns)."
+captions_and_labels.csv,semisupervised_multilabel_classification,"Multilabel classification column (there can be more than one label per image). It contains labels from the full taxonomy that are not included in the reduced taxonomy (56 possible classes, such as 'anteroposterior', 'lung_window', and 'venogram'). The data from this column is intended for semi-supervised learning (some labels are missing)."
+case_images.parquet,article_id,PMCID of the article.
+case_images.parquet,case_id,"Id of the patient, created combining the PMC of the article plus a sequential number."
+case_images.parquet,tag,File tag present assigned to the image in PubMed (e.g. 'ARSR-12-0031F1').
+case_images.parquet,caption,Image caption.
+case_images.parquet,file,Original name of the file in the article.
+case_images.parquet,image_id,Id of the image downloaded from PMC. The ID combines patient ID + file name.
+case_images.parquet,text_references,"Parts of the case reports that refer to a given image (taken from the content of the text, and not from the captions)."
+abstracts.parquet,article_id,PMCID of the article.
+abstracts.parquet,abstract,Abstract of the article.
+metadata.parquet,article_id,PMCID of the article.
+metadata.parquet,title,Title of the case report article.
+metadata.parquet,authors,List of authors.
+metadata.parquet,journal,Journal where the article was published.
+metadata.parquet,journal_detail,Other details taken from metadata for article citation.
+metadata.parquet,year,Year when the article was published.
+metadata.parquet,doi,DOI of the article.
+metadata.parquet,pmid,PMID of the article.
+metadata.parquet,pmcid,PMCID of the article.
+metadata.parquet,mesh_terms,Medical Subject Headings (MeSH) terms.
+metadata.parquet,major_mesh_terms,MeSH terms marked as major.
+metadata.parquet,keywords,Keywords are taken from the keywords section that is sometimes available in the content of the article.
+metadata.parquet,link,Link to the article.
+metadata.parquet,license,"License of the article. The possible values are CC BY, CC BY-NC-ND, CC BY-NC-SA, CC BY-NC, NO-CC CODE, CC BY-ND and CC BY-SA. NO-CC CODE means that the article is open access but the actual license cannot be retrieved through the API, it has to be done manually."
+metadata.parquet,case_amount,Amount of cases included in the article.
+cases.parquet,article_id,PMCID of the article.
+cases.parquet,case_id,"Id of the patient, created combining the PMC of the article plus a sequential number."
+cases.parquet,case_text,Text of the clinical case.
+cases.parquet,age,Age of the patient. Ages lower than 1 y.o. are assigned 0 as age.
+cases.parquet,gender,"Gender of the patient. It can be either Female, Male, Transgender or Unknown."
