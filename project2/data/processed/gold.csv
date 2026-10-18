@@ -1,0 +1,76 @@
+doc_id,e1_text,e1_type,e2_text,e2_type,context,relation
+PMC5137649_01,44-year-old woman,PATIENT,right flank and lower quadrant abdominal pain,SYMPTOM,presented with a 3-day history of,HAS_SYMPTOM
+PMC5137649_01,44-year-old woman,PATIENT,nausea,SYMPTOM,associated with,HAS_SYMPTOM
+PMC5137649_01,44-year-old woman,PATIENT,constipation,SYMPTOM,associated with nausea and,HAS_SYMPTOM
+PMC5137649_01,44-year-old woman,PATIENT,contrast enhanced computed tomography,PROCEDURE,she underwent,UNDERWENT_PROCEDURE
+PMC5137649_01,44-year-old woman,PATIENT,EUS-FNA,PROCEDURE,she subsequently underwent,UNDERWENT_PROCEDURE
+PMC5137649_01,extracellular mucin,FINDING,mucinous pancreatic cystic neoplasm,DIAGNOSIS,as well as a CEA level of 12476.5ng/ml and a CA 19-9 level suggesting the diagnosis of a,SUPPORTS
+PMC5137649_01,"carcinoembryonic antigen (CEA) level of 12,476.5ng/ml",FINDING,mucinous pancreatic cystic neoplasm,DIAGNOSIS,and a carbohydrate antigen (CA) 19-9 level of 6iu/ml suggesting the diagnosis of a,SUPPORTS
+PMC5137649_01,carbohydrate antigen (CA) 19-9 level of 6iu/ml,FINDING,mucinous pancreatic cystic neoplasm,DIAGNOSIS,suggesting the diagnosis of a,SUPPORTS
+PMC5137649_01,mucinous pancreatic cystic neoplasm,DIAGNOSIS,surgical resection,PROCEDURE,the patient was therefore referred for,TREATED_BY
+PMC5137649_01,44-year-old woman,PATIENT,laparoscopic exploration,PROCEDURE,at the time of the,UNDERWENT_PROCEDURE
+PMC5137649_01,44-year-old woman,PATIENT,Intraoperative endoscopy,PROCEDURE,was performed on,UNDERWENT_PROCEDURE
+PMC5137649_01,gastric duplication cyst,DIAGNOSIS,open resection,PROCEDURE,the procedure was converted to an,TREATED_BY
+PMC5137649_01,gastric duplication cyst,DIAGNOSIS,enbloc resection of the cyst,PROCEDURE,was performed for,TREATED_BY
+PMC5137649_01,44-year-old woman,PATIENT,Repeat oesophagogastroduodenoscopy,PROCEDURE,revealed the presence of an intact staple line in,UNDERWENT_PROCEDURE
+PMC5137649_01,contrast enhanced computed tomography,PROCEDURE,6cm cystic lesion,FINDING,demonstrating a,NO_RELATION
+PMC5137649_01,EUS-FNA,PROCEDURE,extracellular mucin,FINDING,which revealed normal echotexture FNA demonstrated,NO_RELATION
+PMC5137649_01,laparoscopic distal pancreatectomy,PROCEDURE,laparoscopic exploration,PROCEDURE,was planned at the time of the,NO_RELATION
+PMC9387390_01,57-year-old man,PATIENT,postprandial abdominal fullness,SYMPTOM,initially presented with,HAS_SYMPTOM
+PMC9387390_01,57-year-old man,PATIENT,diarrhea,SYMPTOM,and,HAS_SYMPTOM
+PMC9387390_01,57-year-old man,PATIENT,CT guided biopsy,PROCEDURE,The patient underwent,UNDERWENT_PROCEDURE
+PMC9387390_01,central mesenteric mass,FINDING,invasive moderately to poorly differentiated adenocarcinoma,DIAGNOSIS,this was consistent with,SUPPORTS
+PMC9387390_01,invasive moderately to poorly differentiated adenocarcinoma,DIAGNOSIS,chemotherapy,PROCEDURE,started on,TREATED_BY
+PMC9387390_01,57-year-old man,PATIENT,nausea,SYMPTOM,he presented to the hospital with,HAS_SYMPTOM
+PMC9387390_01,57-year-old man,PATIENT,emesis,SYMPTOM,"nausea,",HAS_SYMPTOM
+PMC9387390_01,57-year-old man,PATIENT,abdominal distention,SYMPTOM,and,HAS_SYMPTOM
+PMC9387390_01,57-year-old man,PATIENT,laparoscopic gastrojejunostomy (GJ),PROCEDURE,The patient underwent,UNDERWENT_PROCEDURE
+PMC9387390_01,anastomotic leak,FINDING,relaparoscopy,PROCEDURE,he underwent,TREATED_BY
+PMC9387390_01,delayed gastric emptying,DIAGNOSIS,gastrojejunal tube,PROCEDURE,a,TREATED_BY
+PMC9387390_01,57-year-old man,PATIENT,endoscopic placement of a nasojejunal (NJ) tube,PROCEDURE,we proceeded with,UNDERWENT_PROCEDURE
+PMC9387390_01,delayed gastric emptying,DIAGNOSIS,stent placement,PROCEDURE,prompted,TREATED_BY
+PMC9387390_01,AXIOS stent,PROCEDURE,20 mm x 10 mm,VALUE,(,HAS_VALUE
+PMC9387390_01,uncovered WallFlex colonic stent,PROCEDURE,25 mm x 90 mm,VALUE,(,HAS_VALUE
+PMC9387390_01,Computed tomography (CT) imaging,PROCEDURE,nonspecific mesenteric edema,FINDING,showed,NO_RELATION
+PMC9387390_01,upper gastrointestinal (UGI) contrast study,PROCEDURE,unremarkable,FINDING,were,NO_RELATION
+PMC9387390_01,repeat CT of the abdomen,PROCEDURE,central mesenteric mass,FINDING,demonstrated a,NO_RELATION
+PMC3437073_01,55-year-old male,PATIENT,mass,SYMPTOM,presented with a gradually increasing,HAS_SYMPTOM
+PMC3437073_01,lobulated subcutaneous mass,FINDING,7 cm,VALUE,measuring about,HAS_VALUE
+PMC3437073_01,Chest X-rays,PROCEDURE,calcified lesion,FINDING,showed a,NO_RELATION
+PMC3437073_01,calcified lesion,FINDING,old pulmonary tuberculosis,DIAGNOSIS,suggestive of an,SUPPORTS
+PMC3437073_01,Abdominal radiographs,PROCEDURE,calcified lesions,FINDING,showed,NO_RELATION
+PMC3437073_01,Ultrasound of the abdomen,PROCEDURE,enlarged spleen,FINDING,indicated an,NO_RELATION
+PMC3437073_01,CT scan of the abdomen,PROCEDURE,splenic abscess,FINDING,revealed a,NO_RELATION
+PMC3437073_01,splenic abscess,FINDING,complicated tuberculous splenic abscess,DIAGNOSIS,"Based on these data, a",SUPPORTS
+PMC3437073_01,complicated tuberculous splenic abscess,DIAGNOSIS,incised and drained,PROCEDURE,the subcutaneous abscess was,TREATED_BY
+PMC3437073_01,complicated tuberculous splenic abscess,DIAGNOSIS,splenectomy,PROCEDURE,was performed simultaneously,TREATED_BY
+PMC3437073_01,Histopathology of the spleen,PROCEDURE,tuberculoid granuloma,FINDING,revealed the characteristic,NO_RELATION
+PMC3437073_01,Isoniazid (INH),PROCEDURE,300 mg,VALUE,,HAS_VALUE
+PMC3437073_01,Rifampin,PROCEDURE,600 mg,VALUE,,HAS_VALUE
+PMC3437073_01,Ethambutol,PROCEDURE,600 mg,VALUE,,HAS_VALUE
+PMC3437073_01,Pyrazinamide,PROCEDURE,500 mg,VALUE,,HAS_VALUE
+PMC7102447_01,65-year-old male,PATIENT,hypertension,SYMPTOM,with a past medical history significant for,HAS_SYMPTOM
+PMC7102447_01,65-year-old male,PATIENT,asthma,SYMPTOM,",",HAS_SYMPTOM
+PMC7102447_01,65-year-old male,PATIENT,minimally invasive bioprosthetic mitral valve replacement,PROCEDURE,and,UNDERWENT_PROCEDURE
+PMC7102447_01,minimally invasive bioprosthetic mitral valve replacement,PROCEDURE,33 mm,VALUE,with a,HAS_VALUE
+PMC7102447_01,65-year-old male,PATIENT,severe respiratory distress,SYMPTOM,presented with,HAS_SYMPTOM
+PMC7102447_01,severe respiratory distress,SYMPTOM,emergent intubation,PROCEDURE,requiring,TREATED_BY
+PMC7102447_01,electrocardiogram (EKG),PROCEDURE,sinus rhythm with left anterior fascicular block,FINDING,revealed,NO_RELATION
+PMC7102447_01,electrocardiogram (EKG),PROCEDURE,right bundle branch block,FINDING,",",NO_RELATION
+PMC7102447_01,electrocardiogram (EKG),PROCEDURE,left atrial enlargement,FINDING,and evidence of,NO_RELATION
+PMC7102447_01,troponin,FINDING,0.04 ng/mL,VALUE,was normal at,HAS_VALUE
+PMC7102447_01,CK-MB,FINDING,21.2 ng/mL,VALUE,were elevated to,HAS_VALUE
+PMC7102447_01,total CK,FINDING,308 U/L,VALUE,and,HAS_VALUE
+PMC7102447_01,INR,FINDING,1.0,VALUE,of,HAS_VALUE
+PMC7102447_01,PTT,FINDING,28,VALUE,of,HAS_VALUE
+PMC7102447_01,PT,FINDING,10.9,VALUE,of,HAS_VALUE
+PMC7102447_01,acute coronary syndrome (ACS),DIAGNOSIS,heparin infusion,PROCEDURE,started immediately on,TREATED_BY
+PMC7102447_01,computed tomography angiogram (CTA) of the chest,PROCEDURE,moderate patchy ground-glass and nodular airspace opacities,FINDING,revealed,NO_RELATION
+PMC7102447_01,Transesophageal echocardiogram (TEE),PROCEDURE,acute thrombosis of the bioprosthetic mitral valve,DIAGNOSIS,was performed showing an,NO_RELATION
+PMC7102447_01,mean gradient,FINDING,20.1 mmHg,VALUE,of,HAS_VALUE
+PMC7102447_01,valve area,FINDING,0.68 cm2,VALUE,of,HAS_VALUE
+PMC7102447_01,65-year-old male,PATIENT,emergent redo mitral valve surgery,PROCEDURE,subsequently underwent,UNDERWENT_PROCEDURE
+PMC7102447_01,St. Jude mechanical prosthesis,PROCEDURE,33 mm,VALUE,a,HAS_VALUE
+PMC7102447_01,massive amount of material on the ventricular side of each cusp,FINDING,thrombosis,DIAGNOSIS,with pathology findings consistent with,SUPPORTS
+PMC7102447_01,intraoperative TEE,PROCEDURE,mitral valve mean gradient,FINDING,showed that the,NO_RELATION
+PMC7102447_01,mitral valve mean gradient,FINDING,4 mmHg,VALUE,had improved to,HAS_VALUE
