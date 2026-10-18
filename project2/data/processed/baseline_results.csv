@@ -1,0 +1,6 @@
+modelo,macro_f1,accuracy,desvio_entre_textos
+majority,0.082,0.173,0.037
+types_only,0.965,0.96,0.026
+tfidf_lr_text,0.435,0.467,0.122
+tfidf_lr_+types,0.984,0.987,0.021
+rules_p1,0.399,0.453,
