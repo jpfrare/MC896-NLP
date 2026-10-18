@@ -1,0 +1,22 @@
+doc_id,e1_text,e1_type,e2_text,e2_type,intermediate_text,relation_label
+PMC5137649_01,"44-year-old woman",PATIENT,"right flank and lower quadrant abdominal pain",SYMPTOM,"presented with a 3-day history of",HAS_SYMPTOM
+PMC5137649_01,"44-year-old woman",PATIENT,"nausea",SYMPTOM,"associated with",HAS_SYMPTOM
+PMC5137649_01,"44-year-old woman",PATIENT,"constipation",SYMPTOM,"associated with nausea and",HAS_SYMPTOM
+PMC5137649_01,"44-year-old woman",PATIENT,"contrast enhanced computed tomography",PROCEDURE,"She underwent",UNDERWENT_PROCEDURE
+PMC5137649_01,"contrast enhanced computed tomography",PROCEDURE,"cystic lesion",FINDING,"demonstrating a",NO_RELATION
+PMC5137649_01,"cystic lesion",FINDING,"6cm",VALUE,"a",HAS_VALUE
+PMC5137649_01,"44-year-old woman",PATIENT,"EUS-FNA",PROCEDURE,"She subsequently underwent",UNDERWENT_PROCEDURE
+PMC5137649_01,"EUS-FNA",PROCEDURE,"normal pancreatic echotexture",FINDING,"which revealed",NO_RELATION
+PMC5137649_01,"cyst",FINDING,"6cm x 9cm",VALUE,"measuring",HAS_VALUE
+PMC5137649_01,"extracellular mucin",FINDING,"mucinous pancreatic cystic neoplasm",DIAGNOSIS,"as well as a CEA level of 12,476.5ng/ml and a CA 19-9 level suggesting the diagnosis of a",SUPPORTS
+PMC5137649_01,"carcinoembryonic antigen (CEA) level",FINDING,"12,476.5ng/ml",VALUE,"of",HAS_VALUE
+PMC5137649_01,"carbohydrate antigen (CA) 19-9 level",FINDING,"6iu/ml",VALUE,"of",HAS_VALUE
+PMC5137649_01,"carbohydrate antigen (CA) 19-9 level",FINDING,"mucinous pancreatic cystic neoplasm",DIAGNOSIS,"suggesting the diagnosis of a",SUPPORTS
+PMC5137649_01,"mucinous pancreatic cystic neoplasm",DIAGNOSIS,"surgical resection",PROCEDURE,"The patient was therefore referred for",TREATED_BY
+PMC5137649_01,"44-year-old woman",PATIENT,"laparoscopic exploration",PROCEDURE,"At the time of the",UNDERWENT_PROCEDURE
+PMC5137649_01,"44-year-old woman",PATIENT,"Intraoperative endoscopy",PROCEDURE,"was performed",UNDERWENT_PROCEDURE
+PMC5137649_01,"gastric duplication cyst",DIAGNOSIS,"open resection",PROCEDURE,"the procedure was converted to an",TREATED_BY
+PMC5137649_01,"gastric duplication cyst",DIAGNOSIS,"enbloc resection of the cyst",PROCEDURE,"was performed",TREATED_BY
+PMC5137649_01,"44-year-old woman",PATIENT,"Repeat oesophagogastroduodenoscopy",PROCEDURE,"revealed the presence of an intact staple line on the posterior stomach wall",UNDERWENT_PROCEDURE
+PMC5137649_01,"cyst",FINDING,"9.5cm x 4.5cm x 2.0cm",VALUE,"a",HAS_VALUE
+PMC5137649_01,"cyst",FINDING,"GDC",DIAGNOSIS,"consistent with a",SUPPORTS
