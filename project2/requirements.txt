@@ -94,4 +94,3 @@ wcwidth==0.8.3
 weasel==1.0.0
 wrapt==2.4.0
 scikit-learn
-scikit-learn
