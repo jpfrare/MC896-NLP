@@ -5,4 +5,4 @@
 .DS_Store
 
 # Native VSCode files
-.vscode
+.vscode__pycache__/
