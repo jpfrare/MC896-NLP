@@ -1,0 +1,8 @@
+# Python Virtual Environment
+.venv
+
+# Native MacOS files
+.DS_Store
+
+# Native VSCode files
+.vscode
