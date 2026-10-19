@@ -3,8 +3,7 @@
 ## Project MultiCaRe Clinical Knowledge Graph Extraction with N-grams and Machine Learning
 
 ## Slides
-
-[TODO: link para o PDF da apresentação (arquivo em `assets/slides/`)]
+- [Apresentação](https://docs.google.com/presentation/d/1Uv2PO4QWB4y54Y-5D5rHIStLSTYr8B1M/edit?slide=id.p1#slide=id.p1)
 
 ## Demonstração Executável
 
