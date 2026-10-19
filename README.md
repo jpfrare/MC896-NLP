@@ -44,10 +44,10 @@ Os modelos treinados apresentaram as seguintes métricas globais sobre as 5 clas
 | MLP (PyTorch)        |   0.453853 |    0.442074 | 0.473263  |
 
 **Comparação de F1-Score por Classe:**
-![F1 por Classe](assets/images/comparison/02_f1_por_classe.png)
+![F1 por Classe](project2/assets/images/comparison/02_f1_por_classe.png)
 
 **Matrizes de Confusão:**
-![Matrizes de Confusão](assets/images/comparison/03_matrizes_confusao.png)
+![Matrizes de Confusão](project2/assets/images/comparison/03_matrizes_confusao.png)
 
 ### 10. Como Modelos de Linguagem foram Usados
 Modelos de linguagem (LLMs) não foram utilizados no pipeline de inferência ou na extração do grafo, respeitando as restrições metodológicas do projeto. 
