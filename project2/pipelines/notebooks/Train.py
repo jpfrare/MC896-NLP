@@ -37,10 +37,10 @@ class Lemmatizer:
         return pd.Series(results, index=series.index, name=f"{series.name}")
 
 class EntityClassifier():
-    def __init__(self, ngram_range =(1,5), max_features= 2000, maxiter=1000, seed= 42):
+    def __init__(self, ngram_range =(1,5), max_features= 2000, maxiter=1000, seed= 42, C= 0.5):
         self.lemmatizer = Lemmatizer()
-        self.idf_tf = TfidfVectorizer(ngram_range= ngram_range, max_features= max_features)
-        self.model = LogisticRegression(max_iter= maxiter, random_state= seed)
+        self.idf_tf = TfidfVectorizer(ngram_range= ngram_range, max_features= max_features, sublinear_tf= True, min_df= 2)
+        self.model = LogisticRegression(max_iter= maxiter, random_state= seed, class_weight= 'balanced', C= C)
 
     def fit(self, data: pd.Series, labels: pd.Series):
         data_lem = self.lemmatizer.lemmatize_series(data)
@@ -57,10 +57,10 @@ class EntityClassifier():
         return pd.Series(prediction, index= data.index)
 
 class RelationClassifier():
-    def __init__(self, ngram_range = (1,5), max_features= 2000, maxiter= 1000, seed= 42):
+    def __init__(self, ngram_range = (1,5), max_features= 2000, maxiter= 1000, seed= 42, C=0.5):
         self.lemmatizer = Lemmatizer()
-        self.idf_tf = TfidfVectorizer(ngram_range= ngram_range, max_features= max_features)
-        self.model = LogisticRegression(max_iter= maxiter, random_state= seed)
+        self.idf_tf = TfidfVectorizer(ngram_range= ngram_range, max_features= max_features, sublinear_tf= True, min_df= 2)
+        self.model = LogisticRegression(max_iter= maxiter, random_state= seed, class_weight= 'balanced', C= C)
         self.ohe = None
 
     def fit(self, e1_type : pd.Series, e2_type: pd.Series, intermediate_text: pd.Series, intermediate_label: pd.Series):
