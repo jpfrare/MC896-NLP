@@ -1,18 +1,40 @@
-doc_id,e1_text,e1_type,e2_text,e2_type,intermediate_text,relation_label
-PMC5137649_01,"44-year-old woman",PATIENT,"right flank and lower quadrant abdominal pain",SYMPTOM,"presented with a 3-day history of",HAS_SYMPTOM
-PMC5137649_01,"44-year-old woman",PATIENT,"nausea",SYMPTOM,"associated with",HAS_SYMPTOM
-PMC5137649_01,"44-year-old woman",PATIENT,"constipation",SYMPTOM,"associated with nausea and",HAS_SYMPTOM
-PMC5137649_01,"44-year-old woman",PATIENT,"contrast enhanced computed tomography",PROCEDURE,"she underwent",UNDERWENT_PROCEDURE
-PMC5137649_01,"44-year-old woman",PATIENT,"EUS-FNA",PROCEDURE,"she subsequently underwent",UNDERWENT_PROCEDURE
-PMC5137649_01,"extracellular mucin",FINDING,"mucinous pancreatic cystic neoplasm",DIAGNOSIS,"as well as a CEA level of 12476.5ng/ml and a CA 19-9 level suggesting the diagnosis of a",SUPPORTS
-PMC5137649_01,"carcinoembryonic antigen (CEA) level of 12,476.5ng/ml",FINDING,"mucinous pancreatic cystic neoplasm",DIAGNOSIS,"and a carbohydrate antigen (CA) 19-9 level of 6iu/ml suggesting the diagnosis of a",SUPPORTS
-PMC5137649_01,"carbohydrate antigen (CA) 19-9 level of 6iu/ml",FINDING,"mucinous pancreatic cystic neoplasm",DIAGNOSIS,"suggesting the diagnosis of a",SUPPORTS
-PMC5137649_01,"mucinous pancreatic cystic neoplasm",DIAGNOSIS,"surgical resection",PROCEDURE,"the patient was therefore referred for",TREATED_BY
-PMC5137649_01,"44-year-old woman",PATIENT,"laparoscopic exploration",PROCEDURE,"at the time of the",UNDERWENT_PROCEDURE
-PMC5137649_01,"44-year-old woman",PATIENT,"Intraoperative endoscopy",PROCEDURE,"was performed on",UNDERWENT_PROCEDURE
-PMC5137649_01,"gastric duplication cyst",DIAGNOSIS,"open resection",PROCEDURE,"the procedure was converted to an",TREATED_BY
-PMC5137649_01,"gastric duplication cyst",DIAGNOSIS,"enbloc resection of the cyst",PROCEDURE,"was performed for",TREATED_BY
-PMC5137649_01,"44-year-old woman",PATIENT,"Repeat oesophagogastroduodenoscopy",PROCEDURE,"revealed the presence of an intact staple line in",UNDERWENT_PROCEDURE
-PMC5137649_01,"contrast enhanced computed tomography",PROCEDURE,"6cm cystic lesion",FINDING,"demonstrating a",NO_RELATION
-PMC5137649_01,"EUS-FNA",PROCEDURE,"extracellular mucin",FINDING,"which revealed normal echotexture FNA demonstrated",NO_RELATION
-PMC5137649_01,"laparoscopic distal pancreatectomy",PROCEDURE,"laparoscopic exploration",PROCEDURE,"was planned at the time of the",NO_RELATION
+"doc_id","e1_text","e1_type","e2_text","e2_type","intermediate_text","relation_label"
+"PMC5137649_01","44-year-old woman","PATIENT","abdominal pain","SYMPTOM","presented with a 3-day history of right flank and lower quadrant","HAS_SYMPTOM"
+"PMC5137649_01","44-year-old woman","PATIENT","nausea","SYMPTOM","presented with a 3-day history of right flank and lower quadrant abdominal pain associated with","HAS_SYMPTOM"
+"PMC5137649_01","44-year-old woman","PATIENT","constipation","SYMPTOM","presented with a 3-day history of right flank and lower quadrant abdominal pain associated with nausea and","HAS_SYMPTOM"
+"PMC5137649_01","44-year-old woman","PATIENT","presented with a","NOT_ENTITY","","NO_RELATION"
+"PMC5137649_01","abdominal pain","SYMPTOM","nausea","SYMPTOM","associated with","NO_RELATION"
+"PMC5137649_01","history of right flank","NOT_ENTITY","constipation","SYMPTOM","and lower quadrant abdominal pain associated with nausea and","NO_RELATION"
+"PMC5137649_01","She","PATIENT","contrast enhanced computed tomography","PROCEDURE","underwent","UNDERWENT_PROCEDURE"
+"PMC5137649_01","She","PATIENT","demonstrating a","NOT_ENTITY","underwent contrast enhanced computed tomography","NO_RELATION"
+"PMC5137649_01","cystic lesion","FINDING","6cm","VALUE","a","HAS_VALUE"
+"PMC5137649_01","contrast enhanced computed tomography","PROCEDURE","cystic lesion","FINDING","demonstrating a 6cm","SUPPORTS"
+"PMC5137649_01","She","PATIENT","EUS-FNA","PROCEDURE","subsequently underwent","UNDERWENT_PROCEDURE"
+"PMC5137649_01","cyst","FINDING","6cm x 9cm","VALUE","measuring","HAS_VALUE"
+"PMC5137649_01","normal pancreatic echotexture","FINDING","6cm x 9cm","VALUE","and a cyst measuring","NO_RELATION"
+"PMC5137649_01","EUS-FNA","PROCEDURE","cyst","FINDING","which revealed normal pancreatic echotexture and a","SUPPORTS"
+"PMC5137649_01","carcinoembryonic antigen level","FINDING","12,476.5ng/ml","VALUE","of","HAS_VALUE"
+"PMC5137649_01","carbohydrate antigen 19-9 level","FINDING","6iu/ml","VALUE","of","HAS_VALUE"
+"PMC5137649_01","carcinoembryonic antigen level","FINDING","mucinous pancreatic cystic neoplasm","DIAGNOSIS","of 12,476.5ng/ml and a carbohydrate antigen (CA) 19-9 level of 6iu/ml suggesting the diagnosis of a","SUPPORTS"
+"PMC5137649_01","carbohydrate antigen 19-9 level","FINDING","mucinous pancreatic cystic neoplasm","DIAGNOSIS","of 6iu/ml suggesting the diagnosis of a","SUPPORTS"
+"PMC5137649_01","mucinous pancreatic cystic neoplasm","DIAGNOSIS","suggesting the diagnosis","NOT_ENTITY","","NO_RELATION"
+"PMC5137649_01","12,476.5ng/ml","VALUE","6iu/ml","VALUE","and a carbohydrate antigen (CA) 19-9 level of","NO_RELATION"
+"PMC5137649_01","patient","PATIENT","surgical resection","PROCEDURE","was therefore referred for","UNDERWENT_PROCEDURE"
+"PMC5137649_01","patient","PATIENT","was therefore referred","NOT_ENTITY","","NO_RELATION"
+"PMC5137649_01","laparoscopic distal pancreatectomy","PROCEDURE","was planned","NOT_ENTITY","","NO_RELATION"
+"PMC5137649_01","lesion","FINDING","stomach and pancreas","NOT_ENTITY","was noted to be tightly adherent to both the","NO_RELATION"
+"PMC5137649_01","intraoperative endoscopy","PROCEDURE","mucosal abnormalities","FINDING","was performed and no","SUPPORTS"
+"PMC5137649_01","intraoperative endoscopy","PROCEDURE","was performed and","NOT_ENTITY","","NO_RELATION"
+"PMC5137649_01","mucosal abnormalities","FINDING","stomach","NOT_ENTITY","of the","NO_RELATION"
+"PMC5137649_01","gastric duplication cyst","DIAGNOSIS","posterior wall","NOT_ENTITY","was noted to be arising from the","NO_RELATION"
+"PMC5137649_01","enbloc resection","PROCEDURE","surgical stapler","NOT_ENTITY","of the cyst along with a portion of the posterior wall of the stomach with a","NO_RELATION"
+"PMC5137649_01","repeat oesophagogastroduodenoscopy","PROCEDURE","intact staple line","FINDING","revealed the presence of an","SUPPORTS"
+"PMC5137649_01","repeat oesophagogastroduodenoscopy","PROCEDURE","bleeding","SYMPTOM","revealed the presence of an intact staple line on the posterior stomach wall and no evidence of","SUPPORTS"
+"PMC5137649_01","repeat oesophagogastroduodenoscopy","PROCEDURE","leak","SYMPTOM","revealed the presence of an intact staple line on the posterior stomach wall and no evidence of bleeding or","SUPPORTS"
+"PMC5137649_01","intact staple line","FINDING","bleeding","SYMPTOM","on the posterior stomach wall and no evidence of","NO_RELATION"
+"PMC5137649_01","cyst","FINDING","9.5cm x 4.5cm x 2.0cm","VALUE","a","HAS_VALUE"
+"PMC5137649_01","patient","PATIENT","discharged home","NOT_ENTITY","was","NO_RELATION"
+"PMC5137649_01","she","PATIENT","pain","SYMPTOM","had complete resolution of her","HAS_SYMPTOM"
+"PMC5137649_01","she","PATIENT","nausea","SYMPTOM","had complete resolution of her pain and","HAS_SYMPTOM"
+"PMC5137649_01","she","PATIENT","return to regular","NOT_ENTITY","had complete resolution of her pain and nausea and a","NO_RELATION"
+"PMC5137649_01","pain","SYMPTOM","nausea","SYMPTOM","and","NO_RELATION"
