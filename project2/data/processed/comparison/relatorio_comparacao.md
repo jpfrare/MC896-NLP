@@ -5,11 +5,11 @@ A avaliação considera as 5 classes de relações válidas, omitindo NO_RELATIO
 **Distribuição do Gold Analisado:** 125 instâncias.
 
 ## 1. Métricas de Desempenho (Relações)
-| Modelo               |   Macro-F1 |   Precision |    Recall |
-|:---------------------|-----------:|------------:|----------:|
-| Projeto 1 (Regras)   |   0.132949 |    0.6      | 0.0756979 |
-| LR N-gramas (Manual) |   0.650614 |    0.662065 | 0.645236  |
-| MLP (PyTorch)        |   0.453853 |    0.442074 | 0.473263  |
+| Modelo             |   Macro-F1 |   Precision |    Recall |
+|:-------------------|-----------:|------------:|----------:|
+| Projeto 1 (Regras) |   0.132949 |    0.6      | 0.0756979 |
+| Pipeline 2         |   0.650614 |    0.662065 | 0.645236  |
+| Pipeline 1         |   0.453853 |    0.442074 | 0.473263  |
 
 ## 2. Estatísticas do Grafo (Projeto 1)
 - **Total de Nós**: 5867

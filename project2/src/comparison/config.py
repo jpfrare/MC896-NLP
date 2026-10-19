@@ -22,6 +22,6 @@ E2E_THRESHOLD = 0.5
 
 MODEL_COLORS = {
     'Projeto 1 (Regras)': '#1f77b4',
-    'LR N-gramas (Manual)': '#ff7f0e',
-    'MLP (PyTorch)': '#2ca02c'
+    'Pipeline 1': '#2ca02c',
+    'Pipeline 2': '#ff7f0e'
 }

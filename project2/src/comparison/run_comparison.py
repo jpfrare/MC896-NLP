@@ -18,15 +18,15 @@ def run():
     res_p1 = metrics.compute_relation_metrics(gold_df["relation_label"], p1_preds, "Projeto 1 (Regras)")
     results.append(res_p1)
     
-    print("[3/5] A avaliar Regressão Logística (N-gramas)...")
+    print("[3/5] A avaliar Pipeline 2 (Anotação Manual)...")
     lr_preds = models.train_and_eval_lr(gold_df, use_types=False)
-    res_lr = metrics.compute_relation_metrics(gold_df["relation_label"], lr_preds, "LR N-gramas (Manual)")
+    res_lr = metrics.compute_relation_metrics(gold_df["relation_label"], lr_preds, "Pipeline 2")
     results.append(res_lr)
     
-    print("[4/5] A avaliar MLP (PyTorch)...")
+    print("[4/5] A avaliar Pipeline 1 (Rede Neural)...")
     mlp = mlp_model.PyTorchMLP()
     mlp_preds = mlp.predict(gold_df["intermediate_text"])
-    res_mlp = metrics.compute_relation_metrics(gold_df["relation_label"], mlp_preds, "MLP (PyTorch)")
+    res_mlp = metrics.compute_relation_metrics(gold_df["relation_label"], mlp_preds, "Pipeline 1")
     results.append(res_mlp)
     
     print("[5/5] A gerar relatório Markdown e guardar gráficos...")
