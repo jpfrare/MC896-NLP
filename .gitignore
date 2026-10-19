@@ -6,3 +6,6 @@
 
 # Native VSCode files
 .vscode
+
+# libs
+lib
