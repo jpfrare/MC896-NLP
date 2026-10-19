@@ -1,16 +1,39 @@
-doc_id,e1_text,e1_type,e2_text,e2_type,intermediate_text,relation_label
-PMC3437073_01,"55-year-old male",PATIENT,"mass",SYMPTOM,"presented with a gradually increasing",HAS_SYMPTOM
-PMC3437073_01,"lobulated subcutaneous mass",FINDING,"7 cm",VALUE,"measuring about",HAS_VALUE
-PMC3437073_01,"Chest X-rays",PROCEDURE,"calcified lesion",FINDING,"showed a",NO_RELATION
-PMC3437073_01,"calcified lesion",FINDING,"old pulmonary tuberculosis",DIAGNOSIS,"suggestive of an",SUPPORTS
-PMC3437073_01,"Abdominal radiographs",PROCEDURE,"calcified lesions",FINDING,"showed",NO_RELATION
-PMC3437073_01,"Ultrasound of the abdomen",PROCEDURE,"enlarged spleen",FINDING,"indicated an",NO_RELATION
-PMC3437073_01,"CT scan of the abdomen",PROCEDURE,"splenic abscess",FINDING,"revealed a",NO_RELATION
-PMC3437073_01,"splenic abscess",FINDING,"complicated tuberculous splenic abscess",DIAGNOSIS,"Based on these data, a",SUPPORTS
-PMC3437073_01,"complicated tuberculous splenic abscess",DIAGNOSIS,"incised and drained",PROCEDURE,"the subcutaneous abscess was",TREATED_BY
-PMC3437073_01,"complicated tuberculous splenic abscess",DIAGNOSIS,"splenectomy",PROCEDURE,"was performed simultaneously",TREATED_BY
-PMC3437073_01,"Histopathology of the spleen",PROCEDURE,"tuberculoid granuloma",FINDING,"revealed the characteristic",NO_RELATION
-PMC3437073_01,"Isoniazid (INH)",PROCEDURE,"300 mg",VALUE,"",HAS_VALUE
-PMC3437073_01,"Rifampin",PROCEDURE,"600 mg",VALUE,"",HAS_VALUE
-PMC3437073_01,"Ethambutol",PROCEDURE,"600 mg",VALUE,"",HAS_VALUE
-PMC3437073_01,"Pyrazinamide",PROCEDURE,"500 mg",VALUE,"",HAS_VALUE
+"doc_id","e1_text","e1_type","e2_text","e2_type","intermediate_text","relation_label"
+"PMC3437073_01","55-year-old male","PATIENT","mass","FINDING","presented with a gradually increasing","HAS_SYMPTOM"
+"PMC3437073_01","mass","FINDING","one year","VALUE","on the left lateral lower chest and upper abdomen over a period of","HAS_VALUE"
+"PMC3437073_01","55-year-old male","PATIENT","presented with a","NOT_ENTITY","","NO_RELATION"
+"PMC3437073_01","He","PATIENT","medical problems","FINDING","had no other","HAS_SYMPTOM"
+"PMC3437073_01","He","PATIENT","history of contact","NOT_ENTITY","had no other medical problems and no","NO_RELATION"
+"PMC3437073_01","lobulated subcutaneous mass","FINDING","7 cm","VALUE","measuring about","HAS_VALUE"
+"PMC3437073_01","lobulated subcutaneous mass","FINDING","tender","SYMPTOM","measuring about 7 cm in diameter, soft to cystic in consistency, immobile and attached to the skin which was tense and slightly red,","NO_RELATION"
+"PMC3437073_01","bruit","FINDING","left lower chest","NOT_ENTITY","was found on the","NO_RELATION"
+"PMC3437073_01","enlarged","FINDING","8 cm","VALUE","","HAS_VALUE"
+"PMC3437073_01","spleen","NOT_ENTITY","8 cm","VALUE","was enlarged","NO_RELATION"
+"PMC3437073_01","Chest X-rays","PROCEDURE","calcified lesion","FINDING","showed a","SUPPORTS"
+"PMC3437073_01","Chest X-rays","PROCEDURE","pulmonary tuberculosis","DIAGNOSIS","showed a calcified lesion near the hilum of the right lung suggestive of an old","SUPPORTS"
+"PMC3437073_01","calcified lesion","FINDING","pulmonary tuberculosis","DIAGNOSIS","near the hilum of the right lung suggestive of an old","NO_RELATION"
+"PMC3437073_01","Abdominal radiographs","PROCEDURE","calcified lesions","FINDING","showed","SUPPORTS"
+"PMC3437073_01","Abdominal radiographs","PROCEDURE","showed","NOT_ENTITY","","NO_RELATION"
+"PMC3437073_01","Ultrasound of the abdomen","PROCEDURE","enlarged spleen","FINDING","indicated an","SUPPORTS"
+"PMC3437073_01","Ultrasound of the abdomen","PROCEDURE","areas of calcification","FINDING","indicated an enlarged spleen with","SUPPORTS"
+"PMC3437073_01","enlarged spleen","FINDING","areas of calcification","FINDING","with","NO_RELATION"
+"PMC3437073_01","CT scan of the abdomen","PROCEDURE","splenic abscess","FINDING","revealed a","SUPPORTS"
+"PMC3437073_01","CT scan of the abdomen","PROCEDURE","subcutaneous abscess","FINDING","revealed a splenic abscess communicating with another","SUPPORTS"
+"PMC3437073_01","splenic abscess","FINDING","subcutaneous abscess","FINDING","communicating with another","NO_RELATION"
+"PMC3437073_01","tuberculous splenic abscess","DIAGNOSIS","probable diagnosis","NOT_ENTITY","was the most","NO_RELATION"
+"PMC3437073_01","subcutaneous abscess","FINDING","incised and drained","PROCEDURE","was","TREATED_BY"
+"PMC3437073_01","subcutaneous abscess","FINDING","splenectomy","PROCEDURE","was incised and drained, and","TREATED_BY"
+"PMC3437073_01","general anesthesia","PROCEDURE","subcutaneous abscess","FINDING",", the","NO_RELATION"
+"PMC3437073_01","enlarged","FINDING","fibrotic","FINDING",",","NO_RELATION"
+"PMC3437073_01","abscess cavity","FINDING","subcutaneous abscess","FINDING","within the spleen communicating with the","NO_RELATION"
+"PMC3437073_01","thick pus","FINDING","necrotic material","FINDING","and","NO_RELATION"
+"PMC3437073_01","Histopathology","PROCEDURE","tuberculoid granuloma","FINDING","of the spleen revealed the characteristic","SUPPORTS"
+"PMC3437073_01","Histopathology","PROCEDURE","caseation necrosis","FINDING","of the spleen revealed the characteristic tuberculoid granuloma with epithelioid cells, Langhans' multinucleated giant cells, and","SUPPORTS"
+"PMC3437073_01","Acid fast bacilli staining","PROCEDURE","negative","FINDING",", tuberculous and bacterial cultures were all","SUPPORTS"
+"PMC3437073_01","bacterial cultures","PROCEDURE","negative","FINDING","were all","SUPPORTS"
+"PMC3437073_01","patient","PATIENT","Isoniazid","PROCEDURE","was started on","UNDERWENT_PROCEDURE"
+"PMC3437073_01","Isoniazid","PROCEDURE","300 mg","VALUE","(INH)","HAS_VALUE"
+"PMC3437073_01","Rifampin","PROCEDURE","600 mg","VALUE","","HAS_VALUE"
+"PMC3437073_01","patient","PATIENT","was started","NOT_ENTITY","","NO_RELATION"
+"PMC3437073_01","patient","PATIENT","anti-tuberculous medications","PROCEDURE","'s condition improved on","UNDERWENT_PROCEDURE"
+"PMC3437073_01","anti-tuberculous medications","PROCEDURE","one-year","VALUE","and showed good clinical progress at","NO_RELATION"

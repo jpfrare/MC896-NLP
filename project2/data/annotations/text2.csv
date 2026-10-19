@@ -1,19 +1,59 @@
-doc_id,e1_text,e1_type,e2_text,e2_type,intermediate_text,relation_label
-PMC9387390_01,"57-year-old man",PATIENT,"postprandial abdominal fullness",SYMPTOM,"initially presented with",HAS_SYMPTOM
-PMC9387390_01,"57-year-old man",PATIENT,"diarrhea",SYMPTOM,"and",HAS_SYMPTOM
-PMC9387390_01,"57-year-old man",PATIENT,"CT guided biopsy",PROCEDURE,"The patient underwent",UNDERWENT_PROCEDURE
-PMC9387390_01,"central mesenteric mass",FINDING,"invasive moderately to poorly differentiated adenocarcinoma",DIAGNOSIS,"this was consistent with",SUPPORTS
-PMC9387390_01,"invasive moderately to poorly differentiated adenocarcinoma",DIAGNOSIS,"chemotherapy",PROCEDURE,"started on",TREATED_BY
-PMC9387390_01,"57-year-old man",PATIENT,"nausea",SYMPTOM,"he presented to the hospital with",HAS_SYMPTOM
-PMC9387390_01,"57-year-old man",PATIENT,"emesis",SYMPTOM,"nausea,",HAS_SYMPTOM
-PMC9387390_01,"57-year-old man",PATIENT,"abdominal distention",SYMPTOM,"and",HAS_SYMPTOM
-PMC9387390_01,"57-year-old man",PATIENT,"laparoscopic gastrojejunostomy (GJ)",PROCEDURE,"The patient underwent",UNDERWENT_PROCEDURE
-PMC9387390_01,"anastomotic leak",FINDING,"relaparoscopy",PROCEDURE,"he underwent",TREATED_BY
-PMC9387390_01,"delayed gastric emptying",DIAGNOSIS,"gastrojejunal tube",PROCEDURE,"a",TREATED_BY
-PMC9387390_01,"57-year-old man",PATIENT,"endoscopic placement of a nasojejunal (NJ) tube",PROCEDURE,"we proceeded with",UNDERWENT_PROCEDURE
-PMC9387390_01,"delayed gastric emptying",DIAGNOSIS,"stent placement",PROCEDURE,"prompted",TREATED_BY
-PMC9387390_01,"AXIOS stent",PROCEDURE,"20 mm x 10 mm",VALUE,"(",HAS_VALUE
-PMC9387390_01,"uncovered WallFlex colonic stent",PROCEDURE,"25 mm x 90 mm",VALUE,"(",HAS_VALUE
-PMC9387390_01,"Computed tomography (CT) imaging",PROCEDURE,"nonspecific mesenteric edema",FINDING,"showed",NO_RELATION
-PMC9387390_01,"upper gastrointestinal (UGI) contrast study",PROCEDURE,"unremarkable",FINDING,"were",NO_RELATION
-PMC9387390_01,"repeat CT of the abdomen",PROCEDURE,"central mesenteric mass",FINDING,"demonstrated a",NO_RELATION
+"doc_id","e1_text","e1_type","e2_text","e2_type","intermediate_text","relation_label"
+"PMC9387390_01","57-year-old man","PATIENT","postprandial abdominal fullness","SYMPTOM","with no significant past medical or surgical history initially presented with","HAS_SYMPTOM"
+"PMC9387390_01","57-year-old man","PATIENT","diarrhea","SYMPTOM","with no significant past medical or surgical history initially presented with postprandial abdominal fullness and","HAS_SYMPTOM"
+"PMC9387390_01","57-year-old man","PATIENT","initially presented with","NOT_ENTITY","with no significant past medical or surgical history","NO_RELATION"
+"PMC9387390_01","postprandial abdominal fullness","SYMPTOM","diarrhea","SYMPTOM","and","NO_RELATION"
+"PMC9387390_01","Computed tomography","PROCEDURE","nonspecific mesenteric edema","FINDING","(CT) imaging showed","SUPPORTS"
+"PMC9387390_01","Computed tomography","PROCEDURE","showed","NOT_ENTITY","(CT) imaging","NO_RELATION"
+"PMC9387390_01","upper gastrointestinal contrast study","PROCEDURE","unremarkable","FINDING","and barium enema were","SUPPORTS"
+"PMC9387390_01","barium enema","PROCEDURE","unremarkable","FINDING","were","SUPPORTS"
+"PMC9387390_01","upper gastrointestinal contrast study","PROCEDURE","barium enema","PROCEDURE","and","NO_RELATION"
+"PMC9387390_01","repeat CT","PROCEDURE","central mesenteric mass","FINDING","of the abdomen demonstrated a","SUPPORTS"
+"PMC9387390_01","repeat CT","PROCEDURE","extrinsic narrowing","FINDING","of the abdomen demonstrated a central mesenteric mass abutting the pancreas, encasing the superior mesenteric vessels, causing","SUPPORTS"
+"PMC9387390_01","central mesenteric mass","FINDING","extrinsic narrowing","FINDING","abutting the pancreas, encasing the superior mesenteric vessels, causing","NO_RELATION"
+"PMC9387390_01","patient","PATIENT","CT guided biopsy","PROCEDURE","underwent","UNDERWENT_PROCEDURE"
+"PMC9387390_01","CT guided biopsy","PROCEDURE","mass","FINDING","of the","SUPPORTS"
+"PMC9387390_01","CT guided biopsy","PROCEDURE","adenocarcinoma","DIAGNOSIS","of the mass; this was consistent with invasive moderately to poorly differentiated","SUPPORTS"
+"PMC9387390_01","patient","PATIENT","underwent","NOT_ENTITY","","NO_RELATION"
+"PMC9387390_01","he","PATIENT","chemotherapy","PROCEDURE","was nonoperable and started on","UNDERWENT_PROCEDURE"
+"PMC9387390_01","locally advanced disease","DIAGNOSIS","chemotherapy","PROCEDURE",", he was nonoperable and started on","TREATED_BY"
+"PMC9387390_01","he","PATIENT","nausea","SYMPTOM","presented to the hospital with","HAS_SYMPTOM"
+"PMC9387390_01","he","PATIENT","emesis","SYMPTOM","presented to the hospital with nausea,","HAS_SYMPTOM"
+"PMC9387390_01","he","PATIENT","abdominal distention","SYMPTOM","presented to the hospital with nausea, emesis, and","HAS_SYMPTOM"
+"PMC9387390_01","nausea","SYMPTOM","emesis","SYMPTOM",",","NO_RELATION"
+"PMC9387390_01","imaging","PROCEDURE","gastroduodenal outlet obstruction","DIAGNOSIS","was consistent with","SUPPORTS"
+"PMC9387390_01","imaging","PROCEDURE","pancreatic mass","FINDING","was consistent with gastroduodenal outlet obstruction secondary to the","SUPPORTS"
+"PMC9387390_01","gastroduodenal outlet obstruction","DIAGNOSIS","pancreatic mass","FINDING","secondary to the","NO_RELATION"
+"PMC9387390_01","patient","PATIENT","laparoscopic gastrojejunostomy","PROCEDURE","underwent","UNDERWENT_PROCEDURE"
+"PMC9387390_01","patient","PATIENT","palliative bypass","PROCEDURE","underwent laparoscopic gastrojejunostomy (GJ) for","UNDERWENT_PROCEDURE"
+"PMC9387390_01","patient","PATIENT","underwent","NOT_ENTITY","","NO_RELATION"
+"PMC9387390_01","anastomotic leak","FINDING","7","VALUE","on postoperative day (POD)","NO_RELATION"
+"PMC9387390_01","he","PATIENT","relaparoscopy","PROCEDURE","underwent","UNDERWENT_PROCEDURE"
+"PMC9387390_01","anastomotic leak","FINDING","relaparoscopy","PROCEDURE","on postoperative day (POD) 7 and he underwent","NO_RELATION"
+"PMC9387390_01","intra-abdominal abscesses","FINDING","drained","PROCEDURE","were","TREATED_BY"
+"PMC9387390_01","drained","PROCEDURE","surgical drain","PROCEDURE",", and a","NO_RELATION"
+"PMC9387390_01","UGI study","PROCEDURE","leak","FINDING","performed on POD 11 (4 days after the re-operation) showed no","SUPPORTS"
+"PMC9387390_01","UGI study","PROCEDURE","showed no","NOT_ENTITY","performed on POD 11 (4 days after the re-operation)","NO_RELATION"
+"PMC9387390_01","slow emptying","FINDING","duodenum","NOT_ENTITY","of contrast into the","NO_RELATION"
+"PMC9387390_01","follow-up CT","PROCEDURE","distension of the stomach","FINDING","on POD 14 (7 days after the second operation) revealed","SUPPORTS"
+"PMC9387390_01","nasogastric (NG) tube","PROCEDURE","fluid","FINDING","was replaced with subsequent drainage of > 3 liters of","NO_RELATION"
+"PMC9387390_01","fluid","FINDING","3 liters","VALUE","of","HAS_VALUE"
+"PMC9387390_01","esophagogastroduodenoscopy","PROCEDURE","stricture","FINDING","(EGD) was performed; per report, the GJ was widely patent without evidence of","SUPPORTS"
+"PMC9387390_01","Bilious fluid","FINDING","stomach","NOT_ENTITY","was noted in the","NO_RELATION"
+"PMC9387390_01","delayed gastric emptying","FINDING","gastrojejunal tube","PROCEDURE","secondary to long-standing malignant obstruction, a","TREATED_BY"
+"PMC9387390_01","malignant obstruction","DIAGNOSIS","gastrojejunal tube","PROCEDURE",", a","TREATED_BY"
+"PMC9387390_01","patient","PATIENT","high gastrostomy tube output","FINDING","had two subsequent readmissions for","HAS_SYMPTOM"
+"PMC9387390_01","patient","PATIENT","readmissions","NOT_ENTITY","had two subsequent","NO_RELATION"
+"PMC9387390_01","UGI study","PROCEDURE","preferential drainage","FINDING","revealed","SUPPORTS"
+"PMC9387390_01","endoscopic placement","PROCEDURE","nasojejunal tube","PROCEDURE","of a","NO_RELATION"
+"PMC9387390_01","EGD","PROCEDURE","widely patient afferent limb","FINDING","(Figure 2) demonstrated a","SUPPORTS"
+"PMC9387390_01","push enteroscopy","PROCEDURE","jejunal limb","NOT_ENTITY","showed the","NO_RELATION"
+"PMC9387390_01","He","PATIENT","replacement","PROCEDURE","required","UNDERWENT_PROCEDURE"
+"PMC9387390_01","stent placement","PROCEDURE","efferent limb","NOT_ENTITY","into the","NO_RELATION"
+"PMC9387390_01","AXIOS stent","PROCEDURE","20 mm x 10 mm","VALUE","(","HAS_VALUE"
+"PMC9387390_01","AXIOS stent","PROCEDURE","placed","NOT_ENTITY","(20 mm x 10 mm, Boston Scientific, Natick, MA) was","NO_RELATION"
+"PMC9387390_01","repeat UGI study","PROCEDURE","stent migration","FINDING","which showed","SUPPORTS"
+"PMC9387390_01","WallFlex colonic stent","PROCEDURE","25 mm x 90 mm","VALUE","(","HAS_VALUE"
+"PMC9387390_01","repeat CT","PROCEDURE","extraluminal air","FINDING","showed a small amount of","SUPPORTS"
+"PMC9387390_01","repeat UGI study","PROCEDURE","improved gastric emptying","FINDING","(Figure 4) revealed markedly","SUPPORTS"
+"PMC9387390_01","patient","PATIENT","discharged home","NOT_ENTITY","was","NO_RELATION"

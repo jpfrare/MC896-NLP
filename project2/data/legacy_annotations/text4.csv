@@ -1,0 +1,26 @@
+doc_id,e1_text,e1_type,e2_text,e2_type,intermediate_text,relation_label
+PMC7102447_01,"65-year-old male",PATIENT,"hypertension",SYMPTOM,"with a past medical history significant for",HAS_SYMPTOM
+PMC7102447_01,"65-year-old male",PATIENT,"asthma",SYMPTOM,",",HAS_SYMPTOM
+PMC7102447_01,"65-year-old male",PATIENT,"minimally invasive bioprosthetic mitral valve replacement",PROCEDURE,"and",UNDERWENT_PROCEDURE
+PMC7102447_01,"minimally invasive bioprosthetic mitral valve replacement",PROCEDURE,"33 mm",VALUE,"with a",HAS_VALUE
+PMC7102447_01,"65-year-old male",PATIENT,"severe respiratory distress",SYMPTOM,"presented with",HAS_SYMPTOM
+PMC7102447_01,"severe respiratory distress",SYMPTOM,"emergent intubation",PROCEDURE,"requiring",TREATED_BY
+PMC7102447_01,"electrocardiogram (EKG)",PROCEDURE,"sinus rhythm with left anterior fascicular block",FINDING,"revealed",NO_RELATION
+PMC7102447_01,"electrocardiogram (EKG)",PROCEDURE,"right bundle branch block",FINDING,",",NO_RELATION
+PMC7102447_01,"electrocardiogram (EKG)",PROCEDURE,"left atrial enlargement",FINDING,"and evidence of",NO_RELATION
+PMC7102447_01,"troponin",FINDING,"0.04 ng/mL",VALUE,"was normal at",HAS_VALUE
+PMC7102447_01,"CK-MB",FINDING,"21.2 ng/mL",VALUE,"were elevated to",HAS_VALUE
+PMC7102447_01,"total CK",FINDING,"308 U/L",VALUE,"and",HAS_VALUE
+PMC7102447_01,"INR",FINDING,"1.0",VALUE,"of",HAS_VALUE
+PMC7102447_01,"PTT",FINDING,"28",VALUE,"of",HAS_VALUE
+PMC7102447_01,"PT",FINDING,"10.9",VALUE,"of",HAS_VALUE
+PMC7102447_01,"acute coronary syndrome (ACS)",DIAGNOSIS,"heparin infusion",PROCEDURE,"started immediately on",TREATED_BY
+PMC7102447_01,"computed tomography angiogram (CTA) of the chest",PROCEDURE,"moderate patchy ground-glass and nodular airspace opacities",FINDING,"revealed",NO_RELATION
+PMC7102447_01,"Transesophageal echocardiogram (TEE)",PROCEDURE,"acute thrombosis of the bioprosthetic mitral valve",DIAGNOSIS,"was performed showing an",NO_RELATION
+PMC7102447_01,"mean gradient",FINDING,"20.1 mmHg",VALUE,"of",HAS_VALUE
+PMC7102447_01,"valve area",FINDING,"0.68 cm2",VALUE,"of",HAS_VALUE
+PMC7102447_01,"65-year-old male",PATIENT,"emergent redo mitral valve surgery",PROCEDURE,"subsequently underwent",UNDERWENT_PROCEDURE
+PMC7102447_01,"St. Jude mechanical prosthesis",PROCEDURE,"33 mm",VALUE,"a",HAS_VALUE
+PMC7102447_01,"massive amount of material on the ventricular side of each cusp",FINDING,"thrombosis",DIAGNOSIS,"with pathology findings consistent with",SUPPORTS
+PMC7102447_01,"intraoperative TEE",PROCEDURE,"mitral valve mean gradient",FINDING,"showed that the",NO_RELATION
+PMC7102447_01,"mitral valve mean gradient",FINDING,"4 mmHg",VALUE,"had improved to",HAS_VALUE
