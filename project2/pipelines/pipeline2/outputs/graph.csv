@@ -1,0 +1,16 @@
+case_id,e1_normalizado,e1_text,e1_type,e2_normalizado,e2_text,e2_type,relation_label,intermediate_text
+PMC3859158_01,patient,Patient,PATIENT,any history,any history,PROCEDURE,UNDERWENT_PROCEDURE,denied
+PMC3859158_01,any history,any history,PROCEDURE,peptic ulcer disease,peptic ulcer disease,DIAGNOSIS,SUPPORTS,"of physical trauma , gastritis,"
+PMC3859158_01,peptic ulcer disease,peptic ulcer disease,DIAGNOSIS,pancreatitis,pancreatitis,PROCEDURE,TREATED_BY,","
+PMC3859158_01,peptic ulcer disease,peptic ulcer disease,DIAGNOSIS,hepatobiliary disease,hepatobiliary disease,DIAGNOSIS,TREATED_BY,", pancreatitis, or"
+PMC3859158_01,pancreatitis,pancreatitis,PROCEDURE,hepatobiliary disease,hepatobiliary disease,DIAGNOSIS,SUPPORTS,", or"
+PMC3859158_01,patient,patient,PATIENT,any history,any history,PROCEDURE,UNDERWENT_PROCEDURE,denied
+PMC3859158_01,(ldh,(LDH,PROCEDURE,(cea,(CEA,PROCEDURE,TREATED_BY,"), carcinoembryonic antigen"
+PMC3859158_01,(cea,(CEA,PROCEDURE,(ca,(CA,PROCEDURE,TREATED_BY,"), and 19-9"
+PMC3859158_01,(ct,(CT,PROCEDURE,a 9.2 x 9.5 x 11.5 cm,a 9.2 x 9.5 x 11.5 cm,VALUE,HAS_VALUE,) scan showed
+PMC3859158_01,patient,Patient,PATIENT,surgical resection,surgical resection,PROCEDURE,UNDERWENT_PROCEDURE,underwent
+PMC3859158_01,the distal pancreatic mass,the distal pancreatic mass,FINDING,7.1 x 6.2 cm,7.1 x 6.2 cm,VALUE,HAS_VALUE,measured
+PMC3859158_01,a cut section,A cut section,PROCEDURE,solid and yellow mass,solid and yellow mass,FINDING,SUPPORTS,showed
+PMC3859158_01,patient,Patient,PATIENT,an uneventful postoperative course,an uneventful postoperative course,PROCEDURE,UNDERWENT_PROCEDURE,had
+PMC3859158_01,patient,patient,PATIENT,no adjuvant therapy,no adjuvant therapy,PROCEDURE,UNDERWENT_PROCEDURE,received
+PMC3859158_01,patient,patient,PATIENT,scan imaging,scan imaging,PROCEDURE,UNDERWENT_PROCEDURE,was completely asymptomatic and CT
