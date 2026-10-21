@@ -1,8 +1,5 @@
 import pandas as pd
-try:
-    import spacy
-except ImportError:  # spaCy é opcional: há fallback simples no Lemmatizer
-    spacy = None
+import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import OneHotEncoder
@@ -25,33 +22,16 @@ class CSVReader():
         self.entities_relations = all_annotatins[['e1_type', 'e2_type', 'intermediate_text', 'relation_label']]
 
 class Lemmatizer:
-    """Lematizador com fallback: en_core_sci_sm -> en_core_web_sm -> tokenização simples.
-    
-    O modelo realmente usado fica em `self.backend` (aparece no relatório da comparação).
-    """
     def __init__(self, tool: str = 'en_core_sci_sm'):
-        self.nlp = None
-        self.backend = 'simple'
-        if spacy is not None:
-            for name in (tool, 'en_core_web_sm'):
-                try:
-                    self.nlp = spacy.load(name, disable=["parser", "ner"])
-                    self.backend = name
-                    break
-                except OSError:
-                    continue
+        self.nlp = spacy.load(tool, disable=["parser", "ner"])
 
     def lemmatize_series(self, series: pd.Series) -> pd.Series:
         texts = series.fillna("").astype(str).tolist()
         
-        if self.nlp is None:
-            results = [" ".join(re.findall(r"[a-z0-9]+(?:[-'][a-z0-9]+)*", t.lower())) for t in texts]
-        else:
-            results = []
-            for doc in self.nlp.pipe(texts, batch_size=256):
-                lemmas = [token.lemma_.lower() for token in doc if not token.is_punct]
-                results.append(" ".join(lemmas))
-
+        results = []
+        for doc in self.nlp.pipe(texts, batch_size=256):
+            lemmas = [token.lemma_.lower() for token in doc if not token.is_punct]
+            results.append(" ".join(lemmas))
             
         # Retorna uma pd.Series preservando o indice da Series recebida
         return pd.Series(results, index=series.index, name=f"{series.name}")
@@ -107,3 +87,6 @@ class RelationClassifier():
         X = hstack([X_types, X_intermediate_text])
         predictions = self.model.predict(X)
         return pd.Series(predictions, index=e1_type.index)
+
+    
+        
