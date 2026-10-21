@@ -7,7 +7,10 @@
 
 ## Demonstração Executável
 
-* **Visualização Interativa do Grafo (HTML):** [knowledge_graph_estilizado.html](assets/html/knowledge_graph_estilizado.html)
+* **Visualização Interativa dos Grafos (HTML):** 
+    * [knowledge_graph_pipeline1.html](assets/html/-knowledge_graph_pipeline1.html)
+    
+    * [knowledge_graph_pipeline2.html](assets/html/knowledge_graph_pipeline2.html)
 * **Notebook Pipeline 1 (Weak Supervision + Rede Neural MLP):** [pipeline_rede_neural.ipynb](pipelines/pipeline1/pipeline_rede_neural.ipynb)
 * **Notebook Pipeline 2 (N-gramas + Regressão Logística em Cascata):** [pipeline_ml_tradicional.ipynb](pipelines/pipeline2/pipeline_ml_tradicional.ipynb)
 * **Notebook de Plotagem e Avaliação do Grafo:** [graph.ipynb](pipelines/graph/graph.ipynb)
@@ -108,7 +111,10 @@ A avaliação experimental nas 125 instâncias do *Gold Standard* demonstrou a s
    * Na classe `TREATED_BY`, nenhum dos modelos obteve acerto no conjunto de teste devido à extrema raridade dessa relação na amostra avaliada (poucos exemplos de suporte).
 3. **Qualidade vs. Quantidade:** O experimento comprovou empiricamente que um conjunto menor de dados bem anotados combinando `TfidfVectorizer(ngram_range=(1,5))` e *Stacking* de entidades (Pipeline 2) supera um grande volume de dados gerados por supervisão fraca ruidosa (Pipeline 1).
 
-![Visualização do Grafo de Conhecimento](assets/images/knowledge_graph.png)
+![Visualização do Grafo de Conhecimento do pipeline 1](assets/images/knowledge_graph_pipeline1.png)
+
+![Visualização do Grafo de Conhecimento do pipeline 2](assets/images/knowledge_graph_pipeline2.png)
+
 
 ## Como Modelos de Linguagem foram Usados
 
