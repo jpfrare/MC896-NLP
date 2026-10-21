@@ -1,0 +1,92 @@
+model,view,case_id,gold_row,e1_text,e1_type,e2_text,e2_type,relation_label,intermediate_text,negated
+LR,e2e,PMC3859158_01,,Patient,PATIENT,any history,PROCEDURE,UNDERWENT_PROCEDURE,denied,True
+LR,e2e,PMC3859158_01,,any history,PROCEDURE,peptic ulcer disease,DIAGNOSIS,SUPPORTS,"of physical trauma , gastritis,",False
+LR,e2e,PMC3859158_01,,peptic ulcer disease,DIAGNOSIS,pancreatitis,PROCEDURE,TREATED_BY,",",False
+LR,e2e,PMC3859158_01,,peptic ulcer disease,DIAGNOSIS,hepatobiliary disease,DIAGNOSIS,TREATED_BY,", pancreatitis, or",False
+LR,e2e,PMC3859158_01,,pancreatitis,PROCEDURE,hepatobiliary disease,DIAGNOSIS,SUPPORTS,", or",False
+LR,e2e,PMC3859158_01,,patient,PATIENT,any history,PROCEDURE,UNDERWENT_PROCEDURE,denied,True
+LR,e2e,PMC3859158_01,,(LDH,PROCEDURE,(CEA,PROCEDURE,TREATED_BY,"), carcinoembryonic antigen",False
+LR,e2e,PMC3859158_01,,(CEA,PROCEDURE,(CA,PROCEDURE,TREATED_BY,"), and 19-9",False
+LR,e2e,PMC3859158_01,,(CT,PROCEDURE,a 9.2 x 9.5 x 11.5 cm,VALUE,HAS_VALUE,) scan showed,False
+LR,e2e,PMC3859158_01,,Patient,PATIENT,surgical resection,PROCEDURE,UNDERWENT_PROCEDURE,underwent,False
+LR,e2e,PMC3859158_01,,the distal pancreatic mass,FINDING,7.1 x 6.2 cm,VALUE,HAS_VALUE,measured,False
+LR,e2e,PMC3859158_01,,A cut section,PROCEDURE,solid and yellow mass,FINDING,SUPPORTS,showed,False
+LR,e2e,PMC3859158_01,,Patient,PATIENT,an uneventful postoperative course,PROCEDURE,UNDERWENT_PROCEDURE,had,False
+LR,e2e,PMC3859158_01,,patient,PATIENT,no adjuvant therapy,PROCEDURE,UNDERWENT_PROCEDURE,received,False
+LR,e2e,PMC3859158_01,,patient,PATIENT,scan imaging,PROCEDURE,UNDERWENT_PROCEDURE,was completely asymptomatic and CT,False
+LR,e2e,PMC11131390_01,,thyroid function tests,PROCEDURE,mild overt hyperthyroidism,SYMPTOM,SUPPORTS,revealing,False
+LR,e2e,PMC11131390_01,,thyroid function tests,PROCEDURE,TSH,PROCEDURE,TREATED_BY,revealing mild overt hyperthyroidism:,False
+LR,e2e,PMC11131390_01,,thyroid function tests,PROCEDURE,0.01 microIU/L,PROCEDURE,TREATED_BY,revealing mild overt : TSH =,False
+LR,e2e,PMC11131390_01,,thyroid function tests,PROCEDURE,(Normal 0.27-4.2 microIU/L,FINDING,SUPPORTS,revealing mild overt = 0.01 microIU/L,False
+LR,e2e,PMC11131390_01,,mild overt hyperthyroidism,SYMPTOM,TSH,PROCEDURE,TREATED_BY,:,False
+LR,e2e,PMC11131390_01,,mild overt hyperthyroidism,SYMPTOM,0.01 microIU/L,PROCEDURE,TREATED_BY,: TSH =,False
+LR,e2e,PMC11131390_01,,TSH,PROCEDURE,0.01 microIU/L,PROCEDURE,TREATED_BY,=,False
+LR,e2e,PMC11131390_01,,TSH,PROCEDURE,(Normal 0.27-4.2 microIU/L,FINDING,SUPPORTS,= 0.01 microIU/L,False
+LR,e2e,PMC11131390_01,,0.01 microIU/L,PROCEDURE,(Normal 0.27-4.2 microIU/L,FINDING,SUPPORTS,,False
+LR,e2e,PMC11131390_01,,(Normal 0.27-4.2 microIU/L,FINDING,3.7 ng/dL,VALUE,HAS_VALUE,"), free T4 =",False
+LR,e2e,PMC11131390_01,,(Normal 0.27-4.2 microIU/L,FINDING,(Normal 0.93-1.7 ng/dL,VALUE,HAS_VALUE,"), free = 3.7 ng/dL",False
+LR,e2e,PMC11131390_01,,3.7 ng/dL,VALUE,(Normal 0.93-1.7 ng/dL,VALUE,HAS_VALUE,,False
+LR,e2e,PMC11131390_01,,Serological investigations,PROCEDURE,TRAbs,PROCEDURE,TREATED_BY,were consistent with of GD:,False
+LR,e2e,PMC11131390_01,,Serological investigations,PROCEDURE,16.3 IU/L,PROCEDURE,TREATED_BY,were consistent with : TRAbs =,False
+LR,e2e,PMC11131390_01,,TRAbs,PROCEDURE,16.3 IU/L,PROCEDURE,TREATED_BY,=,False
+LR,e2e,PMC11131390_01,,TRAbs,PROCEDURE,TPO antibodies,FINDING,SUPPORTS,"= 16.3 IU/L IU/L),",False
+LR,e2e,PMC11131390_01,,16.3 IU/L,PROCEDURE,TPO antibodies,FINDING,SUPPORTS,"(Normal < IU/L),",False
+LR,e2e,PMC11131390_01,,16.3 IU/L,PROCEDURE,268 (Normal <34 IU/mL,VALUE,HAS_VALUE,(Normal < TPO antibodies =,False
+LR,e2e,PMC11131390_01,,TPO antibodies,FINDING,268 (Normal <34 IU/mL,VALUE,HAS_VALUE,=,False
+LR,e2e,PMC11131390_01,,268 (Normal <34 IU/mL,VALUE,(Tg,PROCEDURE,TREATED_BY,"), and thyroglobulin",False
+LR,e2e,PMC11131390_01,,medical treatment,PROCEDURE,(CBZ,PROCEDURE,TREATED_BY,in the form of carbimazole,False
+LR,e2e,PMC11131390_01,,(CBZ,PROCEDURE,that methimazole,PROCEDURE,TREATED_BY,") 20 mg/day, given",False
+LR,e2e,PMC11131390_01,,low normal free T4,FINDING,free T3,PROCEDURE,TREATED_BY,and,False
+LR,e2e,PMC11131390_01,,the patient,PATIENT,smoking,PROCEDURE,UNDERWENT_PROCEDURE,decided to quit,False
+LR,e2e,PMC11131390_01,,smoking,PROCEDURE,that,PROCEDURE,TREATED_BY,,False
+LR,e2e,PMC11131390_01,,the patient,PATIENT,free T4,PROCEDURE,UNDERWENT_PROCEDURE,"was euthyroid with 3.3 microIU/L,",False
+LR,e2e,PMC11131390_01,,free T4,PROCEDURE,1.17 ng/dL,VALUE,HAS_VALUE,=,False
+LR,e2e,PMC11131390_01,,free T4,PROCEDURE,TRAbs,PROCEDURE,TREATED_BY,"= 1.17 ng/dL, and",False
+LR,e2e,PMC11131390_01,,1.17 ng/dL,VALUE,TRAbs,PROCEDURE,TREATED_BY,", and",False
+LR,e2e,PMC11131390_01,,CBZ,PROCEDURE,(67-71 kg,VALUE,HAS_VALUE,", the patient kg weight gain",False
+LR,e2e,PMC11131390_01,,the patient,PATIENT,(67-71 kg,VALUE,HAS_VALUE,presented with 4 kg weight gain,False
+LR,e2e,PMC11131390_01,,(67-71 kg,VALUE,TSH,PROCEDURE,TREATED_BY,") and severe biochemical hypothyroidism,",False
+LR,e2e,PMC11131390_01,,TSH,PROCEDURE,0.35 ng/dL,VALUE,HAS_VALUE,= 73.5 microIU/L free T4 =,False
+LR,e2e,PMC11131390_01,,0.35 ng/dL,VALUE,TSH,PROCEDURE,TREATED_BY,", which was repeatedly confirmed,",False
+LR,e2e,PMC11131390_01,,TSH,PROCEDURE,0.66 ng/dL.,VALUE,HAS_VALUE,= 48.9 microIU/L free T4 =,False
+LR,e2e,PMC11131390_01,,(66 years,PATIENT,(71 kg,VALUE,HAS_VALUE,) and body weight,False
+LR,e2e,PMC11131390_01,,(66 years,PATIENT,the patient,PATIENT,HAS_SYMPTOM,") and body kg),",False
+LR,e2e,PMC11131390_01,,the patient,PATIENT,75 microg/day,VALUE,HAS_VALUE,was started on form of levothyroxine,False
+LR,e2e,PMC11131390_01,,the dose,FINDING,a target TSH,PROCEDURE,TREATED_BY,was later titrated to achieve,False
+LR,e2e,PMC11722600_01,,She,PATIENT,no fever,SYMPTOM,HAS_SYMPTOM,had,False
+LR,e2e,PMC11722600_01,,She,PATIENT,genitourinary symptoms,PROCEDURE,UNDERWENT_PROCEDURE,had no fever or,True
+LR,e2e,PMC11722600_01,,no fever,SYMPTOM,genitourinary symptoms,PROCEDURE,TREATED_BY,or,False
+LR,e2e,PMC11722600_01,,Physical examination,PROCEDURE,abdominal pain,SYMPTOM,SUPPORTS,revealed,False
+LR,e2e,PMC11722600_01,,McBurney's point,PROCEDURE,the obturator sign,FINDING,SUPPORTS,was positive and,False
+LR,e2e,PMC11722600_01,,Laboratory results,PROCEDURE,white blood cells,FINDING,SUPPORTS,showed,False
+LR,e2e,PMC11722600_01,,white blood cells,FINDING,"3800-10,000/mm3",VALUE,HAS_VALUE,at 8800/mm3 ( (NR),False
+LR,e2e,PMC11722600_01,,"3800-10,000/mm3",VALUE,(CRP,PROCEDURE,TREATED_BY,"), C-reactive protein",False
+LR,e2e,PMC11722600_01,,"3800-10,000/mm3",VALUE,(NR <5 mg/L,VALUE,HAS_VALUE,"), C-reactive at 55 mg/L",False
+LR,e2e,PMC11722600_01,,C-reactive protein,FINDING,(CRP,PROCEDURE,TREATED_BY,,False
+LR,e2e,PMC11722600_01,,C-reactive protein,FINDING,(NR <5 mg/L,VALUE,HAS_VALUE,(CRP) at 55 mg/L,False
+LR,e2e,PMC11722600_01,,(CRP,PROCEDURE,(NR <5 mg/L,VALUE,HAS_VALUE,) at 55 mg/L,False
+LR,e2e,PMC11722600_01,,(NR <5 mg/L,VALUE,(NR,PROCEDURE,TREATED_BY,"), erythrocyte at 29 mm/h",False
+LR,e2e,PMC11722600_01,,(NR <5 mg/L,VALUE,3-20 mm/h,VALUE,HAS_VALUE,"), erythrocyte mm/h (NR",False
+LR,e2e,PMC11722600_01,,(NR,PROCEDURE,3-20 mm/h,VALUE,HAS_VALUE,,False
+LR,e2e,PMC11722600_01,,Abdominal and pelvic ultrasound,SYMPTOM,(POD,PROCEDURE,TREATED_BY,showed only free Pouch of Douglas,False
+LR,e2e,PMC11722600_01,,only free fluid,FINDING,(POD,PROCEDURE,TREATED_BY,in the Pouch of Douglas,False
+LR,e2e,PMC11722600_01,,Abdominal CT,SYMPTOM,Image 1B,PROCEDURE,TREATED_BY,"with intravenous contrast Image 1A,",False
+LR,e2e,PMC11722600_01,,Image 1B,PROCEDURE,an enlarged cecal appendix,PROCEDURE,TREATED_BY,) revealed,False
+LR,e2e,PMC11722600_01,,Image 1B,PROCEDURE,8 mm,VALUE,HAS_VALUE,) revealed an cecal appendix measuring,False
+LR,e2e,PMC11722600_01,,an enlarged cecal appendix,PROCEDURE,8 mm,VALUE,HAS_VALUE,measuring,False
+LR,e2e,PMC11722600_01,,Laparoscopic exploration,PROCEDURE,phlegmonous appendicitis,PROCEDURE,TREATED_BY,"was decided, which revealed",False
+LR,e2e,PMC11722600_01,,phlegmonous appendicitis,PROCEDURE,the appendix,FINDING,SUPPORTS,"without peritonitis, showing",True
+LR,e2e,PMC11722600_01,,A laparoscopic appendectomy,PROCEDURE,gynecology,PROCEDURE,TREATED_BY,"was performed successfully, and",False
+LR,e2e,PMC11722600_01,,The patient,PATIENT,an uneventful postoperative course,PROCEDURE,UNDERWENT_PROCEDURE,had,False
+LR,e2e,PMC11722600_01,,Histopathology,PROCEDURE,the presence,FINDING,SUPPORTS,of the appendix describes,False
+LR,e2e,PMC11722600_01,,a hallmark,PROCEDURE,that,PROCEDURE,TREATED_BY,of endometriosis; of recent bleeding,False
+LR,e2e,PMC11722600_01,,a hallmark,PROCEDURE,active involvement,PROCEDURE,TREATED_BY,of endometriosis; bleeding that suggests,False
+LR,e2e,PMC11722600_01,,that,PROCEDURE,active involvement,PROCEDURE,TREATED_BY,suggests,False
+LR,e2e,PMC11722600_01,,hemorrhage,FINDING,endometrial stroma,PROCEDURE,TREATED_BY,from ectopic endometrial it also described,False
+LR,e2e,PMC11722600_01,,endometrial stroma,PROCEDURE,(Image,PROCEDURE,TREATED_BY,within the muscular layer,False
+LR,e2e,PMC11722600_01,,endometrial stroma,PROCEDURE,Image,PROCEDURE,TREATED_BY,"within the muscular Image 2,",False
+LR,e2e,PMC11722600_01,,(Image,PROCEDURE,Image,PROCEDURE,TREATED_BY,"2,",False
+LR,e2e,PMC11722600_01,,(Image,PROCEDURE,Image,PROCEDURE,TREATED_BY,"2, Image 3,",False
+LR,e2e,PMC11722600_01,,Image,PROCEDURE,Image,PROCEDURE,TREATED_BY,"3,",False
+LR,e2e,PMC11722600_01,,The fallopian tube histology,PROCEDURE,endometrial glands,PROCEDURE,TREATED_BY,showed,False
+LR,e2e,PMC11722600_01,,The fallopian tube histology,PROCEDURE,stroma,PROCEDURE,TREATED_BY,showed endometrial glands and,False

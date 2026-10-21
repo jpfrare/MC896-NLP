@@ -1,5 +1,7 @@
-.venv
+# Ambiente e cache (recriados por `python3 run.py`)
+.venv/
 __pycache__/
 *.pyc
-.pytest_cache/
-.ipynb_checkpoints/
+
+# Saída intermediária da extração ponta a ponta do LR (o esquema único fica em pred_LR_e2e.csv)
+data/processed/comparison/lr_graph_gold_bruto.csv

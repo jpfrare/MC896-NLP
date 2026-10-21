@@ -1,0 +1,192 @@
+model,view,case_id,gold_row,e1_text,e1_type,e2_text,e2_type,relation_label,intermediate_text,negated
+LR,par,PMC3859158_01,gold01:000,44-year-old man,PATIENT,vague epigastric pain,SYMPTOM,HAS_SYMPTOM,presented with a 4-month history of,False
+LR,par,PMC3859158_01,gold01:001,vague epigastric pain,SYMPTOM,4-month,VALUE,HAS_VALUE,history of,False
+LR,par,PMC3859158_01,gold01:002,44-year-old man,PATIENT,presented with a,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC3859158_01,gold01:003,pain,SYMPTOM,nausea,SYMPTOM,NO_RELATION,was gradually increasing in severity and associated with,False
+LR,par,PMC3859158_01,gold01:004,pain,SYMPTOM,vomiting,SYMPTOM,NO_RELATION,was gradually increasing in severity and associated with nausea and,False
+LR,par,PMC3859158_01,gold01:005,nausea,SYMPTOM,vomiting,SYMPTOM,NO_RELATION,and,False
+LR,par,PMC3859158_01,gold01:006,Patient,PATIENT,physical trauma,FINDING,HAS_SYMPTOM,denied any history of,True
+LR,par,PMC3859158_01,gold01:007,Patient,PATIENT,gastroesophageal reflux disease,DIAGNOSIS,HAS_SYMPTOM,"denied any history of physical trauma,",True
+LR,par,PMC3859158_01,gold01:008,Patient,PATIENT,gastritis,DIAGNOSIS,HAS_SYMPTOM,"denied any history of physical trauma, gastroesophageal reflux disease,",True
+LR,par,PMC3859158_01,gold01:009,Patient,PATIENT,peptic ulcer disease,DIAGNOSIS,HAS_SYMPTOM,"denied any history of physical trauma, gastroesophageal reflux disease, gastritis,",True
+LR,par,PMC3859158_01,gold01:010,Patient,PATIENT,pancreatitis,DIAGNOSIS,HAS_SYMPTOM,"denied any history of physical trauma, gastroesophageal reflux disease, gastritis, peptic ulcer disease,",True
+LR,par,PMC3859158_01,gold01:011,Patient,PATIENT,hepatobiliary disease,DIAGNOSIS,HAS_SYMPTOM,"denied any history of physical trauma, gastroesophageal reflux disease, gastritis, peptic ulcer disease, pancreatitis, or",True
+LR,par,PMC3859158_01,gold01:012,Patient,PATIENT,denied,NOT_ENTITY,NO_RELATION,any history of,False
+LR,par,PMC3859158_01,gold01:013,patient,PATIENT,constitutional symptoms,SYMPTOM,HAS_SYMPTOM,denied any history of,True
+LR,par,PMC3859158_01,gold01:014,patient,PATIENT,fever,SYMPTOM,HAS_SYMPTOM,denied any history of constitutional symptoms such as,True
+LR,par,PMC3859158_01,gold01:015,patient,PATIENT,night sweating,SYMPTOM,HAS_SYMPTOM,"denied any history of constitutional symptoms such as fever,",True
+LR,par,PMC3859158_01,gold01:016,patient,PATIENT,weight loss,SYMPTOM,HAS_SYMPTOM,"denied any history of constitutional symptoms such as fever, night sweating, or",True
+LR,par,PMC3859158_01,gold01:017,fever,SYMPTOM,night sweating,SYMPTOM,NO_RELATION,",",False
+LR,par,PMC3859158_01,gold01:018,family history,NOT_ENTITY,unremarkable,FINDING,NO_RELATION,were,False
+LR,par,PMC3859158_01,gold01:019,physical examination,PROCEDURE,vitally stable,FINDING,SUPPORTS,patient was,False
+LR,par,PMC3859158_01,gold01:020,patient,PATIENT,vitally stable,FINDING,HAS_SYMPTOM,was,False
+LR,par,PMC3859158_01,gold01:021,Abdomen,NOT_ENTITY,soft,FINDING,NO_RELATION,was,False
+LR,par,PMC3859158_01,gold01:022,Abdomen,NOT_ENTITY,lax,FINDING,NO_RELATION,"was soft,",False
+LR,par,PMC3859158_01,gold01:023,soft,FINDING,lax,FINDING,NO_RELATION,",",False
+LR,par,PMC3859158_01,gold01:024,palpation,PROCEDURE,tender,FINDING,SUPPORTS,the epigastric region was moderately,False
+LR,par,PMC3859158_01,gold01:025,palpation,PROCEDURE,palpable mass,FINDING,SUPPORTS,without evidence of a,True
+LR,par,PMC3859158_01,gold01:026,tender,FINDING,palpable mass,FINDING,NO_RELATION,to palpation without evidence of a,True
+LR,par,PMC3859158_01,gold01:027,laboratory tests,PROCEDURE,normal values,FINDING,SUPPORTS,"including complete blood count, hepatic, coagulation renal and bone profiles, amylase, lipase, lactate dehydrogenase (LDH), carcinoembryonic antigen (CEA), and cancer antigen 19-9 (CA 19-9) were within",False
+LR,par,PMC3859158_01,gold01:028,complete blood count,PROCEDURE,normal values,FINDING,SUPPORTS,", hepatic, coagulation renal and bone profiles, amylase, lipase, lactate dehydrogenase (LDH), carcinoembryonic antigen (CEA), and cancer antigen 19-9 (CA 19-9) were within",False
+LR,par,PMC3859158_01,gold01:029,amylase,PROCEDURE,normal values,FINDING,SUPPORTS,", lipase, lactate dehydrogenase (LDH), carcinoembryonic antigen (CEA), and cancer antigen 19-9 (CA 19-9) were within",False
+LR,par,PMC3859158_01,gold01:030,lipase,PROCEDURE,normal values,FINDING,SUPPORTS,", lactate dehydrogenase (LDH), carcinoembryonic antigen (CEA), and cancer antigen 19-9 (CA 19-9) were within",False
+LR,par,PMC3859158_01,gold01:031,CT scan,PROCEDURE,well-defined left suprarenal mass,FINDING,SUPPORTS,"showed a 9.2 x 9.5 x 11.5 cm, huge, and",False
+LR,par,PMC3859158_01,gold01:032,well-defined left suprarenal mass,FINDING,9.2 x 9.5 x 11.5 cm,VALUE,HAS_VALUE,showed a,False
+LR,par,PMC3859158_01,gold01:033,CT scan,PROCEDURE,showed a,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC3859158_01,gold01:034,mass,FINDING,mild heterogeneous enhancement,FINDING,NO_RELATION,demonstrated,False
+LR,par,PMC3859158_01,gold01:035,mild heterogeneous enhancement,FINDING,central cystic/necrotic area,FINDING,NO_RELATION,with,False
+LR,par,PMC3859158_01,gold01:036,lymphadenopathy,FINDING,regional/distant metastasis,FINDING,NO_RELATION,or,False
+LR,par,PMC3859158_01,gold01:037,laparoscopy,PROCEDURE,mass,FINDING,SUPPORTS,the,False
+LR,par,PMC3859158_01,gold01:038,laparoscopy,PROCEDURE,pancreatic tail,NOT_ENTITY,NO_RELATION,the mass was noticed to originate from,False
+LR,par,PMC3859158_01,gold01:039,Patient,PATIENT,surgical resection,PROCEDURE,UNDERWENT_PROCEDURE,underwent,False
+LR,par,PMC3859158_01,gold01:040,Patient,PATIENT,splenectomy,PROCEDURE,UNDERWENT_PROCEDURE,"underwent surgical resection of pancreatic tail,",False
+LR,par,PMC3859158_01,gold01:041,Patient,PATIENT,celiac lymph node dissections,PROCEDURE,UNDERWENT_PROCEDURE,"underwent surgical resection of pancreatic tail, splenectomy, and",False
+LR,par,PMC3859158_01,gold01:042,Patient,PATIENT,underwent,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC3859158_01,gold01:043,surgical resection,PROCEDURE,splenectomy,PROCEDURE,TREATED_BY,"of pancreatic tail,",False
+LR,par,PMC3859158_01,gold01:044,microscopic examination,PROCEDURE,unremarkable pathological findings,FINDING,SUPPORTS,of spleen and celiac lymph node dissections revealed,False
+LR,par,PMC3859158_01,gold01:045,microscopic examination,PROCEDURE,malignant components,FINDING,SUPPORTS,of spleen and celiac lymph node dissections revealed unremarkable pathological findings and were negative for,True
+LR,par,PMC3859158_01,gold01:046,Macroscopic,PROCEDURE,unremarkable pathological findings,FINDING,SUPPORTS,and microscopic examination of spleen and celiac lymph node dissections revealed,False
+LR,par,PMC3859158_01,gold01:047,distal pancreatic mass,FINDING,7.1 x 6.2 cm,VALUE,HAS_VALUE,measured,False
+LR,par,PMC3859158_01,gold01:048,cut section,PROCEDURE,solid and yellow mass,FINDING,SUPPORTS,showed,False
+LR,par,PMC3859158_01,gold01:049,solid and yellow mass,FINDING,central cystic area,FINDING,NO_RELATION,with a,False
+LR,par,PMC3859158_01,gold01:050,Microscopically,PROCEDURE,monomorphic spindle-shaped Schwann cells,FINDING,SUPPORTS,the distal pancreatic mass was composed of,False
+LR,par,PMC3859158_01,gold01:051,Microscopically,PROCEDURE,poorly defined eosinophilic cytoplasm,FINDING,SUPPORTS,the distal pancreatic mass was composed of monomorphic spindle-shaped Schwann cells with,False
+LR,par,PMC3859158_01,gold01:052,monomorphic spindle-shaped Schwann cells,FINDING,collagenous stroma,NOT_ENTITY,NO_RELATION,with poorly defined eosinophilic cytoplasm and pointed basophilic nuclei set in a,False
+LR,par,PMC3859158_01,gold01:053,Focal nuclear palisading,FINDING,was noted,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC3859158_01,gold01:054,Scattered degenerated nuclei,FINDING,ancient schwannoma,DIAGNOSIS,NO_RELATION,in a hyalinized stroma suggestive of,False
+LR,par,PMC3859158_01,gold01:055,mitosis,FINDING,necrosis,FINDING,NO_RELATION,or,False
+LR,par,PMC3859158_01,gold01:056,Immunohistochemically,PROCEDURE,positive,FINDING,SUPPORTS,tumor cells stained diffusely and strongly,False
+LR,par,PMC3859158_01,gold01:057,Immunohistochemically,PROCEDURE,tumor cells,FINDING,SUPPORTS,,False
+LR,par,PMC3859158_01,gold01:058,tumor cells,FINDING,negative,FINDING,NO_RELATION,stained,False
+LR,par,PMC3859158_01,gold01:059,final diagnosis,NOT_ENTITY,primary ancient schwannoma,DIAGNOSIS,NO_RELATION,of,False
+LR,par,PMC3859158_01,gold01:060,Patient,PATIENT,uneventful postoperative course,FINDING,HAS_SYMPTOM,had an,False
+LR,par,PMC3859158_01,gold01:061,Patient,PATIENT,surgery,PROCEDURE,UNDERWENT_PROCEDURE,had an uneventful postoperative course following,False
+LR,par,PMC3859158_01,gold01:062,patient,PATIENT,adjuvant therapy,PROCEDURE,UNDERWENT_PROCEDURE,received no,True
+LR,par,PMC3859158_01,gold01:063,patient,PATIENT,asymptomatic,FINDING,HAS_SYMPTOM,was completely,False
+LR,par,PMC3859158_01,gold01:064,CT scan imaging,PROCEDURE,tumor recurrence,DIAGNOSIS,SUPPORTS,showed no evidence of,True
+LR,par,PMC3859158_01,gold01:065,CT scan imaging,PROCEDURE,showed no evidence,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11131390_01,gold02:000,retired male patient,PATIENT,weight loss,SYMPTOM,HAS_SYMPTOM,- 64 years of age and a heavy smoker - presented in May 2015 with a complaint of,False
+LR,par,PMC11131390_01,gold02:001,retired male patient,PATIENT,presented in May,NOT_ENTITY,NO_RELATION,- 64 years of age and a heavy smoker -,False
+LR,par,PMC11131390_01,gold02:002,weight loss,SYMPTOM,good appetite,FINDING,NO_RELATION,despite,False
+LR,par,PMC11131390_01,gold02:003,He,PATIENT,thyroid function tests,PROCEDURE,UNDERWENT_PROCEDURE,was ordered,False
+LR,par,PMC11131390_01,gold02:004,thyroid function tests,PROCEDURE,mild overt hyperthyroidism,DIAGNOSIS,SUPPORTS,revealing,False
+LR,par,PMC11131390_01,gold02:005,thyroid function tests,PROCEDURE,TSH,FINDING,SUPPORTS,revealing mild overt hyperthyroidism:,False
+LR,par,PMC11131390_01,gold02:006,TSH,FINDING,0.01 microIU/L,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:007,free T4,FINDING,3.7 ng/dL,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:008,free T3,FINDING,10.9,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:009,TSH,FINDING,free T4,FINDING,NO_RELATION,"= 0.01 microIU/L (Normal 0.27-4.2 microIU/L),",False
+LR,par,PMC11131390_01,gold02:010,He,PATIENT,was ordered,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11131390_01,gold02:011,He,PATIENT,goiter,DIAGNOSIS,HAS_SYMPTOM,had no,True
+LR,par,PMC11131390_01,gold02:012,He,PATIENT,thyroid eye disease,DIAGNOSIS,HAS_SYMPTOM,had no goiter and no evidence of,True
+LR,par,PMC11131390_01,gold02:013,goiter,DIAGNOSIS,thyroid eye disease,DIAGNOSIS,TREATED_BY,and no evidence of,True
+LR,par,PMC11131390_01,gold02:014,Serological investigations,PROCEDURE,GD,DIAGNOSIS,SUPPORTS,were consistent with a diagnosis of,False
+LR,par,PMC11131390_01,gold02:015,Serological investigations,PROCEDURE,TRAbs,FINDING,SUPPORTS,were consistent with a diagnosis of GD:,False
+LR,par,PMC11131390_01,gold02:016,TRAbs,FINDING,16.3 IU/L,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:017,TPO antibodies,FINDING,268,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:018,thyroglobulin (Tg) antibodies,FINDING,1731,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:019,GD,DIAGNOSIS,TRAbs,FINDING,NO_RELATION,:,False
+LR,par,PMC11131390_01,gold02:020,Serological investigations,PROCEDURE,were consistent,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11131390_01,gold02:021,patient,PATIENT,GD,DIAGNOSIS,HAS_SYMPTOM,was counseled about the nature of,False
+LR,par,PMC11131390_01,gold02:022,patient,PATIENT,medical treatment,PROCEDURE,UNDERWENT_PROCEDURE,"was counseled about the nature of GD, about the benefits of quitting smoking, and he was offered",False
+LR,par,PMC11131390_01,gold02:023,patient,PATIENT,carbimazole,PROCEDURE,UNDERWENT_PROCEDURE,"was counseled about the nature of GD, about the benefits of quitting smoking, and he was offered medical treatment in the form of",False
+LR,par,PMC11131390_01,gold02:024,carbimazole,PROCEDURE,20 mg/day,VALUE,HAS_VALUE,(CBZ),False
+LR,par,PMC11131390_01,gold02:025,GD,DIAGNOSIS,carbimazole,PROCEDURE,TREATED_BY,", about the benefits of quitting smoking, and he was offered medical treatment in the form of",False
+LR,par,PMC11131390_01,gold02:026,patient,PATIENT,was counseled,NOT_ENTITY,NO_RELATION,about the nature of,False
+LR,par,PMC11131390_01,gold02:027,CBZ,PROCEDURE,laboratory results,FINDING,SUPPORTS,was then titrated against his,False
+LR,par,PMC11131390_01,gold02:028,CBZ,PROCEDURE,5 mg/day,VALUE,HAS_VALUE,"was then titrated against his laboratory results, to achieve low normal free T4 and free T3, and he maintained euthyroid on a dose of",False
+LR,par,PMC11131390_01,gold02:029,he,PATIENT,euthyroid,DIAGNOSIS,HAS_SYMPTOM,maintained,False
+LR,par,PMC11131390_01,gold02:030,euthyroid,DIAGNOSIS,CBZ,PROCEDURE,TREATED_BY,on a dose of 5 mg/day for a period of 15 months (February 2016-May 2017).,False
+LR,par,PMC11131390_01,gold02:031,CBZ,PROCEDURE,15 months,VALUE,HAS_VALUE,"was then titrated against his laboratory results, to achieve low normal free T4 and free T3, and he maintained euthyroid on a dose of 5 mg/day for a period of",False
+LR,par,PMC11131390_01,gold02:032,TSH result,FINDING,22 microIU/L,VALUE,HAS_VALUE,of,False
+LR,par,PMC11131390_01,gold02:033,CBZ,PROCEDURE,2.5 mg/day,VALUE,HAS_VALUE,was discontinued after having a TSH result of 22 microIU/L while being on a dose of,False
+LR,par,PMC11131390_01,gold02:034,CBZ,PROCEDURE,discontinued,NOT_ENTITY,NO_RELATION,was,False
+LR,par,PMC11131390_01,gold02:035,CBZ,PROCEDURE,TSH result,FINDING,SUPPORTS,was discontinued after having a,False
+LR,par,PMC11131390_01,gold02:036,patient,PATIENT,treatment,PROCEDURE,UNDERWENT_PROCEDURE,decided to quit smoking and comply with the repeated advice of quitting smoking that was offered to the patient in almost every follow-up visit.,False
+LR,par,PMC11131390_01,gold02:037,patient,PATIENT,follow-up visit,PROCEDURE,UNDERWENT_PROCEDURE,decided to quit smoking and comply with the repeated advice of quitting smoking that was offered to the patient in almost every,False
+LR,par,PMC11131390_01,gold02:038,patient,PATIENT,decided to quit,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11131390_01,gold02:039,patient,PATIENT,follow-up,PROCEDURE,UNDERWENT_PROCEDURE,The first,False
+LR,par,PMC11131390_01,gold02:040,patient,PATIENT,euthyroid,DIAGNOSIS,HAS_SYMPTOM,was,False
+LR,par,PMC11131390_01,gold02:041,follow-up,PROCEDURE,TSH,FINDING,SUPPORTS,"off CBZ in August 2017, the patient was euthyroid with",False
+LR,par,PMC11131390_01,gold02:042,TSH,FINDING,3.3 microIU/L,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:043,free T4,FINDING,1.17 ng/dL,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:044,TRAbs,FINDING,3.3 IU/L,VALUE,HAS_VALUE,was,False
+LR,par,PMC11131390_01,gold02:045,TSH,FINDING,free T4,FINDING,NO_RELATION,"= 3.3 microIU/L,",False
+LR,par,PMC11131390_01,gold02:046,patient,PATIENT,weight gain,SYMPTOM,HAS_SYMPTOM,presented with 4 kg,False
+LR,par,PMC11131390_01,gold02:047,weight gain,SYMPTOM,4 kg,VALUE,HAS_VALUE,,False
+LR,par,PMC11131390_01,gold02:048,patient,PATIENT,severe biochemical hypothyroidism,DIAGNOSIS,HAS_SYMPTOM,presented with 4 kg weight gain (67-71 kg) and,False
+LR,par,PMC11131390_01,gold02:049,TSH,FINDING,73.5 microIU/L,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:050,free T4,FINDING,0.35 ng/dL,VALUE,HAS_VALUE,=,False
+LR,par,PMC11131390_01,gold02:051,patient,PATIENT,stopping,NOT_ENTITY,NO_RELATION,presented with,False
+LR,par,PMC11131390_01,gold02:052,age,FINDING,66 years,VALUE,HAS_VALUE,(,False
+LR,par,PMC11131390_01,gold02:053,body weight,FINDING,71 kg,VALUE,HAS_VALUE,(,False
+LR,par,PMC11131390_01,gold02:054,patient,PATIENT,replacement therapy,PROCEDURE,UNDERWENT_PROCEDURE,was started on,False
+LR,par,PMC11131390_01,gold02:055,patient,PATIENT,levothyroxine,PROCEDURE,UNDERWENT_PROCEDURE,was started on replacement therapy in the form of,False
+LR,par,PMC11131390_01,gold02:056,levothyroxine,PROCEDURE,75 microg/day,VALUE,HAS_VALUE,,False
+LR,par,PMC11131390_01,gold02:057,target TSH,FINDING,0.3-3 microIU/L,VALUE,HAS_VALUE,of,False
+LR,par,PMC11131390_01,gold02:058,patient,PATIENT,was started on,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11131390_01,gold02:059,TRAbs,FINDING,<0.8 IU/L,VALUE,HAS_VALUE,"were measured in November 2021, and it was negative at",True
+LR,par,PMC11131390_01,gold02:060,TRAbs,FINDING,measured,NOT_ENTITY,NO_RELATION,were,False
+LR,par,PMC11131390_01,gold02:061,patients,PATIENT,GD,DIAGNOSIS,HAS_SYMPTOM,with treated,False
+LR,par,PMC11131390_01,gold02:062,patients,PATIENT,new onset hypothyroidism,DIAGNOSIS,HAS_SYMPTOM,with treated GD.,False
+LR,par,PMC11131390_01,gold02:063,overt hypothyroidism,DIAGNOSIS,patients,PATIENT,NO_RELATION,"in November 2017, only 4 months later, urged us to search for a possible link between quitting smoking and new onset hypothyroidism in",False
+LR,par,PMC11722600_01,gold03:000,41-year-old female,PATIENT,cesarean section,PROCEDURE,UNDERWENT_PROCEDURE,with a history of,False
+LR,par,PMC11722600_01,gold03:001,41-year-old female,PATIENT,continuous abdominal pain,SYMPTOM,HAS_SYMPTOM,with a history of cesarean section presented to the emergency department with,False
+LR,par,PMC11722600_01,gold03:002,continuous abdominal pain,SYMPTOM,12 h,VALUE,HAS_VALUE,for,False
+LR,par,PMC11722600_01,gold03:003,41-year-old female,PATIENT,presented to,NOT_ENTITY,NO_RELATION,with a history of cesarean section,False
+LR,par,PMC11722600_01,gold03:004,continuous abdominal pain,SYMPTOM,right iliac fossa,NOT_ENTITY,NO_RELATION,"for 12 h, localized in the",False
+LR,par,PMC11722600_01,gold03:005,She,PATIENT,fever,SYMPTOM,HAS_SYMPTOM,had no,True
+LR,par,PMC11722600_01,gold03:006,She,PATIENT,genitourinary symptoms,SYMPTOM,HAS_SYMPTOM,had no fever or,True
+LR,par,PMC11722600_01,gold03:007,fever,SYMPTOM,genitourinary symptoms,SYMPTOM,NO_RELATION,or,False
+LR,par,PMC11722600_01,gold03:008,She,PATIENT,day 20,VALUE,HAS_VALUE,was on,False
+LR,par,PMC11722600_01,gold03:009,dysmenorrhea,SYMPTOM,cyclical pelvic pain,SYMPTOM,NO_RELATION,or,False
+LR,par,PMC11722600_01,gold03:010,Physical examination,PROCEDURE,abdominal pain,SYMPTOM,SUPPORTS,revealed,False
+LR,par,PMC11722600_01,gold03:011,Physical examination,PROCEDURE,localized tenderness,FINDING,SUPPORTS,"revealed abdominal pain in RIF, with",False
+LR,par,PMC11722600_01,gold03:012,Physical examination,PROCEDURE,rebound tenderness,FINDING,SUPPORTS,"revealed abdominal pain in RIF, with localized tenderness in the RIF but no",True
+LR,par,PMC11722600_01,gold03:013,Physical examination,PROCEDURE,revealed,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11722600_01,gold03:014,abdominal pain,SYMPTOM,localized tenderness,FINDING,NO_RELATION,"in RIF, with",False
+LR,par,PMC11722600_01,gold03:015,McBurney's point,FINDING,positive,FINDING,NO_RELATION,was,False
+LR,par,PMC11722600_01,gold03:016,obturator sign,FINDING,negative,FINDING,NO_RELATION,was,False
+LR,par,PMC11722600_01,gold03:017,Laboratory results,PROCEDURE,white blood cells,FINDING,SUPPORTS,showed,False
+LR,par,PMC11722600_01,gold03:018,Laboratory results,PROCEDURE,C-reactive protein,FINDING,SUPPORTS,"showed white blood cells at 8800/mm3 (normal range (NR) 3800-10,000/mm3),",False
+LR,par,PMC11722600_01,gold03:019,Laboratory results,PROCEDURE,erythrocyte sedimentation rate,FINDING,SUPPORTS,"showed white blood cells at 8800/mm3 (normal range (NR) 3800-10,000/mm3), C-reactive protein (CRP) at 55 mg/L (NR <5 mg/L),",False
+LR,par,PMC11722600_01,gold03:020,Laboratory results,PROCEDURE,negative chorionic gonadotropin,FINDING,SUPPORTS,"showed white blood cells at 8800/mm3 (normal range (NR) 3800-10,000/mm3), C-reactive protein (CRP) at 55 mg/L (NR <5 mg/L), erythrocyte sedimentation rate at 29 mm/h (NR 3-20 mm/h),",False
+LR,par,PMC11722600_01,gold03:021,white blood cells,FINDING,8800/mm3,VALUE,HAS_VALUE,at,False
+LR,par,PMC11722600_01,gold03:022,C-reactive protein,FINDING,55 mg/L,VALUE,HAS_VALUE,(CRP) at,False
+LR,par,PMC11722600_01,gold03:023,erythrocyte sedimentation rate,FINDING,29 mm/h,VALUE,HAS_VALUE,at,False
+LR,par,PMC11722600_01,gold03:024,white blood cells,FINDING,C-reactive protein,FINDING,NO_RELATION,"at 8800/mm3 (normal range (NR) 3800-10,000/mm3),",False
+LR,par,PMC11722600_01,gold03:025,Abdominal and pelvic ultrasound,PROCEDURE,free fluid,FINDING,SUPPORTS,showed only,False
+LR,par,PMC11722600_01,gold03:026,Abdominal and pelvic ultrasound,PROCEDURE,showed only,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11722600_01,gold03:027,Abdominal CT,PROCEDURE,enlarged cecal appendix,FINDING,SUPPORTS,"with intravenous contrast (Image 1A, Image 1B) revealed an",False
+LR,par,PMC11722600_01,gold03:028,Abdominal CT,PROCEDURE,inflammatory changes,FINDING,SUPPORTS,"with intravenous contrast (Image 1A, Image 1B) revealed an enlarged cecal appendix measuring 8 mm in thickness with",False
+LR,par,PMC11722600_01,gold03:029,Abdominal CT,PROCEDURE,enlarged right ovary,FINDING,SUPPORTS,"with intravenous contrast (Image 1A, Image 1B) revealed an enlarged cecal appendix measuring 8 mm in thickness with inflammatory changes, and an",False
+LR,par,PMC11722600_01,gold03:030,intravenous contrast,PROCEDURE,Abdominal CT,PROCEDURE,NO_RELATION,with,False
+LR,par,PMC11722600_01,gold03:031,enlarged cecal appendix,FINDING,8 mm,VALUE,HAS_VALUE,measuring,False
+LR,par,PMC11722600_01,gold03:032,enlarged right ovary,FINDING,4 cm,VALUE,HAS_VALUE,measuring,False
+LR,par,PMC11722600_01,gold03:033,Laparoscopic exploration,PROCEDURE,phlegmonous appendicitis,DIAGNOSIS,SUPPORTS,"was decided, which revealed",False
+LR,par,PMC11722600_01,gold03:034,Laparoscopic exploration,PROCEDURE,peritonitis,DIAGNOSIS,SUPPORTS,"was decided, which revealed phlegmonous appendicitis without",True
+LR,par,PMC11722600_01,gold03:035,Laparoscopic exploration,PROCEDURE,swollen,FINDING,SUPPORTS,"was decided, which revealed phlegmonous appendicitis without peritonitis, showing the appendix",True
+LR,par,PMC11722600_01,gold03:036,Laparoscopic exploration,PROCEDURE,erythematous,FINDING,SUPPORTS,"was decided, which revealed phlegmonous appendicitis without peritonitis, showing the appendix swollen,",True
+LR,par,PMC11722600_01,gold03:037,Laparoscopic exploration,PROCEDURE,thickened,FINDING,SUPPORTS,"was decided, which revealed phlegmonous appendicitis without peritonitis, showing the appendix swollen, erythematous and",True
+LR,par,PMC11722600_01,gold03:038,Laparoscopic exploration,PROCEDURE,purulent material,FINDING,SUPPORTS,"was decided, which revealed phlegmonous appendicitis without peritonitis, showing the appendix swollen, erythematous and thickened, with",True
+LR,par,PMC11722600_01,gold03:039,Laparoscopic exploration,PROCEDURE,fibrinous exudates,FINDING,SUPPORTS,"was decided, which revealed phlegmonous appendicitis without peritonitis, showing the appendix swollen, erythematous and thickened, with purulent material in the lumen and",True
+LR,par,PMC11722600_01,gold03:040,Laparoscopic exploration,PROCEDURE,inflammatory congestion,FINDING,SUPPORTS,"was decided, which revealed phlegmonous appendicitis without peritonitis, showing the appendix swollen, erythematous and thickened, with purulent material in the lumen and fibrinous exudates on the serial surface; and concurrent",True
+LR,par,PMC11722600_01,gold03:041,Laparoscopic exploration,PROCEDURE,was decided,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11722600_01,gold03:042,laparoscopic appendectomy,PROCEDURE,performed successfully,NOT_ENTITY,NO_RELATION,was,False
+LR,par,PMC11722600_01,gold03:043,inflammatory process,DIAGNOSIS,right salpingectomy,PROCEDURE,TREATED_BY,gynecology was consulted for a,False
+LR,par,PMC11722600_01,gold03:044,laparoscopic appendectomy,PROCEDURE,right salpingectomy,PROCEDURE,TREATED_BY,"was performed successfully, and gynecology was consulted for a",False
+LR,par,PMC11722600_01,gold03:045,endometriosis,DIAGNOSIS,observed,NOT_ENTITY,NO_RELATION,were,False
+LR,par,PMC11722600_01,gold03:046,patient,PATIENT,uneventful postoperative course,FINDING,HAS_SYMPTOM,had an,False
+LR,par,PMC11722600_01,gold03:047,patient,PATIENT,discharged,NOT_ENTITY,NO_RELATION,had an uneventful postoperative course and was,False
+LR,par,PMC11722600_01,gold03:048,Histopathology,PROCEDURE,ectopic endometrial stroma,FINDING,SUPPORTS,of the appendix describes the presence of,False
+LR,par,PMC11722600_01,gold03:049,Histopathology,PROCEDURE,endometriosis,DIAGNOSIS,SUPPORTS,"of the appendix describes the presence of ectopic endometrial stroma within the muscularis layer of the appendix, a hallmark of",False
+LR,par,PMC11722600_01,gold03:050,Histopathology,PROCEDURE,recent bleeding,FINDING,SUPPORTS,"of the appendix describes the presence of ectopic endometrial stroma within the muscularis layer of the appendix, a hallmark of endometriosis; it revealedsigns of",False
+LR,par,PMC11722600_01,gold03:051,Histopathology,PROCEDURE,hemorrhage,FINDING,SUPPORTS,"of the appendix describes the presence of ectopic endometrial stroma within the muscularis layer of the appendix, a hallmark of endometriosis; it revealedsigns of recent bleeding that suggests active involvement, consistent with one of the characteristic features of endometriotic tissue, which includes",False
+LR,par,PMC11722600_01,gold03:052,Histopathology,PROCEDURE,describes,NOT_ENTITY,NO_RELATION,of the appendix,False
+LR,par,PMC11722600_01,gold03:053,ectopic endometrial stroma,FINDING,endometriosis,DIAGNOSIS,NO_RELATION,"within the muscularis layer of the appendix, a hallmark of",False
+LR,par,PMC11722600_01,gold03:054,fallopian tube histology,PROCEDURE,endometrial glands,FINDING,SUPPORTS,showed,False
+LR,par,PMC11722600_01,gold03:055,fallopian tube histology,PROCEDURE,stroma,FINDING,SUPPORTS,showed endometrial glands and,False
+LR,par,PMC11722600_01,gold03:056,fallopian tube histology,PROCEDURE,malignancy,DIAGNOSIS,SUPPORTS,"showed endometrial glands and stroma, negative for",True
+LR,par,PMC11722600_01,gold03:057,fallopian tube histology,PROCEDURE,showed,NOT_ENTITY,NO_RELATION,,False
+LR,par,PMC11722600_01,gold03:058,patient,PATIENT,asymptomatic,FINDING,HAS_SYMPTOM,remains,False
+LR,par,PMC11722600_01,gold03:059,follow-up,PROCEDURE,asymptomatic,FINDING,SUPPORTS,"At 6 month follow-up, the patient remains",False
+LR,par,PMC11722600_01,gold03:060,patient,PATIENT,remains,NOT_ENTITY,NO_RELATION,,False
