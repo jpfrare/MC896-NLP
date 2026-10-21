@@ -17,23 +17,23 @@
 
 ## Metodologia
 
-Para investigar como métodos estatísticos, representações baseadas em **N-gramas** e algoritmos de **Aprendizado de Máquina** (sem o uso de LLMs ou *embeddings* na inferência) podem superar ou complementar a extração baseada em regras do Projeto 1, a equipe desenvolveu e comparou **duas arquiteturas distintas de extração**:
+Para investigar como métodos estatísticos, representações baseadas em **N-gramas** e algoritmos de **Aprendizado de Máquina** podem superar ou complementar a extração baseada em regras do Projeto 1, desenvolvemos e comparamos **duas arquiteturas distintas de extração**:
 
 ### 1. Pipeline 1: Supervisão Fraca (*Weak Supervision*) e Rede Neural (MLP)
 
 Esta abordagem investiga a hipótese de **Quantidade & Escala**: avaliar se uma rede neural consegue filtrar o ruído de uma base massiva gerada automaticamente por regras sintáticas e aprender os padrões reais do domínio clínico.
 
-* **Fase 1 (Padronização e Expansão):** Expandimos o extrator determinístico do Projeto 1 (`projeto1_modificado.ipynb`) utilizando Regex, spaCy/scispaCy e *Matchers* sintáticos para rotular automaticamente milhares de pares de entidades na base MultiCaRe. Os dados foram estruturados em triplas padronizadas contendo a entidade de origem (`e1_text`, `e1_type`), entidade de destino (`e2_text`, `e2_type`), o contexto textual entre elas (`intermediate_text`) e a relação alvo (`relation_label`), incluindo a classe negativa `NO_RELATION`.
+* **Fase 1 (Padronização e Expansão):** Expandimos o extrator determinístico do Projeto 1 (`projeto1_modificado.ipynb`) utilizando Regex, spaCy e *Matchers* sintáticos para rotular automaticamente milhares de pares de entidades na base MultiCaRe. Os dados foram estruturados em triplas padronizadas contendo a entidade de origem (`e1_text`, `e1_type`), entidade de destino (`e2_text`, `e2_type`), o contexto textual entre elas (`intermediate_text`) e a relação alvo (`relation_label`), incluindo a classe negativa `NO_RELATION`.
 * **Fase 2 (Feature Engineering com TF-IDF e N-gramas):** Extraímos apenas o `intermediate_text` (texto localizado entre as duas entidades candidatas), sob a premissa estatística de que o gatilho semântico da relação médica reside nesse intervalo (ex: *"treated with"*, *"revealed a"*). Aplicamos vetorização **TF-IDF** combinada com **unigramas e bigramas** (e N-gramas de caracteres/sub-palavras), silenciando palavras comuns e amplificando conectivos clínicos decisivos.
 * **Fase 3 (Treinamento da MLP e o Problema da "Rede Preguiçosa"):** Treinamos uma rede *Multi-Layer Perceptron* (MLP) em PyTorch para classificar as relações. Devido ao severo desbalanceamento das classes (predominância de `NO_RELATION`), a rede inicialmente comportava-se de maneira "preguiçosa", atingindo 87% de acurácia na primeira época apenas chutando a classe majoritária. Solucionamos isso aplicando uma **penalização agressiva na Função de Perda (*Cross-Entropy Loss*)**, utilizando pesos inversamente proporcionais à frequência das classes elevados à quinta potência:
 
-~~~python
+```python
 # Cálculo de pesos agressivos para combater o desbalanceamento na Loss Function
 class_counts = np.bincount(y_train)
 class_weights = (1.0 / (class_counts + 1e-5)) ** 5
 class_weights = class_weights / class_weights.sum() * len(class_counts)
 criterion = nn.CrossEntropyLoss(weight=torch.FloatTensor(class_weights).to(device))
-~~~
+```
 
 ### 2. Pipeline 2: Anotação Refinada e Regressão Logística em Cascata (*Stacking*)
 
@@ -43,7 +43,7 @@ Esta abordagem investiga a hipótese de **Qualidade > Quantidade**, treinando mo
 * **Modelo 1 (Classificador de Entidades):** Recebe a string candidata e utiliza **Regressão Logística** (`C=0.5`, `max_iter=1000`) para predizer o tipo do nó (`PATIENT`, `SYMPTOM`, `DIAGNOSIS`, `FINDING`, `PROCEDURE`, `VALUE` ou a classe de descarte `NOT_ENTITY`).
 * **Modelo 2 (Classificador de Relações via *Stacking*):** Recebe as predições de tipo da Entidade 1 e da Entidade 2 vindas do Modelo 1 (codificadas via *One-Hot Encoding*) empilhadas (*Stacking*) com o vetor TF-IDF de N-gramas do `intermediate_text`. Uma segunda **Regressão Logística** classifica a aresta entre as 5 relações válidas ou `NO_RELATION`.
 
-~~~python
+```python
 # Vetorização por N-gramas (1 a 5) e empilhamento de features (Stacking) no Modelo 2
 vectorizer = TfidfVectorizer(ngram_range=(1, 5), max_features=2000)
 X_text_tfidf = vectorizer.fit_transform(df['intermediate_text_clean'])
@@ -51,7 +51,7 @@ X_combined = hstack([e1_onehot, X_text_tfidf, e2_onehot])
 
 clf_relation = LogisticRegression(C=0.5, max_iter=1000)
 clf_relation.fit(X_combined, y_relations)
-~~~
+```
 
 ### Confronto com Trabalho Anterior
 
@@ -111,7 +111,11 @@ A avaliação experimental nas 125 instâncias do *Gold Standard* demonstrou a s
    * Na classe `TREATED_BY`, nenhum dos modelos obteve acerto no conjunto de teste devido à extrema raridade dessa relação na amostra avaliada (poucos exemplos de suporte).
 3. **Qualidade vs. Quantidade:** O experimento comprovou empiricamente que um conjunto menor de dados bem anotados combinando `TfidfVectorizer(ngram_range=(1,5))` e *Stacking* de entidades (Pipeline 2) supera um grande volume de dados gerados por supervisão fraca ruidosa (Pipeline 1).
 
+### Grafo de Conhecimento produzido pela Pipeline 1
+
 <img src="assets/images/knowledge_graph_pipeline1.png" width="50%">
+
+### Grafo de Conhecimento produzido pela Pipeline 2
 
 <img src="assets/images/knowledge_graph_pipeline2.png" width="50%">
 
@@ -119,8 +123,9 @@ A avaliação experimental nas 125 instâncias do *Gold Standard* demonstrou a s
 
 Em estrita conformidade com as regras da disciplina, **nenhum Large Language Model (LLM), Transformer ou modelo de *embeddings* foi utilizado dentro das pipelines de extração ou inferência**. Os LLMs foram utilizados exclusivamente como ferramentas de apoio externo nas seguintes tarefas:
 
-* **Simulação de Anotador Especialista (*Gold Standard* e Treino da Pipeline 2):** Para viabilizar a criação de um gabarito clínico de referência sem o custo financeiro de contratar profissionais de saúde humanos, utilizamos o **Google Gemini 3.1 Pro** offline para anotar 15 casos clínicos (`data/annotations/`), gerando os rótulos de referência (incluindo classes negativas `NOT_ENTITY` e `NO_RELATION`) que serviram para treinar a Regressão Logística e avaliar os três modelos de forma justa no *Gold Standard*.
+* **Simulação de Anotador Especialista (*Gold Standard* e Treino da Pipeline 2):** Para viabilizar a criação de um gabarito clínico de referência sem o custo financeiro de contratar profissionais de saúde, utilizamos o **Google Gemini 3.1 Pro** para anotar 15 casos clínicos (`data/annotations/`), gerando os rótulos de referência (incluindo classes negativas `NOT_ENTITY` e `NO_RELATION`) que serviram para treinar a Regressão Logística e avaliar os três modelos de forma justa no *Gold Standard*.
 * **Auxílio em Código de Visualização e Documentação:** Suporte na estilização da interface gráfica do PyVis, geração de gráficos comparativos no Matplotlib e revisão estrutural dos slides.
+* **Auxílio no Desenvolvimento dos Slides:** Suporte na estilização dos slides utilizados durante a apresentação.
 
 ## Referências Bibliográficas
 
